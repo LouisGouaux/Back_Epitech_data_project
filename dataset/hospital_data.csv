@@ -1,0 +1,1831 @@
+date,service,day_of_week,is_weekend,is_holiday,vacation_flag,season,epidemic_flag,canicule_flag,plan_blanc_flag,admissions_urgent,admissions_programmed,discharges,beds_occupied,beds_available,staff_present
+2024-01-01,Urgences,Monday,False,False,False,Winter,True,False,False,25,1,10,38,12,38
+2024-01-01,Réanimation,Monday,False,False,False,Winter,True,False,False,9,0,3,12,18,40
+2024-01-01,Médecine Générale,Monday,False,False,False,Winter,True,False,False,5,9,10,36,44,54
+2024-01-01,Chirurgie,Monday,False,False,False,Winter,True,False,False,1,10,3,14,46,46
+2024-01-01,Obstétrique,Monday,False,False,False,Winter,True,False,False,3,3,2,9,31,26
+2024-01-02,Urgences,Tuesday,False,False,False,Winter,False,False,False,19,0,15,42,8,35
+2024-01-02,Réanimation,Tuesday,False,False,False,Winter,False,False,False,4,0,5,11,19,31
+2024-01-02,Médecine Générale,Tuesday,False,False,False,Winter,False,False,False,2,4,9,33,47,50
+2024-01-02,Chirurgie,Tuesday,False,False,False,Winter,False,False,False,2,11,4,23,37,50
+2024-01-02,Obstétrique,Tuesday,False,False,False,Winter,False,False,False,4,1,4,10,30,28
+2024-01-03,Urgences,Wednesday,False,False,False,Winter,False,False,False,20,3,16,49,1,40
+2024-01-03,Réanimation,Wednesday,False,False,False,Winter,False,False,False,6,0,3,14,16,40
+2024-01-03,Médecine Générale,Wednesday,False,False,False,Winter,False,False,False,4,4,11,30,50,53
+2024-01-03,Chirurgie,Wednesday,False,False,False,Winter,False,False,False,4,9,10,26,34,44
+2024-01-03,Obstétrique,Wednesday,False,False,False,Winter,False,False,False,1,0,1,10,30,28
+2024-01-04,Urgences,Thursday,False,False,False,Winter,True,False,False,26,0,17,50,0,35
+2024-01-04,Réanimation,Thursday,False,False,False,Winter,True,False,False,12,0,6,20,10,33
+2024-01-04,Médecine Générale,Thursday,False,False,False,Winter,True,False,False,4,4,11,27,53,48
+2024-01-04,Chirurgie,Thursday,False,False,False,Winter,True,False,False,1,11,11,27,33,42
+2024-01-04,Obstétrique,Thursday,False,False,False,Winter,True,False,False,2,5,6,11,29,33
+2024-01-05,Urgences,Friday,False,False,False,Winter,False,False,False,21,1,20,50,0,38
+2024-01-05,Réanimation,Friday,False,False,False,Winter,False,False,False,8,0,6,22,8,31
+2024-01-05,Médecine Générale,Friday,False,False,False,Winter,False,False,False,6,8,12,29,51,55
+2024-01-05,Chirurgie,Friday,False,False,False,Winter,False,False,False,0,11,11,27,33,41
+2024-01-05,Obstétrique,Friday,False,False,False,Winter,False,False,False,2,5,2,16,24,33
+2024-01-06,Urgences,Saturday,True,False,False,Winter,False,False,False,18,0,18,50,0,36
+2024-01-06,Réanimation,Saturday,True,False,False,Winter,False,False,False,7,1,6,24,6,40
+2024-01-06,Médecine Générale,Saturday,True,False,False,Winter,False,False,False,8,3,10,30,50,52
+2024-01-06,Chirurgie,Saturday,True,False,False,Winter,False,False,False,2,3,7,25,35,48
+2024-01-06,Obstétrique,Saturday,True,False,False,Winter,False,False,False,2,3,7,14,26,35
+2024-01-07,Urgences,Sunday,True,False,False,Winter,True,False,False,26,0,22,50,0,40
+2024-01-07,Réanimation,Sunday,True,False,False,Winter,True,False,False,8,0,6,26,4,30
+2024-01-07,Médecine Générale,Sunday,True,False,False,Winter,True,False,False,8,0,10,28,52,50
+2024-01-07,Chirurgie,Sunday,True,False,False,Winter,True,False,False,5,7,7,30,30,43
+2024-01-07,Obstétrique,Sunday,True,False,False,Winter,True,False,False,2,0,6,10,30,26
+2024-01-08,Urgences,Monday,False,False,False,Winter,False,False,False,17,0,17,50,0,37
+2024-01-08,Réanimation,Monday,False,False,False,Winter,False,False,False,5,0,7,24,6,34
+2024-01-08,Médecine Générale,Monday,False,False,False,Winter,False,False,False,5,2,9,26,54,53
+2024-01-08,Chirurgie,Monday,False,False,False,Winter,False,False,False,4,9,12,31,29,46
+2024-01-08,Obstétrique,Monday,False,False,False,Winter,False,False,False,1,3,1,13,27,33
+2024-01-09,Urgences,Tuesday,False,False,False,Winter,False,False,False,17,1,16,50,0,44
+2024-01-09,Réanimation,Tuesday,False,False,False,Winter,False,False,False,7,0,6,25,5,31
+2024-01-09,Médecine Générale,Tuesday,False,False,False,Winter,False,False,False,5,5,8,28,52,45
+2024-01-09,Chirurgie,Tuesday,False,False,False,Winter,False,False,False,1,8,9,31,29,44
+2024-01-09,Obstétrique,Tuesday,False,False,False,Winter,False,False,False,1,2,4,12,28,34
+2024-01-10,Urgences,Wednesday,False,False,False,Winter,False,False,False,22,3,20,50,0,38
+2024-01-10,Réanimation,Wednesday,False,False,False,Winter,False,False,False,4,2,6,25,5,36
+2024-01-10,Médecine Générale,Wednesday,False,False,False,Winter,False,False,False,3,3,7,27,53,55
+2024-01-10,Chirurgie,Wednesday,False,False,False,Winter,False,False,False,1,6,8,30,30,46
+2024-01-10,Obstétrique,Wednesday,False,False,False,Winter,False,False,False,3,5,3,17,23,28
+2024-01-11,Urgences,Thursday,False,False,False,Winter,False,False,False,16,2,16,50,0,39
+2024-01-11,Réanimation,Thursday,False,False,False,Winter,False,False,False,9,0,6,28,2,37
+2024-01-11,Médecine Générale,Thursday,False,False,False,Winter,False,False,False,3,3,7,26,54,45
+2024-01-11,Chirurgie,Thursday,False,False,False,Winter,False,False,False,5,8,10,33,27,41
+2024-01-11,Obstétrique,Thursday,False,False,False,Winter,False,False,False,1,3,6,15,25,31
+2024-01-12,Urgences,Friday,False,False,False,Winter,False,False,False,15,6,19,50,0,37
+2024-01-12,Réanimation,Friday,False,False,False,Winter,False,False,False,7,3,12,26,4,37
+2024-01-12,Médecine Générale,Friday,False,False,False,Winter,False,False,False,4,4,8,26,54,55
+2024-01-12,Chirurgie,Friday,False,False,False,Winter,False,False,False,4,9,13,33,27,43
+2024-01-12,Obstétrique,Friday,False,False,False,Winter,False,False,False,2,2,6,13,27,25
+2024-01-13,Urgences,Saturday,True,True,False,Winter,False,False,False,22,5,18,50,0,43
+2024-01-13,Réanimation,Saturday,True,True,False,Winter,False,False,False,8,0,7,27,3,32
+2024-01-13,Médecine Générale,Saturday,True,True,False,Winter,False,False,False,8,5,8,31,49,51
+2024-01-13,Chirurgie,Saturday,True,True,False,Winter,False,False,False,0,4,10,27,33,49
+2024-01-13,Obstétrique,Saturday,True,True,False,Winter,False,False,False,0,0,3,10,30,35
+2024-01-14,Urgences,Sunday,True,False,False,Winter,True,False,False,26,3,20,50,0,40
+2024-01-14,Réanimation,Sunday,True,False,False,Winter,True,False,False,8,3,8,30,0,37
+2024-01-14,Médecine Générale,Sunday,True,False,False,Winter,True,False,False,0,4,7,28,52,45
+2024-01-14,Chirurgie,Sunday,True,False,False,Winter,True,False,False,0,5,8,24,36,41
+2024-01-14,Obstétrique,Sunday,True,False,False,Winter,True,False,False,6,0,4,12,28,30
+2024-01-15,Urgences,Monday,False,False,False,Winter,True,False,False,27,0,22,50,0,42
+2024-01-15,Réanimation,Monday,False,False,False,Winter,True,False,False,7,0,12,25,5,40
+2024-01-15,Médecine Générale,Monday,False,False,False,Winter,True,False,False,6,5,9,30,50,49
+2024-01-15,Chirurgie,Monday,False,False,False,Winter,True,False,False,2,10,11,25,35,44
+2024-01-15,Obstétrique,Monday,False,False,False,Winter,True,False,False,2,5,4,15,25,27
+2024-01-16,Urgences,Tuesday,False,False,False,Winter,True,False,False,27,0,20,50,0,45
+2024-01-16,Réanimation,Tuesday,False,False,False,Winter,True,False,False,11,1,9,28,2,30
+2024-01-16,Médecine Générale,Tuesday,False,False,False,Winter,True,False,False,9,6,12,33,47,45
+2024-01-16,Chirurgie,Tuesday,False,False,False,Winter,True,False,False,1,7,9,24,36,42
+2024-01-16,Obstétrique,Tuesday,False,False,False,Winter,True,False,False,3,3,4,17,23,33
+2024-01-17,Urgences,Wednesday,False,False,False,Winter,False,False,False,19,1,18,50,0,40
+2024-01-17,Réanimation,Wednesday,False,False,False,Winter,False,False,False,6,3,7,30,0,30
+2024-01-17,Médecine Générale,Wednesday,False,False,False,Winter,False,False,False,5,7,9,36,44,50
+2024-01-17,Chirurgie,Wednesday,False,False,False,Winter,False,False,False,2,5,9,22,38,45
+2024-01-17,Obstétrique,Wednesday,False,False,False,Winter,False,False,False,2,0,4,15,25,34
+2024-01-18,Urgences,Thursday,False,False,False,Winter,False,False,False,20,1,19,50,0,37
+2024-01-18,Réanimation,Thursday,False,False,False,Winter,False,False,False,9,0,9,30,0,36
+2024-01-18,Médecine Générale,Thursday,False,False,False,Winter,False,False,False,6,8,13,37,43,49
+2024-01-18,Chirurgie,Thursday,False,False,False,Winter,False,False,False,2,8,9,23,37,40
+2024-01-18,Obstétrique,Thursday,False,False,False,Winter,False,False,False,1,6,4,18,22,30
+2024-01-19,Urgences,Friday,False,False,False,Winter,True,False,False,26,3,18,50,0,45
+2024-01-19,Réanimation,Friday,False,False,False,Winter,True,False,False,8,1,12,27,3,34
+2024-01-19,Médecine Générale,Friday,False,False,False,Winter,True,False,False,6,5,13,35,45,50
+2024-01-19,Chirurgie,Friday,False,False,False,Winter,True,False,False,0,7,5,25,35,42
+2024-01-19,Obstétrique,Friday,False,False,False,Winter,True,False,False,1,1,5,15,25,26
+2024-01-20,Urgences,Saturday,True,False,False,Winter,False,False,False,23,3,19,50,0,43
+2024-01-20,Réanimation,Saturday,True,False,False,Winter,False,False,False,10,0,12,25,5,34
+2024-01-20,Médecine Générale,Saturday,True,False,False,Winter,False,False,False,3,0,9,29,51,53
+2024-01-20,Chirurgie,Saturday,True,False,False,Winter,False,False,False,0,8,8,25,35,45
+2024-01-20,Obstétrique,Saturday,True,False,False,Winter,False,False,False,1,4,5,15,25,34
+2024-01-21,Urgences,Sunday,True,False,False,Winter,False,False,False,18,2,19,50,0,45
+2024-01-21,Réanimation,Sunday,True,False,False,Winter,False,False,False,9,1,10,25,5,38
+2024-01-21,Médecine Générale,Sunday,True,False,False,Winter,False,False,False,4,1,11,23,57,55
+2024-01-21,Chirurgie,Sunday,True,False,False,Winter,False,False,False,0,8,8,25,35,44
+2024-01-21,Obstétrique,Sunday,True,False,False,Winter,False,False,False,3,4,7,15,25,29
+2024-01-22,Urgences,Monday,False,False,False,Winter,False,False,False,17,3,21,49,1,42
+2024-01-22,Réanimation,Monday,False,False,False,Winter,False,False,False,9,0,7,27,3,37
+2024-01-22,Médecine Générale,Monday,False,False,False,Winter,False,False,False,7,7,10,27,53,55
+2024-01-22,Chirurgie,Monday,False,False,False,Winter,False,False,False,6,12,9,34,26,45
+2024-01-22,Obstétrique,Monday,False,False,False,Winter,False,False,False,1,6,4,18,22,35
+2024-01-23,Urgences,Tuesday,False,False,False,Winter,True,False,False,28,1,17,50,0,38
+2024-01-23,Réanimation,Tuesday,False,False,False,Winter,True,False,False,7,1,8,27,3,37
+2024-01-23,Médecine Générale,Tuesday,False,False,False,Winter,True,False,False,4,6,8,29,51,51
+2024-01-23,Chirurgie,Tuesday,False,False,False,Winter,True,False,False,2,8,14,30,30,41
+2024-01-23,Obstétrique,Tuesday,False,False,False,Winter,True,False,False,4,3,4,21,19,32
+2024-01-24,Urgences,Wednesday,False,False,False,Winter,False,False,False,17,0,20,47,3,42
+2024-01-24,Réanimation,Wednesday,False,False,False,Winter,False,False,False,12,0,12,27,3,35
+2024-01-24,Médecine Générale,Wednesday,False,False,False,Winter,False,False,False,1,7,10,27,53,53
+2024-01-24,Chirurgie,Wednesday,False,False,False,Winter,False,False,False,1,7,10,28,32,42
+2024-01-24,Obstétrique,Wednesday,False,False,False,Winter,False,False,False,3,1,8,17,23,28
+2024-01-25,Urgences,Thursday,False,False,False,Winter,False,False,False,19,2,18,50,0,38
+2024-01-25,Réanimation,Thursday,False,False,False,Winter,False,False,False,7,1,11,24,6,33
+2024-01-25,Médecine Générale,Thursday,False,False,False,Winter,False,False,False,5,7,9,30,50,46
+2024-01-25,Chirurgie,Thursday,False,False,False,Winter,False,False,False,3,10,12,29,31,43
+2024-01-25,Obstétrique,Thursday,False,False,False,Winter,False,False,False,1,3,6,15,25,32
+2024-01-26,Urgences,Friday,False,False,False,Winter,False,False,False,20,1,21,50,0,44
+2024-01-26,Réanimation,Friday,False,False,False,Winter,False,False,False,3,0,7,20,10,36
+2024-01-26,Médecine Générale,Friday,False,False,False,Winter,False,False,False,7,2,11,28,52,51
+2024-01-26,Chirurgie,Friday,False,False,False,Winter,False,False,False,1,7,11,26,34,48
+2024-01-26,Obstétrique,Friday,False,False,False,Winter,False,False,False,1,3,5,14,26,28
+2024-01-27,Urgences,Saturday,True,False,False,Winter,True,False,False,24,0,18,50,0,40
+2024-01-27,Réanimation,Saturday,True,False,False,Winter,True,False,False,14,0,10,24,6,37
+2024-01-27,Médecine Générale,Saturday,True,False,False,Winter,True,False,False,8,1,7,30,50,45
+2024-01-27,Chirurgie,Saturday,True,False,False,Winter,True,False,False,1,5,9,23,37,41
+2024-01-27,Obstétrique,Saturday,True,False,False,Winter,True,False,False,4,1,4,15,25,27
+2024-01-28,Urgences,Sunday,True,False,False,Winter,False,False,False,20,0,20,50,0,40
+2024-01-28,Réanimation,Sunday,True,False,False,Winter,False,False,False,9,0,10,23,7,34
+2024-01-28,Médecine Générale,Sunday,True,False,False,Winter,False,False,False,6,2,8,30,50,45
+2024-01-28,Chirurgie,Sunday,True,False,False,Winter,False,False,False,2,6,6,25,35,50
+2024-01-28,Obstétrique,Sunday,True,False,False,Winter,False,False,False,4,0,3,16,24,28
+2024-01-29,Urgences,Monday,False,False,False,Winter,True,False,False,29,5,22,50,0,45
+2024-01-29,Réanimation,Monday,False,False,False,Winter,True,False,False,10,0,10,23,7,34
+2024-01-29,Médecine Générale,Monday,False,False,False,Winter,True,False,False,6,4,11,29,51,46
+2024-01-29,Chirurgie,Monday,False,False,False,Winter,True,False,False,0,7,10,22,38,41
+2024-01-29,Obstétrique,Monday,False,False,False,Winter,True,False,False,4,1,4,17,23,35
+2024-01-30,Urgences,Tuesday,False,False,False,Winter,True,False,False,26,5,21,50,0,45
+2024-01-30,Réanimation,Tuesday,False,False,False,Winter,True,False,False,9,0,9,23,7,40
+2024-01-30,Médecine Générale,Tuesday,False,False,False,Winter,True,False,False,4,7,10,30,50,45
+2024-01-30,Chirurgie,Tuesday,False,False,False,Winter,True,False,False,0,9,8,23,37,41
+2024-01-30,Obstétrique,Tuesday,False,False,False,Winter,True,False,False,7,6,8,22,18,32
+2024-01-31,Urgences,Wednesday,False,False,False,Winter,False,False,False,21,4,20,50,0,41
+2024-01-31,Réanimation,Wednesday,False,False,False,Winter,False,False,False,8,0,8,23,7,39
+2024-01-31,Médecine Générale,Wednesday,False,False,False,Winter,False,False,False,2,7,10,29,51,52
+2024-01-31,Chirurgie,Wednesday,False,False,False,Winter,False,False,False,4,6,6,27,33,45
+2024-01-31,Obstétrique,Wednesday,False,False,False,Winter,False,False,False,4,1,8,19,21,29
+2024-02-01,Urgences,Thursday,False,False,False,Winter,False,False,False,19,2,19,50,0,45
+2024-02-01,Réanimation,Thursday,False,False,False,Winter,False,False,False,6,0,7,22,8,32
+2024-02-01,Médecine Générale,Thursday,False,False,False,Winter,False,False,False,4,8,10,31,49,50
+2024-02-01,Chirurgie,Thursday,False,False,False,Winter,False,False,False,6,10,9,34,26,48
+2024-02-01,Obstétrique,Thursday,False,False,False,Winter,False,False,False,2,0,4,17,23,28
+2024-02-02,Urgences,Friday,False,False,False,Winter,False,False,False,19,0,16,50,0,45
+2024-02-02,Réanimation,Friday,False,False,False,Winter,False,False,False,7,1,6,24,6,31
+2024-02-02,Médecine Générale,Friday,False,False,False,Winter,False,False,False,4,4,12,27,53,49
+2024-02-02,Chirurgie,Friday,False,False,False,Winter,False,False,False,0,15,15,34,26,48
+2024-02-02,Obstétrique,Friday,False,False,False,Winter,False,False,False,1,4,6,16,24,30
+2024-02-03,Urgences,Saturday,True,False,False,Winter,True,False,False,25,0,22,50,0,36
+2024-02-03,Réanimation,Saturday,True,False,False,Winter,True,False,False,11,3,9,29,1,32
+2024-02-03,Médecine Générale,Saturday,True,False,False,Winter,True,False,False,8,2,10,27,53,54
+2024-02-03,Chirurgie,Saturday,True,False,False,Winter,True,False,False,2,4,11,29,31,41
+2024-02-03,Obstétrique,Saturday,True,False,False,Winter,True,False,False,1,3,3,17,23,27
+2024-02-04,Urgences,Sunday,True,False,False,Winter,True,False,False,23,0,18,50,0,35
+2024-02-04,Réanimation,Sunday,True,False,False,Winter,True,False,False,11,0,8,30,0,40
+2024-02-04,Médecine Générale,Sunday,True,False,False,Winter,True,False,False,5,5,10,27,53,54
+2024-02-04,Chirurgie,Sunday,True,False,False,Winter,True,False,False,3,5,10,27,33,42
+2024-02-04,Obstétrique,Sunday,True,False,False,Winter,True,False,False,3,0,3,17,23,26
+2024-02-05,Urgences,Monday,False,False,False,Winter,False,False,False,21,2,21,50,0,45
+2024-02-05,Réanimation,Monday,False,False,False,Winter,False,False,False,9,0,12,27,3,34
+2024-02-05,Médecine Générale,Monday,False,False,False,Winter,False,False,False,2,3,8,24,56,51
+2024-02-05,Chirurgie,Monday,False,False,False,Winter,False,False,False,0,12,10,29,31,48
+2024-02-05,Obstétrique,Monday,False,False,False,Winter,False,False,False,4,2,8,15,25,34
+2024-02-06,Urgences,Tuesday,False,False,False,Winter,True,False,False,27,1,19,50,0,36
+2024-02-06,Réanimation,Tuesday,False,False,False,Winter,True,False,False,9,0,8,28,2,34
+2024-02-06,Médecine Générale,Tuesday,False,False,False,Winter,True,False,False,6,6,10,26,54,53
+2024-02-06,Chirurgie,Tuesday,False,False,False,Winter,True,False,False,1,10,10,30,30,49
+2024-02-06,Obstétrique,Tuesday,False,False,False,Winter,True,False,False,2,0,3,14,26,29
+2024-02-07,Urgences,Wednesday,False,False,False,Winter,False,False,False,16,0,17,49,1,45
+2024-02-07,Réanimation,Wednesday,False,False,False,Winter,False,False,False,9,0,8,29,1,36
+2024-02-07,Médecine Générale,Wednesday,False,False,False,Winter,False,False,False,5,5,8,28,52,49
+2024-02-07,Chirurgie,Wednesday,False,False,False,Winter,False,False,False,0,7,10,27,33,44
+2024-02-07,Obstétrique,Wednesday,False,False,False,Winter,False,False,False,5,5,7,17,23,32
+2024-02-08,Urgences,Thursday,False,False,False,Winter,False,False,False,17,1,19,48,2,43
+2024-02-08,Réanimation,Thursday,False,False,False,Winter,False,False,False,10,0,12,27,3,30
+2024-02-08,Médecine Générale,Thursday,False,False,False,Winter,False,False,False,6,6,12,28,52,49
+2024-02-08,Chirurgie,Thursday,False,False,False,Winter,False,False,False,9,7,11,32,28,49
+2024-02-08,Obstétrique,Thursday,False,False,False,Winter,False,False,False,6,3,7,19,21,34
+2024-02-09,Urgences,Friday,False,False,False,Winter,False,False,False,21,1,20,50,0,42
+2024-02-09,Réanimation,Friday,False,False,False,Winter,False,False,False,6,0,7,26,4,36
+2024-02-09,Médecine Générale,Friday,False,False,False,Winter,False,False,False,3,7,8,30,50,52
+2024-02-09,Chirurgie,Friday,False,False,False,Winter,False,False,False,0,12,11,33,27,42
+2024-02-09,Obstétrique,Friday,False,False,False,Winter,False,False,False,6,1,8,18,22,35
+2024-02-10,Urgences,Saturday,True,False,False,Winter,True,False,False,25,2,21,50,0,36
+2024-02-10,Réanimation,Saturday,True,False,False,Winter,True,False,False,10,0,11,25,5,38
+2024-02-10,Médecine Générale,Saturday,True,False,False,Winter,True,False,False,4,3,10,27,53,52
+2024-02-10,Chirurgie,Saturday,True,False,False,Winter,True,False,False,2,3,8,30,30,49
+2024-02-10,Obstétrique,Saturday,True,False,False,Winter,True,False,False,2,2,5,17,23,28
+2024-02-11,Urgences,Sunday,True,False,False,Winter,False,False,False,23,4,22,50,0,42
+2024-02-11,Réanimation,Sunday,True,False,False,Winter,False,False,False,7,0,6,26,4,33
+2024-02-11,Médecine Générale,Sunday,True,False,False,Winter,False,False,False,3,3,7,26,54,53
+2024-02-11,Chirurgie,Sunday,True,False,False,Winter,False,False,False,4,5,9,30,30,47
+2024-02-11,Obstétrique,Sunday,True,False,False,Winter,False,False,False,4,0,5,16,24,32
+2024-02-12,Urgences,Monday,False,False,False,Winter,False,False,False,21,1,21,50,0,42
+2024-02-12,Réanimation,Monday,False,False,False,Winter,False,False,False,4,3,10,23,7,32
+2024-02-12,Médecine Générale,Monday,False,False,False,Winter,False,False,False,6,4,10,26,54,47
+2024-02-12,Chirurgie,Monday,False,False,False,Winter,False,False,False,4,9,9,34,26,45
+2024-02-12,Obstétrique,Monday,False,False,False,Winter,False,False,False,2,0,6,12,28,29
+2024-02-13,Urgences,Tuesday,False,False,False,Winter,False,False,False,21,0,20,50,0,42
+2024-02-13,Réanimation,Tuesday,False,False,False,Winter,False,False,False,6,2,8,23,7,35
+2024-02-13,Médecine Générale,Tuesday,False,False,False,Winter,False,False,False,8,4,8,30,50,52
+2024-02-13,Chirurgie,Tuesday,False,False,False,Winter,False,False,False,0,12,13,33,27,49
+2024-02-13,Obstétrique,Tuesday,False,False,False,Winter,False,False,False,2,5,5,14,26,25
+2024-02-14,Urgences,Wednesday,False,False,False,Winter,False,False,False,20,0,18,50,0,45
+2024-02-14,Réanimation,Wednesday,False,False,False,Winter,False,False,False,9,0,9,23,7,37
+2024-02-14,Médecine Générale,Wednesday,False,False,False,Winter,False,False,False,7,3,12,28,52,50
+2024-02-14,Chirurgie,Wednesday,False,False,False,Winter,False,False,False,0,9,9,33,27,41
+2024-02-14,Obstétrique,Wednesday,False,False,False,Winter,False,False,False,6,0,3,17,23,31
+2024-02-15,Urgences,Thursday,False,False,False,Winter,False,False,False,18,4,17,50,0,39
+2024-02-15,Réanimation,Thursday,False,False,False,Winter,False,False,False,10,0,9,24,6,35
+2024-02-15,Médecine Générale,Thursday,False,False,False,Winter,False,False,False,2,3,10,23,57,50
+2024-02-15,Chirurgie,Thursday,False,False,False,Winter,False,False,False,2,10,11,34,26,48
+2024-02-15,Obstétrique,Thursday,False,False,False,Winter,False,False,False,2,0,3,16,24,28
+2024-02-16,Urgences,Friday,False,False,False,Winter,False,False,False,17,3,17,50,0,36
+2024-02-16,Réanimation,Friday,False,False,False,Winter,False,False,False,7,0,8,23,7,30
+2024-02-16,Médecine Générale,Friday,False,False,False,Winter,False,False,False,3,6,8,24,56,50
+2024-02-16,Chirurgie,Friday,False,False,False,Winter,False,False,False,1,8,10,33,27,49
+2024-02-16,Obstétrique,Friday,False,False,False,Winter,False,False,False,1,1,3,15,25,26
+2024-02-17,Urgences,Saturday,True,False,False,Winter,False,False,False,21,2,19,50,0,44
+2024-02-17,Réanimation,Saturday,True,False,False,Winter,False,False,False,7,0,8,22,8,37
+2024-02-17,Médecine Générale,Saturday,True,False,False,Winter,False,False,False,4,1,9,20,60,49
+2024-02-17,Chirurgie,Saturday,True,False,False,Winter,False,False,False,3,5,11,30,30,45
+2024-02-17,Obstétrique,Saturday,True,False,False,Winter,False,False,False,1,1,5,12,28,29
+2024-02-18,Urgences,Sunday,True,False,False,Winter,False,False,False,20,3,21,50,0,36
+2024-02-18,Réanimation,Sunday,True,False,False,Winter,False,False,False,9,0,8,23,7,34
+2024-02-18,Médecine Générale,Sunday,True,False,False,Winter,False,False,False,8,3,6,25,55,49
+2024-02-18,Chirurgie,Sunday,True,False,False,Winter,False,False,False,1,2,9,24,36,49
+2024-02-18,Obstétrique,Sunday,True,False,False,Winter,False,False,False,1,0,2,11,29,28
+2024-02-19,Urgences,Monday,False,False,False,Winter,False,False,False,20,0,18,50,0,45
+2024-02-19,Réanimation,Monday,False,False,False,Winter,False,False,False,10,1,6,28,2,40
+2024-02-19,Médecine Générale,Monday,False,False,False,Winter,False,False,False,5,5,9,26,54,49
+2024-02-19,Chirurgie,Monday,False,False,False,Winter,False,False,False,3,10,10,27,33,42
+2024-02-19,Obstétrique,Monday,False,False,False,Winter,False,False,False,4,6,5,16,24,27
+2024-02-20,Urgences,Tuesday,False,False,False,Winter,False,False,False,20,0,20,50,0,39
+2024-02-20,Réanimation,Tuesday,False,False,False,Winter,False,False,False,7,0,7,28,2,34
+2024-02-20,Médecine Générale,Tuesday,False,False,False,Winter,False,False,False,6,5,8,29,51,52
+2024-02-20,Chirurgie,Tuesday,False,False,False,Winter,False,False,False,1,4,11,21,39,50
+2024-02-20,Obstétrique,Tuesday,False,False,False,Winter,False,False,False,4,4,5,19,21,30
+2024-02-21,Urgences,Wednesday,False,False,False,Winter,False,False,False,17,4,19,50,0,42
+2024-02-21,Réanimation,Wednesday,False,False,False,Winter,False,False,False,5,1,9,25,5,39
+2024-02-21,Médecine Générale,Wednesday,False,False,False,Winter,False,False,False,3,3,11,24,56,46
+2024-02-21,Chirurgie,Wednesday,False,False,False,Winter,False,False,False,0,12,6,27,33,48
+2024-02-21,Obstétrique,Wednesday,False,False,False,Winter,False,False,False,4,0,5,18,22,35
+2024-02-22,Urgences,Thursday,False,False,False,Winter,False,False,True,26,1,21,50,0,42
+2024-02-22,Réanimation,Thursday,False,False,False,Winter,False,False,True,16,0,11,30,0,36
+2024-02-22,Médecine Générale,Thursday,False,False,False,Winter,False,False,True,7,5,11,25,55,60
+2024-02-22,Chirurgie,Thursday,False,False,False,Winter,False,False,True,1,8,10,26,34,55
+2024-02-22,Obstétrique,Thursday,False,False,False,Winter,False,False,True,4,0,5,17,23,40
+2024-02-23,Urgences,Friday,False,False,False,Winter,True,False,False,26,4,20,50,0,40
+2024-02-23,Réanimation,Friday,False,False,False,Winter,True,False,False,12,1,13,30,0,35
+2024-02-23,Médecine Générale,Friday,False,False,False,Winter,True,False,False,4,7,8,28,52,55
+2024-02-23,Chirurgie,Friday,False,False,False,Winter,True,False,False,5,8,7,32,28,41
+2024-02-23,Obstétrique,Friday,False,False,False,Winter,True,False,False,3,5,4,21,19,35
+2024-02-24,Urgences,Saturday,True,False,False,Winter,True,False,False,26,2,22,50,0,40
+2024-02-24,Réanimation,Saturday,True,False,False,Winter,True,False,False,13,1,10,30,0,33
+2024-02-24,Médecine Générale,Saturday,True,False,False,Winter,True,False,False,6,6,10,30,50,54
+2024-02-24,Chirurgie,Saturday,True,False,False,Winter,True,False,False,2,3,10,27,33,42
+2024-02-24,Obstétrique,Saturday,True,False,False,Winter,True,False,False,5,0,6,20,20,27
+2024-02-25,Urgences,Sunday,True,False,False,Winter,True,False,False,27,2,19,50,0,35
+2024-02-25,Réanimation,Sunday,True,False,False,Winter,True,False,False,9,1,9,30,0,39
+2024-02-25,Médecine Générale,Sunday,True,False,False,Winter,True,False,False,5,0,8,27,53,47
+2024-02-25,Chirurgie,Sunday,True,False,False,Winter,True,False,False,0,6,11,22,38,47
+2024-02-25,Obstétrique,Sunday,True,False,False,Winter,True,False,False,1,1,8,14,26,26
+2024-02-26,Urgences,Monday,False,False,False,Winter,True,False,False,23,1,17,50,0,45
+2024-02-26,Réanimation,Monday,False,False,False,Winter,True,False,False,13,0,12,30,0,30
+2024-02-26,Médecine Générale,Monday,False,False,False,Winter,True,False,False,8,7,12,30,50,55
+2024-02-26,Chirurgie,Monday,False,False,False,Winter,True,False,False,3,8,7,26,34,41
+2024-02-26,Obstétrique,Monday,False,False,False,Winter,True,False,False,4,4,7,15,25,26
+2024-02-27,Urgences,Tuesday,False,True,False,Winter,False,False,False,18,3,19,50,0,40
+2024-02-27,Réanimation,Tuesday,False,True,False,Winter,False,False,False,5,0,8,27,3,37
+2024-02-27,Médecine Générale,Tuesday,False,True,False,Winter,False,False,False,3,3,9,27,53,55
+2024-02-27,Chirurgie,Tuesday,False,True,False,Winter,False,False,False,0,10,9,27,33,46
+2024-02-27,Obstétrique,Tuesday,False,True,False,Winter,False,False,False,0,4,4,15,25,32
+2024-02-28,Urgences,Wednesday,False,False,False,Winter,False,False,False,19,6,21,50,0,45
+2024-02-28,Réanimation,Wednesday,False,False,False,Winter,False,False,False,8,0,10,25,5,31
+2024-02-28,Médecine Générale,Wednesday,False,False,False,Winter,False,False,False,4,4,8,27,53,46
+2024-02-28,Chirurgie,Wednesday,False,False,False,Winter,False,False,False,6,11,13,31,29,48
+2024-02-28,Obstétrique,Wednesday,False,False,False,Winter,False,False,False,2,1,5,13,27,30
+2024-02-29,Urgences,Thursday,False,False,False,Winter,False,False,False,22,1,19,50,0,35
+2024-02-29,Réanimation,Thursday,False,False,False,Winter,False,False,False,6,0,9,22,8,31
+2024-02-29,Médecine Générale,Thursday,False,False,False,Winter,False,False,False,6,4,12,25,55,48
+2024-02-29,Chirurgie,Thursday,False,False,False,Winter,False,False,False,3,11,10,35,25,45
+2024-02-29,Obstétrique,Thursday,False,False,False,Winter,False,False,False,6,0,6,13,27,31
+2024-03-01,Urgences,Friday,False,False,False,Spring,False,False,False,18,0,20,48,2,44
+2024-03-01,Réanimation,Friday,False,False,False,Spring,False,False,False,8,0,6,24,6,40
+2024-03-01,Médecine Générale,Friday,False,False,False,Spring,False,False,False,4,4,8,25,55,49
+2024-03-01,Chirurgie,Friday,False,False,False,Spring,False,False,False,6,10,15,36,24,45
+2024-03-01,Obstétrique,Friday,False,False,False,Spring,False,False,False,2,3,2,16,24,35
+2024-03-02,Urgences,Saturday,True,False,False,Spring,False,False,False,19,0,18,49,1,36
+2024-03-02,Réanimation,Saturday,True,False,False,Spring,False,False,False,6,1,8,23,7,37
+2024-03-02,Médecine Générale,Saturday,True,False,False,Spring,False,False,False,1,0,6,20,60,54
+2024-03-02,Chirurgie,Saturday,True,False,False,Spring,False,False,False,2,5,9,34,26,42
+2024-03-02,Obstétrique,Saturday,True,False,False,Spring,False,False,False,1,1,6,12,28,29
+2024-03-03,Urgences,Sunday,True,False,False,Spring,False,False,False,18,1,19,49,1,42
+2024-03-03,Réanimation,Sunday,True,False,False,Spring,False,False,False,7,0,9,21,9,31
+2024-03-03,Médecine Générale,Sunday,True,False,False,Spring,False,False,False,3,2,6,19,61,52
+2024-03-03,Chirurgie,Sunday,True,False,False,Spring,False,False,False,2,5,10,31,29,46
+2024-03-03,Obstétrique,Sunday,True,False,False,Spring,False,False,False,6,0,4,14,26,29
+2024-03-04,Urgences,Monday,False,False,False,Spring,False,False,False,19,2,19,50,0,39
+2024-03-04,Réanimation,Monday,False,False,False,Spring,False,False,False,9,1,7,24,6,32
+2024-03-04,Médecine Générale,Monday,False,False,False,Spring,False,False,False,2,4,6,19,61,53
+2024-03-04,Chirurgie,Monday,False,False,False,Spring,False,False,False,0,11,12,30,30,41
+2024-03-04,Obstétrique,Monday,False,False,False,Spring,False,False,False,2,3,5,14,26,25
+2024-03-05,Urgences,Tuesday,False,False,False,Spring,False,False,False,18,2,20,50,0,44
+2024-03-05,Réanimation,Tuesday,False,False,False,Spring,False,False,False,8,0,8,24,6,34
+2024-03-05,Médecine Générale,Tuesday,False,False,False,Spring,False,False,False,5,3,6,21,59,47
+2024-03-05,Chirurgie,Tuesday,False,False,False,Spring,False,False,False,1,10,12,29,31,41
+2024-03-05,Obstétrique,Tuesday,False,False,False,Spring,False,False,False,2,3,5,14,26,34
+2024-03-06,Urgences,Wednesday,False,False,False,Spring,False,False,False,20,5,18,50,0,40
+2024-03-06,Réanimation,Wednesday,False,False,False,Spring,False,False,False,6,0,7,23,7,38
+2024-03-06,Médecine Générale,Wednesday,False,False,False,Spring,False,False,False,2,10,7,26,54,50
+2024-03-06,Chirurgie,Wednesday,False,False,False,Spring,False,False,False,3,10,9,33,27,43
+2024-03-06,Obstétrique,Wednesday,False,False,False,Spring,False,False,False,4,5,3,20,20,34
+2024-03-07,Urgences,Thursday,False,False,False,Spring,False,False,False,22,1,20,50,0,37
+2024-03-07,Réanimation,Thursday,False,False,False,Spring,False,False,False,8,0,9,22,8,39
+2024-03-07,Médecine Générale,Thursday,False,False,False,Spring,False,False,False,3,3,8,24,56,55
+2024-03-07,Chirurgie,Thursday,False,False,False,Spring,False,False,False,0,10,11,32,28,42
+2024-03-07,Obstétrique,Thursday,False,False,False,Spring,False,False,False,1,1,4,18,22,29
+2024-03-08,Urgences,Friday,False,False,False,Spring,False,False,False,19,2,19,50,0,39
+2024-03-08,Réanimation,Friday,False,False,False,Spring,False,False,False,11,1,6,28,2,34
+2024-03-08,Médecine Générale,Friday,False,False,False,Spring,False,False,False,3,4,10,21,59,54
+2024-03-08,Chirurgie,Friday,False,False,False,Spring,False,False,False,5,9,9,37,23,48
+2024-03-08,Obstétrique,Friday,False,False,False,Spring,False,False,False,5,1,5,19,21,32
+2024-03-09,Urgences,Saturday,True,False,False,Spring,False,False,False,18,0,16,50,0,40
+2024-03-09,Réanimation,Saturday,True,False,False,Spring,False,False,False,11,2,10,30,0,37
+2024-03-09,Médecine Générale,Saturday,True,False,False,Spring,False,False,False,3,2,6,20,60,46
+2024-03-09,Chirurgie,Saturday,True,False,False,Spring,False,False,False,4,5,14,32,28,47
+2024-03-09,Obstétrique,Saturday,True,False,False,Spring,False,False,False,0,4,6,17,23,27
+2024-03-10,Urgences,Sunday,True,False,False,Spring,False,False,False,20,0,17,50,0,41
+2024-03-10,Réanimation,Sunday,True,False,False,Spring,False,False,False,7,0,8,29,1,40
+2024-03-10,Médecine Générale,Sunday,True,False,False,Spring,False,False,False,4,1,9,16,64,53
+2024-03-10,Chirurgie,Sunday,True,False,False,Spring,False,False,False,0,8,9,31,29,42
+2024-03-10,Obstétrique,Sunday,True,False,False,Spring,False,False,False,1,3,6,15,25,30
+2024-03-11,Urgences,Monday,False,False,False,Spring,False,False,False,16,0,18,48,2,37
+2024-03-11,Réanimation,Monday,False,False,False,Spring,False,False,False,5,2,8,28,2,38
+2024-03-11,Médecine Générale,Monday,False,False,False,Spring,False,False,False,3,1,6,14,66,55
+2024-03-11,Chirurgie,Monday,False,False,False,Spring,False,False,False,0,8,10,29,31,41
+2024-03-11,Obstétrique,Monday,False,False,False,Spring,False,False,False,2,3,4,16,24,25
+2024-03-12,Urgences,Tuesday,False,False,False,Spring,False,False,True,28,3,18,50,0,48
+2024-03-12,Réanimation,Tuesday,False,False,False,Spring,False,False,True,21,0,14,30,0,39
+2024-03-12,Médecine Générale,Tuesday,False,False,False,Spring,False,False,True,3,8,5,20,60,55
+2024-03-12,Chirurgie,Tuesday,False,False,False,Spring,False,False,True,2,11,12,30,30,57
+2024-03-12,Obstétrique,Tuesday,False,False,False,Spring,False,False,True,1,3,3,17,23,37
+2024-03-13,Urgences,Wednesday,False,False,False,Spring,False,False,False,17,0,19,48,2,42
+2024-03-13,Réanimation,Wednesday,False,False,False,Spring,False,False,False,6,0,11,25,5,33
+2024-03-13,Médecine Générale,Wednesday,False,False,False,Spring,False,False,False,1,9,9,21,59,48
+2024-03-13,Chirurgie,Wednesday,False,False,False,Spring,False,False,False,2,6,12,26,34,47
+2024-03-13,Obstétrique,Wednesday,False,False,False,Spring,False,False,False,1,3,4,17,23,33
+2024-03-14,Urgences,Thursday,False,False,False,Spring,False,False,False,20,3,19,50,0,44
+2024-03-14,Réanimation,Thursday,False,False,False,Spring,False,False,False,7,0,10,22,8,35
+2024-03-14,Médecine Générale,Thursday,False,False,False,Spring,False,False,False,4,9,8,26,54,46
+2024-03-14,Chirurgie,Thursday,False,False,False,Spring,False,False,False,2,9,10,27,33,47
+2024-03-14,Obstétrique,Thursday,False,False,False,Spring,False,False,False,4,2,7,16,24,26
+2024-03-15,Urgences,Friday,False,False,False,Spring,False,False,False,21,1,20,50,0,40
+2024-03-15,Réanimation,Friday,False,False,False,Spring,False,False,False,6,1,5,24,6,38
+2024-03-15,Médecine Générale,Friday,False,False,False,Spring,False,False,False,5,7,7,31,49,50
+2024-03-15,Chirurgie,Friday,False,False,False,Spring,False,False,False,1,10,8,30,30,50
+2024-03-15,Obstétrique,Friday,False,False,False,Spring,False,False,False,4,1,4,17,23,29
+2024-03-16,Urgences,Saturday,True,False,False,Spring,False,False,False,19,1,17,50,0,42
+2024-03-16,Réanimation,Saturday,True,False,False,Spring,False,False,False,7,3,11,23,7,30
+2024-03-16,Médecine Générale,Saturday,True,False,False,Spring,False,False,False,4,2,10,27,53,54
+2024-03-16,Chirurgie,Saturday,True,False,False,Spring,False,False,False,1,6,11,26,34,43
+2024-03-16,Obstétrique,Saturday,True,False,False,Spring,False,False,False,3,0,3,17,23,35
+2024-03-17,Urgences,Sunday,True,False,False,Spring,False,False,False,19,0,20,49,1,42
+2024-03-17,Réanimation,Sunday,True,False,False,Spring,False,False,False,8,1,8,24,6,39
+2024-03-17,Médecine Générale,Sunday,True,False,False,Spring,False,False,False,3,2,10,22,58,45
+2024-03-17,Chirurgie,Sunday,True,False,False,Spring,False,False,False,1,5,8,24,36,42
+2024-03-17,Obstétrique,Sunday,True,False,False,Spring,False,False,False,5,0,8,14,26,26
+2024-03-18,Urgences,Monday,False,False,False,Spring,False,False,False,24,2,17,50,0,43
+2024-03-18,Réanimation,Monday,False,False,False,Spring,False,False,False,6,1,6,25,5,40
+2024-03-18,Médecine Générale,Monday,False,False,False,Spring,False,False,False,5,4,5,26,54,50
+2024-03-18,Chirurgie,Monday,False,False,False,Spring,False,False,False,1,8,6,27,33,49
+2024-03-18,Obstétrique,Monday,False,False,False,Spring,False,False,False,0,1,3,12,28,30
+2024-03-19,Urgences,Tuesday,False,False,False,Spring,False,False,False,16,2,17,50,0,45
+2024-03-19,Réanimation,Tuesday,False,False,False,Spring,False,False,False,11,1,10,27,3,32
+2024-03-19,Médecine Générale,Tuesday,False,False,False,Spring,False,False,False,4,6,8,28,52,45
+2024-03-19,Chirurgie,Tuesday,False,False,False,Spring,False,False,False,1,11,11,28,32,40
+2024-03-19,Obstétrique,Tuesday,False,False,False,Spring,False,False,False,2,3,3,14,26,33
+2024-03-20,Urgences,Wednesday,False,False,False,Spring,False,False,False,17,4,19,50,0,39
+2024-03-20,Réanimation,Wednesday,False,False,False,Spring,False,False,False,9,1,11,26,4,34
+2024-03-20,Médecine Générale,Wednesday,False,False,False,Spring,False,False,False,6,4,9,29,51,52
+2024-03-20,Chirurgie,Wednesday,False,False,False,Spring,False,False,False,1,8,11,26,34,47
+2024-03-20,Obstétrique,Wednesday,False,False,False,Spring,False,False,False,4,0,2,16,24,29
+2024-03-21,Urgences,Thursday,False,False,False,Spring,False,False,False,17,0,20,47,3,41
+2024-03-21,Réanimation,Thursday,False,False,False,Spring,False,False,False,7,0,8,25,5,34
+2024-03-21,Médecine Générale,Thursday,False,False,False,Spring,False,False,False,2,7,8,30,50,49
+2024-03-21,Chirurgie,Thursday,False,False,False,Spring,False,False,False,1,10,9,28,32,47
+2024-03-21,Obstétrique,Thursday,False,False,False,Spring,False,False,False,4,2,3,19,21,34
+2024-03-22,Urgences,Friday,False,False,False,Spring,False,False,False,19,0,19,47,3,36
+2024-03-22,Réanimation,Friday,False,False,False,Spring,False,False,False,8,0,10,23,7,40
+2024-03-22,Médecine Générale,Friday,False,False,False,Spring,False,False,False,5,5,9,31,49,55
+2024-03-22,Chirurgie,Friday,False,False,False,Spring,False,False,False,2,8,11,27,33,43
+2024-03-22,Obstétrique,Friday,False,False,False,Spring,False,False,False,4,3,7,19,21,34
+2024-03-23,Urgences,Saturday,True,False,False,Spring,False,False,False,17,3,20,47,3,40
+2024-03-23,Réanimation,Saturday,True,False,False,Spring,False,False,False,6,0,7,22,8,32
+2024-03-23,Médecine Générale,Saturday,True,False,False,Spring,False,False,False,5,2,9,29,51,48
+2024-03-23,Chirurgie,Saturday,True,False,False,Spring,False,False,False,0,5,7,25,35,47
+2024-03-23,Obstétrique,Saturday,True,False,False,Spring,False,False,False,3,0,4,18,22,29
+2024-03-24,Urgences,Sunday,True,False,False,Spring,False,False,False,19,5,19,50,0,44
+2024-03-24,Réanimation,Sunday,True,False,False,Spring,False,False,False,10,2,9,25,5,33
+2024-03-24,Médecine Générale,Sunday,True,False,False,Spring,False,False,False,6,1,7,29,51,47
+2024-03-24,Chirurgie,Sunday,True,False,False,Spring,False,False,False,7,4,9,27,33,50
+2024-03-24,Obstétrique,Sunday,True,False,False,Spring,False,False,False,1,0,5,14,26,26
+2024-03-25,Urgences,Monday,False,False,False,Spring,False,False,False,18,0,17,50,0,37
+2024-03-25,Réanimation,Monday,False,False,False,Spring,False,False,False,6,0,7,24,6,35
+2024-03-25,Médecine Générale,Monday,False,False,False,Spring,False,False,False,5,8,10,32,48,47
+2024-03-25,Chirurgie,Monday,False,False,False,Spring,False,False,False,0,9,11,25,35,48
+2024-03-25,Obstétrique,Monday,False,False,False,Spring,False,False,False,2,2,4,14,26,27
+2024-03-26,Urgences,Tuesday,False,False,False,Spring,False,False,False,23,1,21,50,0,41
+2024-03-26,Réanimation,Tuesday,False,False,False,Spring,False,False,False,8,0,6,26,4,36
+2024-03-26,Médecine Générale,Tuesday,False,False,False,Spring,False,False,False,7,5,12,32,48,47
+2024-03-26,Chirurgie,Tuesday,False,False,False,Spring,False,False,False,1,8,10,24,36,47
+2024-03-26,Obstétrique,Tuesday,False,False,False,Spring,False,False,False,0,1,3,12,28,35
+2024-03-27,Urgences,Wednesday,False,False,False,Spring,False,False,False,15,1,16,50,0,41
+2024-03-27,Réanimation,Wednesday,False,False,False,Spring,False,False,False,8,0,8,26,4,38
+2024-03-27,Médecine Générale,Wednesday,False,False,False,Spring,False,False,False,2,9,11,32,48,48
+2024-03-27,Chirurgie,Wednesday,False,False,False,Spring,False,False,False,1,12,11,26,34,41
+2024-03-27,Obstétrique,Wednesday,False,False,False,Spring,False,False,False,4,4,6,14,26,29
+2024-03-28,Urgences,Thursday,False,False,False,Spring,False,False,False,18,1,20,49,1,36
+2024-03-28,Réanimation,Thursday,False,False,False,Spring,False,False,False,9,2,11,26,4,32
+2024-03-28,Médecine Générale,Thursday,False,False,False,Spring,False,False,False,6,3,8,33,47,50
+2024-03-28,Chirurgie,Thursday,False,False,False,Spring,False,False,False,4,10,11,29,31,41
+2024-03-28,Obstétrique,Thursday,False,False,False,Spring,False,False,False,1,0,5,10,30,29
+2024-03-29,Urgences,Friday,False,False,False,Spring,False,False,False,18,0,19,48,2,44
+2024-03-29,Réanimation,Friday,False,False,False,Spring,False,False,False,6,0,7,25,5,34
+2024-03-29,Médecine Générale,Friday,False,False,False,Spring,False,False,False,3,7,9,34,46,55
+2024-03-29,Chirurgie,Friday,False,False,False,Spring,False,False,False,0,10,9,30,30,42
+2024-03-29,Obstétrique,Friday,False,False,False,Spring,False,False,False,1,1,3,9,31,30
+2024-03-30,Urgences,Saturday,True,False,False,Spring,False,False,False,21,0,18,50,0,40
+2024-03-30,Réanimation,Saturday,True,False,False,Spring,False,False,False,6,0,9,22,8,38
+2024-03-30,Médecine Générale,Saturday,True,False,False,Spring,False,False,False,4,4,9,33,47,46
+2024-03-30,Chirurgie,Saturday,True,False,False,Spring,False,False,False,1,7,12,26,34,40
+2024-03-30,Obstétrique,Saturday,True,False,False,Spring,False,False,False,3,5,2,15,25,31
+2024-03-31,Urgences,Sunday,True,False,False,Spring,False,False,False,22,0,18,50,0,40
+2024-03-31,Réanimation,Sunday,True,False,False,Spring,False,False,False,5,0,8,19,11,32
+2024-03-31,Médecine Générale,Sunday,True,False,False,Spring,False,False,False,4,3,11,29,51,49
+2024-03-31,Chirurgie,Sunday,True,False,False,Spring,False,False,False,0,6,10,22,38,48
+2024-03-31,Obstétrique,Sunday,True,False,False,Spring,False,False,False,4,1,7,13,27,30
+2024-04-01,Urgences,Monday,False,False,False,Spring,False,False,False,19,0,16,50,0,45
+2024-04-01,Réanimation,Monday,False,False,False,Spring,False,False,False,4,1,6,18,12,31
+2024-04-01,Médecine Générale,Monday,False,False,False,Spring,False,False,False,3,7,12,27,53,51
+2024-04-01,Chirurgie,Monday,False,False,False,Spring,False,False,False,2,12,6,30,30,48
+2024-04-01,Obstétrique,Monday,False,False,False,Spring,False,False,False,0,2,3,12,28,31
+2024-04-02,Urgences,Tuesday,False,False,False,Spring,False,False,False,19,1,17,50,0,44
+2024-04-02,Réanimation,Tuesday,False,False,False,Spring,False,False,False,3,4,8,17,13,36
+2024-04-02,Médecine Générale,Tuesday,False,False,False,Spring,False,False,False,5,4,11,25,55,50
+2024-04-02,Chirurgie,Tuesday,False,False,False,Spring,False,False,False,1,9,10,30,30,46
+2024-04-02,Obstétrique,Tuesday,False,False,False,Spring,False,False,False,3,0,2,13,27,30
+2024-04-03,Urgences,Wednesday,False,False,False,Spring,False,False,False,20,1,21,50,0,44
+2024-04-03,Réanimation,Wednesday,False,False,False,Spring,False,False,False,11,5,8,25,5,35
+2024-04-03,Médecine Générale,Wednesday,False,False,False,Spring,False,False,False,3,9,11,26,54,54
+2024-04-03,Chirurgie,Wednesday,False,False,False,Spring,False,False,False,1,8,8,31,29,47
+2024-04-03,Obstétrique,Wednesday,False,False,False,Spring,False,False,False,2,3,5,13,27,30
+2024-04-04,Urgences,Thursday,False,False,False,Spring,False,False,False,18,6,17,50,0,44
+2024-04-04,Réanimation,Thursday,False,False,False,Spring,False,False,False,2,0,9,18,12,39
+2024-04-04,Médecine Générale,Thursday,False,False,False,Spring,False,False,False,5,6,10,27,53,54
+2024-04-04,Chirurgie,Thursday,False,False,False,Spring,False,False,False,0,9,11,29,31,42
+2024-04-04,Obstétrique,Thursday,False,False,False,Spring,False,False,False,3,1,5,12,28,27
+2024-04-05,Urgences,Friday,False,False,False,Spring,False,False,False,20,4,20,50,0,36
+2024-04-05,Réanimation,Friday,False,False,False,Spring,False,False,False,6,0,8,16,14,32
+2024-04-05,Médecine Générale,Friday,False,False,False,Spring,False,False,False,8,4,8,31,49,54
+2024-04-05,Chirurgie,Friday,False,False,False,Spring,False,False,False,0,9,10,28,32,42
+2024-04-05,Obstétrique,Friday,False,False,False,Spring,False,False,False,0,6,5,13,27,33
+2024-04-06,Urgences,Saturday,True,False,False,Spring,False,False,False,18,2,19,50,0,43
+2024-04-06,Réanimation,Saturday,True,False,False,Spring,False,False,False,3,0,4,15,15,39
+2024-04-06,Médecine Générale,Saturday,True,False,False,Spring,False,False,False,3,7,11,30,50,53
+2024-04-06,Chirurgie,Saturday,True,False,False,Spring,False,False,False,1,3,9,23,37,44
+2024-04-06,Obstétrique,Saturday,True,False,False,Spring,False,False,False,0,1,3,11,29,30
+2024-04-07,Urgences,Sunday,True,False,False,Spring,False,False,False,22,3,21,50,0,39
+2024-04-07,Réanimation,Sunday,True,False,False,Spring,False,False,False,10,0,5,20,10,36
+2024-04-07,Médecine Générale,Sunday,True,False,False,Spring,False,False,False,9,4,9,34,46,49
+2024-04-07,Chirurgie,Sunday,True,False,False,Spring,False,False,False,4,4,8,23,37,45
+2024-04-07,Obstétrique,Sunday,True,False,False,Spring,False,False,False,3,3,6,11,29,28
+2024-04-08,Urgences,Monday,False,False,False,Spring,False,False,False,21,4,22,50,0,39
+2024-04-08,Réanimation,Monday,False,False,False,Spring,False,False,False,8,2,10,20,10,33
+2024-04-08,Médecine Générale,Monday,False,False,False,Spring,False,False,False,4,5,12,31,49,48
+2024-04-08,Chirurgie,Monday,False,False,False,Spring,False,False,False,1,9,7,26,34,45
+2024-04-08,Obstétrique,Monday,False,False,False,Spring,False,False,False,8,1,3,17,23,25
+2024-04-09,Urgences,Tuesday,False,False,False,Spring,False,False,False,17,0,19,48,2,41
+2024-04-09,Réanimation,Tuesday,False,False,False,Spring,False,False,False,6,0,7,19,11,37
+2024-04-09,Médecine Générale,Tuesday,False,False,False,Spring,False,False,False,4,6,9,32,48,50
+2024-04-09,Chirurgie,Tuesday,False,False,False,Spring,False,False,False,0,8,6,28,32,50
+2024-04-09,Obstétrique,Tuesday,False,False,False,Spring,False,False,False,0,4,3,18,22,27
+2024-04-10,Urgences,Wednesday,False,False,False,Spring,False,False,False,20,0,18,50,0,41
+2024-04-10,Réanimation,Wednesday,False,False,False,Spring,False,False,False,10,0,5,24,6,30
+2024-04-10,Médecine Générale,Wednesday,False,False,False,Spring,False,False,False,3,11,13,33,47,50
+2024-04-10,Chirurgie,Wednesday,False,False,False,Spring,False,False,False,0,10,12,26,34,48
+2024-04-10,Obstétrique,Wednesday,False,False,False,Spring,False,False,False,2,6,6,20,20,32
+2024-04-11,Urgences,Thursday,False,False,False,Spring,False,False,False,19,0,17,50,0,37
+2024-04-11,Réanimation,Thursday,False,False,False,Spring,False,False,False,7,0,10,21,9,30
+2024-04-11,Médecine Générale,Thursday,False,False,False,Spring,False,False,False,5,4,11,31,49,55
+2024-04-11,Chirurgie,Thursday,False,False,False,Spring,False,False,False,1,9,7,29,31,46
+2024-04-11,Obstétrique,Thursday,False,False,False,Spring,False,False,False,5,2,6,21,19,27
+2024-04-12,Urgences,Friday,False,False,False,Spring,False,False,False,19,3,19,50,0,35
+2024-04-12,Réanimation,Friday,False,False,False,Spring,False,False,False,6,3,5,25,5,35
+2024-04-12,Médecine Générale,Friday,False,False,False,Spring,False,False,False,3,3,8,29,51,49
+2024-04-12,Chirurgie,Friday,False,False,False,Spring,False,False,False,3,11,11,32,28,50
+2024-04-12,Obstétrique,Friday,False,False,False,Spring,False,False,False,0,2,6,17,23,35
+2024-04-13,Urgences,Saturday,True,False,False,Spring,False,False,False,16,0,18,48,2,36
+2024-04-13,Réanimation,Saturday,True,False,False,Spring,False,False,False,8,4,10,27,3,39
+2024-04-13,Médecine Générale,Saturday,True,False,False,Spring,False,False,False,0,4,8,25,55,47
+2024-04-13,Chirurgie,Saturday,True,False,False,Spring,False,False,False,0,1,11,22,38,46
+2024-04-13,Obstétrique,Saturday,True,False,False,Spring,False,False,False,4,0,7,14,26,35
+2024-04-14,Urgences,Sunday,True,False,False,Spring,False,False,False,17,0,17,48,2,36
+2024-04-14,Réanimation,Sunday,True,False,False,Spring,False,False,False,8,0,11,24,6,31
+2024-04-14,Médecine Générale,Sunday,True,False,False,Spring,False,False,False,5,5,8,27,53,53
+2024-04-14,Chirurgie,Sunday,True,False,False,Spring,False,False,False,3,4,6,23,37,45
+2024-04-14,Obstétrique,Sunday,True,False,False,Spring,False,False,False,0,1,5,10,30,34
+2024-04-15,Urgences,Monday,False,False,False,Spring,False,False,False,17,2,18,49,1,35
+2024-04-15,Réanimation,Monday,False,False,False,Spring,False,False,False,10,0,9,25,5,39
+2024-04-15,Médecine Générale,Monday,False,False,False,Spring,False,False,False,2,8,9,28,52,45
+2024-04-15,Chirurgie,Monday,False,False,False,Spring,False,False,False,3,10,6,30,30,49
+2024-04-15,Obstétrique,Monday,False,False,False,Spring,False,False,False,7,2,2,17,23,33
+2024-04-16,Urgences,Tuesday,False,False,False,Spring,False,False,False,22,2,17,50,0,42
+2024-04-16,Réanimation,Tuesday,False,False,False,Spring,False,False,False,10,0,10,25,5,40
+2024-04-16,Médecine Générale,Tuesday,False,False,False,Spring,False,False,False,6,5,11,28,52,50
+2024-04-16,Chirurgie,Tuesday,False,False,False,Spring,False,False,False,6,12,14,34,26,46
+2024-04-16,Obstétrique,Tuesday,False,False,False,Spring,False,False,False,1,1,4,15,25,27
+2024-04-17,Urgences,Wednesday,False,False,False,Spring,False,False,False,19,2,18,50,0,43
+2024-04-17,Réanimation,Wednesday,False,False,False,Spring,False,False,False,8,0,9,24,6,30
+2024-04-17,Médecine Générale,Wednesday,False,False,False,Spring,False,False,False,4,3,10,25,55,55
+2024-04-17,Chirurgie,Wednesday,False,False,False,Spring,False,False,False,2,11,12,35,25,43
+2024-04-17,Obstétrique,Wednesday,False,False,False,Spring,False,False,False,5,1,3,18,22,28
+2024-04-18,Urgences,Thursday,False,False,False,Spring,False,False,False,20,0,17,50,0,35
+2024-04-18,Réanimation,Thursday,False,False,False,Spring,False,False,False,8,0,6,26,4,33
+2024-04-18,Médecine Générale,Thursday,False,False,False,Spring,False,False,False,2,4,6,25,55,52
+2024-04-18,Chirurgie,Thursday,False,False,False,Spring,False,False,False,1,7,10,33,27,43
+2024-04-18,Obstétrique,Thursday,False,False,False,Spring,False,False,False,3,6,4,23,17,33
+2024-04-19,Urgences,Friday,False,False,False,Spring,False,False,False,18,1,20,49,1,37
+2024-04-19,Réanimation,Friday,False,False,False,Spring,False,False,False,4,0,7,23,7,35
+2024-04-19,Médecine Générale,Friday,False,False,False,Spring,False,False,False,4,7,11,25,55,48
+2024-04-19,Chirurgie,Friday,False,False,False,Spring,False,False,False,0,10,13,30,30,43
+2024-04-19,Obstétrique,Friday,False,False,False,Spring,False,False,False,6,0,8,21,19,34
+2024-04-20,Urgences,Saturday,True,False,False,Spring,False,False,False,14,1,18,46,4,43
+2024-04-20,Réanimation,Saturday,True,False,False,Spring,False,False,False,7,1,6,25,5,38
+2024-04-20,Médecine Générale,Saturday,True,False,False,Spring,False,False,False,2,5,9,23,57,49
+2024-04-20,Chirurgie,Saturday,True,False,False,Spring,False,False,False,2,4,9,27,33,43
+2024-04-20,Obstétrique,Saturday,True,False,False,Spring,False,False,False,5,0,8,18,22,32
+2024-04-21,Urgences,Sunday,True,False,False,Spring,False,False,False,18,0,16,48,2,43
+2024-04-21,Réanimation,Sunday,True,False,False,Spring,False,False,False,7,0,9,23,7,33
+2024-04-21,Médecine Générale,Sunday,True,False,False,Spring,False,False,False,7,4,7,27,53,50
+2024-04-21,Chirurgie,Sunday,True,False,False,Spring,False,False,False,1,8,11,25,35,40
+2024-04-21,Obstétrique,Sunday,True,False,False,Spring,False,False,False,3,0,7,14,26,25
+2024-04-22,Urgences,Monday,False,False,False,Spring,False,False,False,17,1,17,49,1,45
+2024-04-22,Réanimation,Monday,False,False,False,Spring,False,False,False,8,0,6,25,5,34
+2024-04-22,Médecine Générale,Monday,False,False,False,Spring,False,False,False,4,2,8,25,55,46
+2024-04-22,Chirurgie,Monday,False,False,False,Spring,False,False,False,1,8,7,27,33,49
+2024-04-22,Obstétrique,Monday,False,False,False,Spring,False,False,False,2,4,6,14,26,33
+2024-04-23,Urgences,Tuesday,False,False,False,Spring,False,False,False,18,0,17,50,0,43
+2024-04-23,Réanimation,Tuesday,False,False,False,Spring,False,False,False,9,0,9,25,5,38
+2024-04-23,Médecine Générale,Tuesday,False,False,False,Spring,False,False,False,6,5,10,26,54,50
+2024-04-23,Chirurgie,Tuesday,False,False,False,Spring,False,False,False,0,9,8,28,32,40
+2024-04-23,Obstétrique,Tuesday,False,False,False,Spring,False,False,False,2,7,7,16,24,25
+2024-04-24,Urgences,Wednesday,False,False,False,Spring,False,False,True,27,3,23,50,0,48
+2024-04-24,Réanimation,Wednesday,False,False,False,Spring,False,False,True,19,0,10,30,0,41
+2024-04-24,Médecine Générale,Wednesday,False,False,False,Spring,False,False,True,3,4,7,26,54,62
+2024-04-24,Chirurgie,Wednesday,False,False,False,Spring,False,False,True,3,11,9,33,27,51
+2024-04-24,Obstétrique,Wednesday,False,False,False,Spring,False,False,True,5,2,3,20,20,43
+2024-04-25,Urgences,Thursday,False,False,False,Spring,False,False,False,20,2,18,50,0,45
+2024-04-25,Réanimation,Thursday,False,False,False,Spring,False,False,False,8,3,9,30,0,40
+2024-04-25,Médecine Générale,Thursday,False,False,False,Spring,False,False,False,3,5,10,24,56,48
+2024-04-25,Chirurgie,Thursday,False,False,False,Spring,False,False,False,0,7,11,29,31,50
+2024-04-25,Obstétrique,Thursday,False,False,False,Spring,False,False,False,2,3,9,16,24,35
+2024-04-26,Urgences,Friday,False,False,False,Spring,False,False,False,22,2,19,50,0,41
+2024-04-26,Réanimation,Friday,False,False,False,Spring,False,False,False,8,0,11,27,3,38
+2024-04-26,Médecine Générale,Friday,False,False,False,Spring,False,False,False,5,6,8,27,53,47
+2024-04-26,Chirurgie,Friday,False,False,False,Spring,False,False,False,2,12,10,33,27,43
+2024-04-26,Obstétrique,Friday,False,False,False,Spring,False,False,False,3,2,6,15,25,29
+2024-04-27,Urgences,Saturday,True,False,False,Spring,False,False,False,14,0,16,48,2,42
+2024-04-27,Réanimation,Saturday,True,False,False,Spring,False,False,False,6,0,7,26,4,34
+2024-04-27,Médecine Générale,Saturday,True,False,False,Spring,False,False,False,3,4,10,24,56,46
+2024-04-27,Chirurgie,Saturday,True,False,False,Spring,False,False,False,0,3,7,29,31,40
+2024-04-27,Obstétrique,Saturday,True,False,False,Spring,False,False,False,4,0,4,15,25,32
+2024-04-28,Urgences,Sunday,True,False,False,Spring,False,False,False,25,0,21,50,0,44
+2024-04-28,Réanimation,Sunday,True,False,False,Spring,False,False,False,8,4,11,27,3,30
+2024-04-28,Médecine Générale,Sunday,True,False,False,Spring,False,False,False,4,7,9,26,54,52
+2024-04-28,Chirurgie,Sunday,True,False,False,Spring,False,False,False,1,5,9,26,34,48
+2024-04-28,Obstétrique,Sunday,True,False,False,Spring,False,False,False,5,0,6,14,26,25
+2024-04-29,Urgences,Monday,False,False,False,Spring,False,False,False,19,4,21,50,0,36
+2024-04-29,Réanimation,Monday,False,False,False,Spring,False,False,False,6,0,10,23,7,36
+2024-04-29,Médecine Générale,Monday,False,False,False,Spring,False,False,False,5,3,6,28,52,47
+2024-04-29,Chirurgie,Monday,False,False,False,Spring,False,False,False,1,8,6,29,31,48
+2024-04-29,Obstétrique,Monday,False,False,False,Spring,False,False,False,3,3,7,13,27,31
+2024-04-30,Urgences,Tuesday,False,False,False,Spring,False,False,False,21,1,19,50,0,44
+2024-04-30,Réanimation,Tuesday,False,False,False,Spring,False,False,False,5,0,8,20,10,30
+2024-04-30,Médecine Générale,Tuesday,False,False,False,Spring,False,False,False,5,8,11,30,50,52
+2024-04-30,Chirurgie,Tuesday,False,False,False,Spring,False,False,False,3,12,12,32,28,46
+2024-04-30,Obstétrique,Tuesday,False,False,False,Spring,False,False,False,3,1,2,15,25,26
+2024-05-01,Urgences,Wednesday,False,False,False,Spring,False,False,False,21,2,18,50,0,36
+2024-05-01,Réanimation,Wednesday,False,False,False,Spring,False,False,False,7,0,5,22,8,36
+2024-05-01,Médecine Générale,Wednesday,False,False,False,Spring,False,False,False,1,7,8,30,50,49
+2024-05-01,Chirurgie,Wednesday,False,False,False,Spring,False,False,False,3,11,13,33,27,42
+2024-05-01,Obstétrique,Wednesday,False,False,False,Spring,False,False,False,2,2,2,17,23,33
+2024-05-02,Urgences,Thursday,False,False,False,Spring,False,False,False,17,1,18,50,0,40
+2024-05-02,Réanimation,Thursday,False,False,False,Spring,False,False,False,10,0,6,26,4,36
+2024-05-02,Médecine Générale,Thursday,False,False,False,Spring,False,False,False,9,2,13,28,52,53
+2024-05-02,Chirurgie,Thursday,False,False,False,Spring,False,False,False,2,11,10,36,24,48
+2024-05-02,Obstétrique,Thursday,False,False,False,Spring,False,False,False,2,5,4,20,20,29
+2024-05-03,Urgences,Friday,False,False,False,Spring,False,False,False,18,2,20,50,0,37
+2024-05-03,Réanimation,Friday,False,False,False,Spring,False,False,False,4,3,9,24,6,31
+2024-05-03,Médecine Générale,Friday,False,False,False,Spring,False,False,False,3,4,8,27,53,54
+2024-05-03,Chirurgie,Friday,False,False,False,Spring,False,False,False,4,10,14,36,24,44
+2024-05-03,Obstétrique,Friday,False,False,False,Spring,False,False,False,3,1,6,18,22,31
+2024-05-04,Urgences,Saturday,True,False,False,Spring,False,False,False,21,0,21,50,0,41
+2024-05-04,Réanimation,Saturday,True,False,False,Spring,False,False,False,7,2,7,26,4,32
+2024-05-04,Médecine Générale,Saturday,True,False,False,Spring,False,False,False,2,7,9,27,53,52
+2024-05-04,Chirurgie,Saturday,True,False,False,Spring,False,False,False,1,3,12,28,32,44
+2024-05-04,Obstétrique,Saturday,True,False,False,Spring,False,False,False,2,2,6,16,24,28
+2024-05-05,Urgences,Sunday,True,True,False,Spring,False,False,False,21,2,21,50,0,40
+2024-05-05,Réanimation,Sunday,True,True,False,Spring,False,False,False,9,3,7,30,0,38
+2024-05-05,Médecine Générale,Sunday,True,True,False,Spring,False,False,False,6,2,9,26,54,52
+2024-05-05,Chirurgie,Sunday,True,True,False,Spring,False,False,False,3,2,10,23,37,41
+2024-05-05,Obstétrique,Sunday,True,True,False,Spring,False,False,False,0,1,3,14,26,35
+2024-05-06,Urgences,Monday,False,False,False,Spring,False,False,False,18,0,19,49,1,39
+2024-05-06,Réanimation,Monday,False,False,False,Spring,False,False,False,5,0,12,23,7,31
+2024-05-06,Médecine Générale,Monday,False,False,False,Spring,False,False,False,0,5,9,22,58,51
+2024-05-06,Chirurgie,Monday,False,False,False,Spring,False,False,False,7,11,11,30,30,48
+2024-05-06,Obstétrique,Monday,False,False,False,Spring,False,False,False,2,2,3,15,25,34
+2024-05-07,Urgences,Tuesday,False,False,False,Spring,False,False,False,19,0,19,49,1,45
+2024-05-07,Réanimation,Tuesday,False,False,False,Spring,False,False,False,5,0,8,20,10,30
+2024-05-07,Médecine Générale,Tuesday,False,False,False,Spring,False,False,False,7,5,6,28,52,50
+2024-05-07,Chirurgie,Tuesday,False,False,False,Spring,False,False,False,1,12,13,30,30,41
+2024-05-07,Obstétrique,Tuesday,False,False,False,Spring,False,False,False,0,1,5,11,29,33
+2024-05-08,Urgences,Wednesday,False,False,False,Spring,False,False,False,17,4,20,50,0,40
+2024-05-08,Réanimation,Wednesday,False,False,False,Spring,False,False,False,12,5,10,27,3,38
+2024-05-08,Médecine Générale,Wednesday,False,False,False,Spring,False,False,False,3,10,8,33,47,46
+2024-05-08,Chirurgie,Wednesday,False,False,False,Spring,False,False,False,3,7,11,29,31,41
+2024-05-08,Obstétrique,Wednesday,False,False,False,Spring,False,False,False,1,5,6,11,29,29
+2024-05-09,Urgences,Thursday,False,False,False,Spring,False,False,False,19,2,20,50,0,42
+2024-05-09,Réanimation,Thursday,False,False,False,Spring,False,False,False,8,0,7,28,2,35
+2024-05-09,Médecine Générale,Thursday,False,False,False,Spring,False,False,False,6,3,9,33,47,45
+2024-05-09,Chirurgie,Thursday,False,False,False,Spring,False,False,False,0,9,9,29,31,43
+2024-05-09,Obstétrique,Thursday,False,False,False,Spring,False,False,False,1,3,4,11,29,33
+2024-05-10,Urgences,Friday,False,False,False,Spring,False,False,False,21,4,21,50,0,45
+2024-05-10,Réanimation,Friday,False,False,False,Spring,False,False,False,10,0,9,29,1,36
+2024-05-10,Médecine Générale,Friday,False,False,False,Spring,False,False,False,3,4,9,31,49,52
+2024-05-10,Chirurgie,Friday,False,False,False,Spring,False,False,False,1,13,8,35,25,43
+2024-05-10,Obstétrique,Friday,False,False,False,Spring,False,False,False,6,5,4,18,22,34
+2024-05-11,Urgences,Saturday,True,False,False,Spring,False,False,False,18,2,19,50,0,40
+2024-05-11,Réanimation,Saturday,True,False,False,Spring,False,False,False,9,0,9,29,1,40
+2024-05-11,Médecine Générale,Saturday,True,False,False,Spring,False,False,False,3,4,8,30,50,54
+2024-05-11,Chirurgie,Saturday,True,False,False,Spring,False,False,False,0,7,10,32,28,45
+2024-05-11,Obstétrique,Saturday,True,False,False,Spring,False,False,False,2,0,7,13,27,35
+2024-05-12,Urgences,Sunday,True,False,False,Spring,False,False,False,20,1,17,50,0,44
+2024-05-12,Réanimation,Sunday,True,False,False,Spring,False,False,False,7,1,8,29,1,33
+2024-05-12,Médecine Générale,Sunday,True,False,False,Spring,False,False,False,2,4,12,24,56,53
+2024-05-12,Chirurgie,Sunday,True,False,False,Spring,False,False,False,0,7,12,27,33,46
+2024-05-12,Obstétrique,Sunday,True,False,False,Spring,False,False,False,4,0,2,15,25,35
+2024-05-13,Urgences,Monday,False,False,False,Spring,False,False,False,19,3,20,50,0,42
+2024-05-13,Réanimation,Monday,False,False,False,Spring,False,False,False,9,0,7,30,0,39
+2024-05-13,Médecine Générale,Monday,False,False,False,Spring,False,False,False,7,8,12,27,53,52
+2024-05-13,Chirurgie,Monday,False,False,False,Spring,False,False,False,0,8,10,25,35,48
+2024-05-13,Obstétrique,Monday,False,False,False,Spring,False,False,False,2,0,3,14,26,31
+2024-05-14,Urgences,Tuesday,False,False,False,Spring,False,False,False,16,0,17,49,1,36
+2024-05-14,Réanimation,Tuesday,False,False,False,Spring,False,False,False,9,0,10,29,1,34
+2024-05-14,Médecine Générale,Tuesday,False,False,False,Spring,False,False,False,5,3,10,25,55,47
+2024-05-14,Chirurgie,Tuesday,False,False,False,Spring,False,False,False,0,9,8,26,34,48
+2024-05-14,Obstétrique,Tuesday,False,False,False,Spring,False,False,False,3,1,2,16,24,33
+2024-05-15,Urgences,Wednesday,False,False,False,Spring,False,False,False,14,0,14,49,1,42
+2024-05-15,Réanimation,Wednesday,False,False,False,Spring,False,False,False,8,0,7,30,0,40
+2024-05-15,Médecine Générale,Wednesday,False,False,False,Spring,False,False,False,4,9,7,31,49,52
+2024-05-15,Chirurgie,Wednesday,False,False,False,Spring,False,False,False,2,9,8,29,31,47
+2024-05-15,Obstétrique,Wednesday,False,False,False,Spring,False,False,False,3,0,4,15,25,28
+2024-05-16,Urgences,Thursday,False,False,False,Spring,False,False,False,19,1,17,50,0,44
+2024-05-16,Réanimation,Thursday,False,False,False,Spring,False,False,False,9,0,12,27,3,33
+2024-05-16,Médecine Générale,Thursday,False,False,False,Spring,False,False,False,2,5,9,29,51,50
+2024-05-16,Chirurgie,Thursday,False,False,False,Spring,False,False,False,3,9,12,29,31,45
+2024-05-16,Obstétrique,Thursday,False,False,False,Spring,False,False,False,5,2,3,19,21,29
+2024-05-17,Urgences,Friday,False,False,False,Spring,False,False,False,23,1,17,50,0,37
+2024-05-17,Réanimation,Friday,False,False,False,Spring,False,False,False,8,0,8,27,3,34
+2024-05-17,Médecine Générale,Friday,False,False,False,Spring,False,False,False,6,7,9,33,47,48
+2024-05-17,Chirurgie,Friday,False,False,False,Spring,False,False,False,1,10,10,30,30,50
+2024-05-17,Obstétrique,Friday,False,False,False,Spring,False,False,False,1,4,4,20,20,35
+2024-05-18,Urgences,Saturday,True,False,False,Spring,False,False,False,18,0,18,50,0,41
+2024-05-18,Réanimation,Saturday,True,False,False,Spring,False,False,False,9,0,7,29,1,37
+2024-05-18,Médecine Générale,Saturday,True,False,False,Spring,False,False,False,4,0,9,28,52,46
+2024-05-18,Chirurgie,Saturday,True,False,False,Spring,False,False,False,2,4,11,25,35,41
+2024-05-18,Obstétrique,Saturday,True,False,False,Spring,False,False,False,1,1,6,16,24,28
+2024-05-19,Urgences,Sunday,True,False,False,Spring,False,False,False,18,0,19,49,1,40
+2024-05-19,Réanimation,Sunday,True,False,False,Spring,False,False,False,10,0,8,30,0,35
+2024-05-19,Médecine Générale,Sunday,True,False,False,Spring,False,False,False,2,0,6,24,56,46
+2024-05-19,Chirurgie,Sunday,True,False,False,Spring,False,False,False,3,5,9,24,36,41
+2024-05-19,Obstétrique,Sunday,True,False,False,Spring,False,False,False,5,0,4,17,23,25
+2024-05-20,Urgences,Monday,False,True,False,Spring,False,False,False,18,5,18,50,0,45
+2024-05-20,Réanimation,Monday,False,True,False,Spring,False,False,False,7,0,10,27,3,31
+2024-05-20,Médecine Générale,Monday,False,True,False,Spring,False,False,False,5,5,10,24,56,55
+2024-05-20,Chirurgie,Monday,False,True,False,Spring,False,False,False,0,12,8,28,32,50
+2024-05-20,Obstétrique,Monday,False,True,False,Spring,False,False,False,1,0,3,15,25,31
+2024-05-21,Urgences,Tuesday,False,False,False,Spring,False,False,False,18,2,18,50,0,38
+2024-05-21,Réanimation,Tuesday,False,False,False,Spring,False,False,False,7,0,9,25,5,38
+2024-05-21,Médecine Générale,Tuesday,False,False,False,Spring,False,False,False,7,5,8,28,52,46
+2024-05-21,Chirurgie,Tuesday,False,False,False,Spring,False,False,False,3,10,8,33,27,47
+2024-05-21,Obstétrique,Tuesday,False,False,False,Spring,False,False,False,1,6,4,18,22,26
+2024-05-22,Urgences,Wednesday,False,False,False,Spring,False,False,False,20,0,18,50,0,41
+2024-05-22,Réanimation,Wednesday,False,False,False,Spring,False,False,False,9,0,10,24,6,40
+2024-05-22,Médecine Générale,Wednesday,False,False,False,Spring,False,False,False,7,6,11,30,50,54
+2024-05-22,Chirurgie,Wednesday,False,False,False,Spring,False,False,False,1,7,9,32,28,45
+2024-05-22,Obstétrique,Wednesday,False,False,False,Spring,False,False,False,1,1,4,16,24,31
+2024-05-23,Urgences,Thursday,False,False,False,Spring,False,False,False,20,1,17,50,0,36
+2024-05-23,Réanimation,Thursday,False,False,False,Spring,False,False,False,7,0,9,22,8,39
+2024-05-23,Médecine Générale,Thursday,False,False,False,Spring,False,False,False,5,4,8,31,49,50
+2024-05-23,Chirurgie,Thursday,False,False,False,Spring,False,False,False,0,9,12,29,31,43
+2024-05-23,Obstétrique,Thursday,False,False,False,Spring,False,False,False,3,0,4,15,25,29
+2024-05-24,Urgences,Friday,False,False,False,Spring,False,False,False,17,1,19,49,1,38
+2024-05-24,Réanimation,Friday,False,False,False,Spring,False,False,False,5,0,6,21,9,34
+2024-05-24,Médecine Générale,Friday,False,False,False,Spring,False,False,False,3,6,12,28,52,52
+2024-05-24,Chirurgie,Friday,False,False,False,Spring,False,False,False,0,9,9,29,31,41
+2024-05-24,Obstétrique,Friday,False,False,False,Spring,False,False,False,5,5,8,17,23,30
+2024-05-25,Urgences,Saturday,True,False,False,Spring,False,False,False,17,3,19,50,0,41
+2024-05-25,Réanimation,Saturday,True,False,False,Spring,False,False,False,8,0,7,22,8,31
+2024-05-25,Médecine Générale,Saturday,True,False,False,Spring,False,False,False,5,3,10,26,54,48
+2024-05-25,Chirurgie,Saturday,True,False,False,Spring,False,False,False,1,9,11,28,32,48
+2024-05-25,Obstétrique,Saturday,True,False,False,Spring,False,False,False,2,0,7,12,28,31
+2024-05-26,Urgences,Sunday,True,False,False,Spring,False,False,False,18,0,18,50,0,43
+2024-05-26,Réanimation,Sunday,True,False,False,Spring,False,False,False,6,0,6,22,8,31
+2024-05-26,Médecine Générale,Sunday,True,False,False,Spring,False,False,False,3,5,6,28,52,53
+2024-05-26,Chirurgie,Sunday,True,False,False,Spring,False,False,False,0,2,7,23,37,44
+2024-05-26,Obstétrique,Sunday,True,False,False,Spring,False,False,False,3,5,2,18,22,25
+2024-05-27,Urgences,Monday,False,False,False,Spring,False,False,False,19,1,18,50,0,42
+2024-05-27,Réanimation,Monday,False,False,False,Spring,False,False,False,9,0,5,26,4,31
+2024-05-27,Médecine Générale,Monday,False,False,False,Spring,False,False,False,3,6,11,26,54,47
+2024-05-27,Chirurgie,Monday,False,False,False,Spring,False,False,False,2,10,8,27,33,44
+2024-05-27,Obstétrique,Monday,False,False,False,Spring,False,False,False,3,2,7,16,24,26
+2024-05-28,Urgences,Tuesday,False,False,False,Spring,False,False,False,18,1,20,49,1,39
+2024-05-28,Réanimation,Tuesday,False,False,False,Spring,False,False,False,9,1,9,27,3,40
+2024-05-28,Médecine Générale,Tuesday,False,False,False,Spring,False,False,False,2,6,8,26,54,45
+2024-05-28,Chirurgie,Tuesday,False,False,False,Spring,False,False,False,1,10,12,26,34,42
+2024-05-28,Obstétrique,Tuesday,False,False,False,Spring,False,False,False,2,1,6,13,27,35
+2024-05-29,Urgences,Wednesday,False,False,False,Spring,False,False,False,23,3,18,50,0,35
+2024-05-29,Réanimation,Wednesday,False,False,False,Spring,False,False,False,6,0,8,25,5,30
+2024-05-29,Médecine Générale,Wednesday,False,False,False,Spring,False,False,False,8,4,11,27,53,47
+2024-05-29,Chirurgie,Wednesday,False,False,False,Spring,False,False,False,0,10,10,26,34,50
+2024-05-29,Obstétrique,Wednesday,False,False,False,Spring,False,False,False,2,3,4,14,26,30
+2024-05-30,Urgences,Thursday,False,False,False,Spring,False,False,False,15,1,17,49,1,36
+2024-05-30,Réanimation,Thursday,False,False,False,Spring,False,False,False,9,0,9,25,5,33
+2024-05-30,Médecine Générale,Thursday,False,False,False,Spring,False,False,False,7,3,10,27,53,46
+2024-05-30,Chirurgie,Thursday,False,False,False,Spring,False,False,False,3,11,9,31,29,45
+2024-05-30,Obstétrique,Thursday,False,False,False,Spring,False,False,False,2,6,7,15,25,28
+2024-05-31,Urgences,Friday,False,False,False,Spring,False,False,False,17,2,18,50,0,38
+2024-05-31,Réanimation,Friday,False,False,False,Spring,False,False,False,7,0,7,25,5,33
+2024-05-31,Médecine Générale,Friday,False,False,False,Spring,False,False,False,7,6,9,31,49,47
+2024-05-31,Chirurgie,Friday,False,False,False,Spring,False,False,False,0,13,9,35,25,48
+2024-05-31,Obstétrique,Friday,False,False,False,Spring,False,False,False,5,3,5,18,22,30
+2024-06-01,Urgences,Saturday,True,False,False,Summer,False,True,False,30,0,19,50,0,43
+2024-06-01,Réanimation,Saturday,True,False,False,Summer,False,True,False,7,0,7,25,5,32
+2024-06-01,Médecine Générale,Saturday,True,False,False,Summer,False,True,False,3,5,11,28,52,53
+2024-06-01,Chirurgie,Saturday,True,False,False,Summer,False,True,False,0,4,11,28,32,41
+2024-06-01,Obstétrique,Saturday,True,False,False,Summer,False,True,False,2,0,4,16,24,26
+2024-06-02,Urgences,Sunday,True,False,False,Summer,False,False,False,22,0,20,50,0,39
+2024-06-02,Réanimation,Sunday,True,False,False,Summer,False,False,False,7,1,6,27,3,35
+2024-06-02,Médecine Générale,Sunday,True,False,False,Summer,False,False,False,7,5,8,32,48,48
+2024-06-02,Chirurgie,Sunday,True,False,False,Summer,False,False,False,3,7,10,28,32,42
+2024-06-02,Obstétrique,Sunday,True,False,False,Summer,False,False,False,4,2,4,18,22,31
+2024-06-03,Urgences,Monday,False,False,False,Summer,False,False,False,19,3,18,50,0,42
+2024-06-03,Réanimation,Monday,False,False,False,Summer,False,False,False,6,2,11,24,6,40
+2024-06-03,Médecine Générale,Monday,False,False,False,Summer,False,False,False,5,9,10,36,44,45
+2024-06-03,Chirurgie,Monday,False,False,False,Summer,False,False,False,0,4,9,23,37,41
+2024-06-03,Obstétrique,Monday,False,False,False,Summer,False,False,False,4,3,5,20,20,33
+2024-06-04,Urgences,Tuesday,False,False,False,Summer,False,True,False,29,0,22,50,0,41
+2024-06-04,Réanimation,Tuesday,False,False,False,Summer,False,True,False,8,0,7,25,5,33
+2024-06-04,Médecine Générale,Tuesday,False,False,False,Summer,False,True,False,10,6,12,40,40,46
+2024-06-04,Chirurgie,Tuesday,False,False,False,Summer,False,True,False,2,11,6,30,30,42
+2024-06-04,Obstétrique,Tuesday,False,False,False,Summer,False,True,False,0,0,4,16,24,34
+2024-06-05,Urgences,Wednesday,False,False,False,Summer,False,True,False,28,4,20,50,0,36
+2024-06-05,Réanimation,Wednesday,False,False,False,Summer,False,True,False,11,0,9,27,3,31
+2024-06-05,Médecine Générale,Wednesday,False,False,False,Summer,False,True,False,9,6,14,41,39,46
+2024-06-05,Chirurgie,Wednesday,False,False,False,Summer,False,True,False,0,11,12,29,31,49
+2024-06-05,Obstétrique,Wednesday,False,False,False,Summer,False,True,False,1,4,5,16,24,25
+2024-06-06,Urgences,Thursday,False,False,False,Summer,False,False,False,19,4,18,50,0,37
+2024-06-06,Réanimation,Thursday,False,False,False,Summer,False,False,False,5,0,9,23,7,30
+2024-06-06,Médecine Générale,Thursday,False,False,False,Summer,False,False,False,2,7,11,39,41,52
+2024-06-06,Chirurgie,Thursday,False,False,False,Summer,False,False,False,1,11,9,32,28,41
+2024-06-06,Obstétrique,Thursday,False,False,False,Summer,False,False,False,4,1,7,14,26,35
+2024-06-07,Urgences,Friday,False,False,False,Summer,False,False,False,20,0,21,49,1,41
+2024-06-07,Réanimation,Friday,False,False,False,Summer,False,False,False,6,2,7,24,6,37
+2024-06-07,Médecine Générale,Friday,False,False,False,Summer,False,False,False,4,6,15,34,46,51
+2024-06-07,Chirurgie,Friday,False,False,False,Summer,False,False,False,5,10,12,35,25,43
+2024-06-07,Obstétrique,Friday,False,False,False,Summer,False,False,False,3,0,4,13,27,25
+2024-06-08,Urgences,Saturday,True,False,False,Summer,False,False,False,20,0,17,50,0,38
+2024-06-08,Réanimation,Saturday,True,False,False,Summer,False,False,False,4,0,5,23,7,34
+2024-06-08,Médecine Générale,Saturday,True,False,False,Summer,False,False,False,0,0,11,23,57,48
+2024-06-08,Chirurgie,Saturday,True,False,False,Summer,False,False,False,7,3,11,34,26,45
+2024-06-08,Obstétrique,Saturday,True,False,False,Summer,False,False,False,3,2,4,14,26,27
+2024-06-09,Urgences,Sunday,True,False,False,Summer,False,False,False,19,0,20,49,1,35
+2024-06-09,Réanimation,Sunday,True,False,False,Summer,False,False,False,11,3,9,28,2,39
+2024-06-09,Médecine Générale,Sunday,True,False,False,Summer,False,False,False,4,5,5,27,53,53
+2024-06-09,Chirurgie,Sunday,True,False,False,Summer,False,False,False,2,7,13,30,30,40
+2024-06-09,Obstétrique,Sunday,True,False,False,Summer,False,False,False,7,1,4,18,22,32
+2024-06-10,Urgences,Monday,False,False,False,Summer,False,False,False,19,0,17,50,0,40
+2024-06-10,Réanimation,Monday,False,False,False,Summer,False,False,False,10,0,9,29,1,30
+2024-06-10,Médecine Générale,Monday,False,False,False,Summer,False,False,False,7,2,7,29,51,46
+2024-06-10,Chirurgie,Monday,False,False,False,Summer,False,False,False,1,7,12,26,34,45
+2024-06-10,Obstétrique,Monday,False,False,False,Summer,False,False,False,2,4,5,19,21,26
+2024-06-11,Urgences,Tuesday,False,False,False,Summer,False,False,False,21,0,19,50,0,41
+2024-06-11,Réanimation,Tuesday,False,False,False,Summer,False,False,False,7,0,11,25,5,32
+2024-06-11,Médecine Générale,Tuesday,False,False,False,Summer,False,False,False,5,8,9,33,47,50
+2024-06-11,Chirurgie,Tuesday,False,False,False,Summer,False,False,False,0,12,8,30,30,46
+2024-06-11,Obstétrique,Tuesday,False,False,False,Summer,False,False,False,2,0,7,14,26,27
+2024-06-12,Urgences,Wednesday,False,False,False,Summer,False,False,False,22,2,21,50,0,44
+2024-06-12,Réanimation,Wednesday,False,False,False,Summer,False,False,False,7,0,9,23,7,33
+2024-06-12,Médecine Générale,Wednesday,False,False,False,Summer,False,False,False,4,6,11,32,48,47
+2024-06-12,Chirurgie,Wednesday,False,False,False,Summer,False,False,False,4,13,10,37,23,45
+2024-06-12,Obstétrique,Wednesday,False,False,False,Summer,False,False,False,0,0,5,9,31,35
+2024-06-13,Urgences,Thursday,False,False,False,Summer,False,True,False,28,2,21,50,0,38
+2024-06-13,Réanimation,Thursday,False,False,False,Summer,False,True,False,7,0,8,22,8,31
+2024-06-13,Médecine Générale,Thursday,False,False,False,Summer,False,True,False,11,5,13,35,45,51
+2024-06-13,Chirurgie,Thursday,False,False,False,Summer,False,True,False,0,11,14,34,26,46
+2024-06-13,Obstétrique,Thursday,False,False,False,Summer,False,True,False,1,0,1,9,31,34
+2024-06-14,Urgences,Friday,False,False,False,Summer,False,False,False,19,3,17,50,0,35
+2024-06-14,Réanimation,Friday,False,False,False,Summer,False,False,False,5,3,6,24,6,31
+2024-06-14,Médecine Générale,Friday,False,False,False,Summer,False,False,False,0,4,8,31,49,46
+2024-06-14,Chirurgie,Friday,False,False,False,Summer,False,False,False,0,8,12,30,30,45
+2024-06-14,Obstétrique,Friday,False,False,False,Summer,False,False,False,0,4,4,9,31,25
+2024-06-15,Urgences,Saturday,True,False,False,Summer,False,False,False,21,1,18,50,0,37
+2024-06-15,Réanimation,Saturday,True,False,False,Summer,False,False,False,6,0,10,20,10,36
+2024-06-15,Médecine Générale,Saturday,True,False,False,Summer,False,False,False,4,1,8,28,52,49
+2024-06-15,Chirurgie,Saturday,True,False,False,Summer,False,False,False,0,7,11,26,34,40
+2024-06-15,Obstétrique,Saturday,True,False,False,Summer,False,False,False,3,1,0,13,27,27
+2024-06-16,Urgences,Sunday,True,False,False,Summer,False,False,False,18,0,16,50,0,45
+2024-06-16,Réanimation,Sunday,True,False,False,Summer,False,False,False,8,2,6,24,6,30
+2024-06-16,Médecine Générale,Sunday,True,False,False,Summer,False,False,False,5,1,10,24,56,52
+2024-06-16,Chirurgie,Sunday,True,False,False,Summer,False,False,False,0,6,6,26,34,47
+2024-06-16,Obstétrique,Sunday,True,False,False,Summer,False,False,False,1,0,4,10,30,35
+2024-06-17,Urgences,Monday,False,False,False,Summer,False,False,False,22,2,19,50,0,42
+2024-06-17,Réanimation,Monday,False,False,False,Summer,False,False,False,9,0,7,26,4,33
+2024-06-17,Médecine Générale,Monday,False,False,False,Summer,False,False,False,7,7,11,27,53,55
+2024-06-17,Chirurgie,Monday,False,False,False,Summer,False,False,False,4,9,11,28,32,46
+2024-06-17,Obstétrique,Monday,False,False,False,Summer,False,False,False,4,0,4,10,30,25
+2024-06-18,Urgences,Tuesday,False,False,False,Summer,False,False,False,21,0,18,50,0,45
+2024-06-18,Réanimation,Tuesday,False,False,False,Summer,False,False,False,7,1,6,28,2,37
+2024-06-18,Médecine Générale,Tuesday,False,False,False,Summer,False,False,False,2,4,11,22,58,53
+2024-06-18,Chirurgie,Tuesday,False,False,False,Summer,False,False,False,3,9,11,29,31,50
+2024-06-18,Obstétrique,Tuesday,False,False,False,Summer,False,False,False,4,2,3,13,27,27
+2024-06-19,Urgences,Wednesday,False,False,False,Summer,False,False,False,20,2,20,50,0,37
+2024-06-19,Réanimation,Wednesday,False,False,False,Summer,False,False,False,10,0,12,26,4,33
+2024-06-19,Médecine Générale,Wednesday,False,False,False,Summer,False,False,False,3,8,6,27,53,49
+2024-06-19,Chirurgie,Wednesday,False,False,False,Summer,False,False,False,0,11,10,30,30,41
+2024-06-19,Obstétrique,Wednesday,False,False,False,Summer,False,False,False,0,2,1,14,26,29
+2024-06-20,Urgences,Thursday,False,False,False,Summer,False,False,False,17,0,16,50,0,44
+2024-06-20,Réanimation,Thursday,False,False,False,Summer,False,False,False,9,2,11,26,4,36
+2024-06-20,Médecine Générale,Thursday,False,False,False,Summer,False,False,False,7,4,8,30,50,46
+2024-06-20,Chirurgie,Thursday,False,False,False,Summer,False,False,False,4,6,12,28,32,44
+2024-06-20,Obstétrique,Thursday,False,False,False,Summer,False,False,False,1,4,7,12,28,29
+2024-06-21,Urgences,Friday,False,False,False,Summer,False,False,False,19,3,21,50,0,37
+2024-06-21,Réanimation,Friday,False,False,False,Summer,False,False,False,7,0,8,25,5,40
+2024-06-21,Médecine Générale,Friday,False,False,False,Summer,False,False,False,7,6,11,32,48,48
+2024-06-21,Chirurgie,Friday,False,False,False,Summer,False,False,False,5,10,11,32,28,45
+2024-06-21,Obstétrique,Friday,False,False,False,Summer,False,False,False,2,5,2,17,23,29
+2024-06-22,Urgences,Saturday,True,False,False,Summer,False,False,False,23,5,21,50,0,38
+2024-06-22,Réanimation,Saturday,True,False,False,Summer,False,False,False,7,2,6,28,2,35
+2024-06-22,Médecine Générale,Saturday,True,False,False,Summer,False,False,False,0,4,10,26,54,48
+2024-06-22,Chirurgie,Saturday,True,False,False,Summer,False,False,False,2,1,7,28,32,47
+2024-06-22,Obstétrique,Saturday,True,False,False,Summer,False,False,False,3,0,7,13,27,33
+2024-06-23,Urgences,Sunday,True,False,False,Summer,False,False,False,20,0,18,50,0,43
+2024-06-23,Réanimation,Sunday,True,False,False,Summer,False,False,False,8,0,10,26,4,33
+2024-06-23,Médecine Générale,Sunday,True,False,False,Summer,False,False,False,7,1,8,26,54,45
+2024-06-23,Chirurgie,Sunday,True,False,False,Summer,False,False,False,3,3,7,27,33,45
+2024-06-23,Obstétrique,Sunday,True,False,False,Summer,False,False,False,4,1,6,12,28,35
+2024-06-24,Urgences,Monday,False,False,False,Summer,False,False,False,18,1,17,50,0,42
+2024-06-24,Réanimation,Monday,False,False,False,Summer,False,False,False,7,0,8,25,5,34
+2024-06-24,Médecine Générale,Monday,False,False,False,Summer,False,False,False,4,6,11,25,55,45
+2024-06-24,Chirurgie,Monday,False,False,False,Summer,False,False,False,3,7,9,28,32,43
+2024-06-24,Obstétrique,Monday,False,False,False,Summer,False,False,False,1,1,1,13,27,29
+2024-06-25,Urgences,Tuesday,False,False,False,Summer,False,False,False,18,0,16,50,0,37
+2024-06-25,Réanimation,Tuesday,False,False,False,Summer,False,False,False,7,3,9,26,4,33
+2024-06-25,Médecine Générale,Tuesday,False,False,False,Summer,False,False,False,4,10,9,30,50,55
+2024-06-25,Chirurgie,Tuesday,False,False,False,Summer,False,False,False,1,12,12,29,31,47
+2024-06-25,Obstétrique,Tuesday,False,False,False,Summer,False,False,False,2,3,6,12,28,34
+2024-06-26,Urgences,Wednesday,False,False,False,Summer,False,False,False,17,0,18,49,1,40
+2024-06-26,Réanimation,Wednesday,False,False,False,Summer,False,False,False,7,0,8,25,5,34
+2024-06-26,Médecine Générale,Wednesday,False,False,False,Summer,False,False,False,2,2,9,25,55,49
+2024-06-26,Chirurgie,Wednesday,False,False,False,Summer,False,False,False,0,5,9,25,35,50
+2024-06-26,Obstétrique,Wednesday,False,False,False,Summer,False,False,False,5,5,3,19,21,28
+2024-06-27,Urgences,Thursday,False,False,False,Summer,False,False,False,18,2,17,50,0,44
+2024-06-27,Réanimation,Thursday,False,False,False,Summer,False,False,False,4,0,7,22,8,30
+2024-06-27,Médecine Générale,Thursday,False,False,False,Summer,False,False,False,2,7,10,24,56,51
+2024-06-27,Chirurgie,Thursday,False,False,False,Summer,False,False,False,2,8,8,27,33,49
+2024-06-27,Obstétrique,Thursday,False,False,False,Summer,False,False,False,0,2,5,16,24,35
+2024-06-28,Urgences,Friday,False,False,False,Summer,False,False,False,22,0,18,50,0,37
+2024-06-28,Réanimation,Friday,False,False,False,Summer,False,False,False,8,0,7,23,7,34
+2024-06-28,Médecine Générale,Friday,False,False,False,Summer,False,False,False,5,4,8,25,55,53
+2024-06-28,Chirurgie,Friday,False,False,False,Summer,False,False,False,3,10,10,30,30,50
+2024-06-28,Obstétrique,Friday,False,False,False,Summer,False,False,False,3,1,4,16,24,31
+2024-06-29,Urgences,Saturday,True,False,False,Summer,False,False,False,21,0,21,50,0,42
+2024-06-29,Réanimation,Saturday,True,False,False,Summer,False,False,False,8,0,6,25,5,39
+2024-06-29,Médecine Générale,Saturday,True,False,False,Summer,False,False,False,7,5,11,26,54,53
+2024-06-29,Chirurgie,Saturday,True,False,False,Summer,False,False,False,0,8,9,29,31,44
+2024-06-29,Obstétrique,Saturday,True,False,False,Summer,False,False,False,4,0,6,14,26,27
+2024-06-30,Urgences,Sunday,True,False,False,Summer,False,False,False,22,4,19,50,0,42
+2024-06-30,Réanimation,Sunday,True,False,False,Summer,False,False,False,5,0,7,23,7,31
+2024-06-30,Médecine Générale,Sunday,True,False,False,Summer,False,False,False,4,2,8,24,56,50
+2024-06-30,Chirurgie,Sunday,True,False,False,Summer,False,False,False,2,4,8,27,33,43
+2024-06-30,Obstétrique,Sunday,True,False,False,Summer,False,False,False,3,0,3,14,26,32
+2024-07-01,Urgences,Monday,False,False,False,Summer,False,False,False,18,2,20,50,0,45
+2024-07-01,Réanimation,Monday,False,False,False,Summer,False,False,False,10,0,8,25,5,36
+2024-07-01,Médecine Générale,Monday,False,False,False,Summer,False,False,False,7,3,11,23,57,45
+2024-07-01,Chirurgie,Monday,False,False,False,Summer,False,False,False,2,10,9,30,30,43
+2024-07-01,Obstétrique,Monday,False,False,False,Summer,False,False,False,2,1,3,14,26,28
+2024-07-02,Urgences,Tuesday,False,False,False,Summer,False,True,False,26,1,18,50,0,43
+2024-07-02,Réanimation,Tuesday,False,False,False,Summer,False,True,False,10,0,11,24,6,34
+2024-07-02,Médecine Générale,Tuesday,False,False,False,Summer,False,True,False,4,5,6,26,54,54
+2024-07-02,Chirurgie,Tuesday,False,False,False,Summer,False,True,False,4,9,10,33,27,45
+2024-07-02,Obstétrique,Tuesday,False,False,False,Summer,False,True,False,7,1,6,16,24,27
+2024-07-03,Urgences,Wednesday,False,False,False,Summer,False,True,False,27,0,18,50,0,38
+2024-07-03,Réanimation,Wednesday,False,False,False,Summer,False,True,False,6,0,6,24,6,39
+2024-07-03,Médecine Générale,Wednesday,False,False,False,Summer,False,True,False,8,4,11,27,53,51
+2024-07-03,Chirurgie,Wednesday,False,False,False,Summer,False,True,False,8,11,10,42,18,49
+2024-07-03,Obstétrique,Wednesday,False,False,False,Summer,False,True,False,3,2,3,18,22,35
+2024-07-04,Urgences,Thursday,False,False,False,Summer,False,False,False,21,3,18,50,0,41
+2024-07-04,Réanimation,Thursday,False,False,False,Summer,False,False,False,7,0,8,23,7,33
+2024-07-04,Médecine Générale,Thursday,False,False,False,Summer,False,False,False,3,3,9,24,56,51
+2024-07-04,Chirurgie,Thursday,False,False,False,Summer,False,False,False,1,9,12,40,20,49
+2024-07-04,Obstétrique,Thursday,False,False,False,Summer,False,False,False,2,2,3,19,21,33
+2024-07-05,Urgences,Friday,False,False,False,Summer,False,False,False,20,3,19,50,0,42
+2024-07-05,Réanimation,Friday,False,False,False,Summer,False,False,False,9,0,8,24,6,38
+2024-07-05,Médecine Générale,Friday,False,False,False,Summer,False,False,False,6,8,8,30,50,49
+2024-07-05,Chirurgie,Friday,False,False,False,Summer,False,False,False,1,10,12,39,21,47
+2024-07-05,Obstétrique,Friday,False,False,False,Summer,False,False,False,4,0,4,19,21,26
+2024-07-06,Urgences,Saturday,True,False,False,Summer,False,False,False,22,2,19,50,0,43
+2024-07-06,Réanimation,Saturday,True,False,False,Summer,False,False,False,8,5,9,28,2,40
+2024-07-06,Médecine Générale,Saturday,True,False,False,Summer,False,False,False,4,3,9,28,52,49
+2024-07-06,Chirurgie,Saturday,True,False,False,Summer,False,False,False,3,4,12,34,26,40
+2024-07-06,Obstétrique,Saturday,True,False,False,Summer,False,False,False,2,0,3,18,22,31
+2024-07-07,Urgences,Sunday,True,False,False,Summer,False,True,False,27,0,20,50,0,37
+2024-07-07,Réanimation,Sunday,True,False,False,Summer,False,True,False,9,0,7,30,0,37
+2024-07-07,Médecine Générale,Sunday,True,False,False,Summer,False,True,False,7,1,10,26,54,50
+2024-07-07,Chirurgie,Sunday,True,False,False,Summer,False,True,False,3,5,12,30,30,46
+2024-07-07,Obstétrique,Sunday,True,False,False,Summer,False,True,False,3,0,4,17,23,32
+2024-07-08,Urgences,Monday,False,False,False,Summer,False,True,False,31,1,19,50,0,35
+2024-07-08,Réanimation,Monday,False,False,False,Summer,False,True,False,9,0,12,27,3,36
+2024-07-08,Médecine Générale,Monday,False,False,False,Summer,False,True,False,4,7,9,28,52,55
+2024-07-08,Chirurgie,Monday,False,False,False,Summer,False,True,False,4,10,10,34,26,49
+2024-07-08,Obstétrique,Monday,False,False,False,Summer,False,True,False,3,2,7,15,25,32
+2024-07-09,Urgences,Tuesday,False,False,False,Summer,False,False,False,19,3,21,50,0,36
+2024-07-09,Réanimation,Tuesday,False,False,False,Summer,False,False,False,7,0,9,25,5,39
+2024-07-09,Médecine Générale,Tuesday,False,False,False,Summer,False,False,False,1,5,7,27,53,53
+2024-07-09,Chirurgie,Tuesday,False,False,False,Summer,False,False,False,1,8,11,32,28,46
+2024-07-09,Obstétrique,Tuesday,False,False,False,Summer,False,False,False,2,1,6,12,28,35
+2024-07-10,Urgences,Wednesday,False,False,False,Summer,False,False,False,22,2,18,50,0,44
+2024-07-10,Réanimation,Wednesday,False,False,False,Summer,False,False,False,10,0,8,27,3,38
+2024-07-10,Médecine Générale,Wednesday,False,False,False,Summer,False,False,False,5,4,9,27,53,46
+2024-07-10,Chirurgie,Wednesday,False,False,False,Summer,False,False,False,3,10,12,33,27,44
+2024-07-10,Obstétrique,Wednesday,False,False,False,Summer,False,False,False,3,2,5,12,28,31
+2024-07-11,Urgences,Thursday,False,False,False,Summer,False,False,False,21,3,19,50,0,42
+2024-07-11,Réanimation,Thursday,False,False,False,Summer,False,False,False,11,0,8,30,0,31
+2024-07-11,Médecine Générale,Thursday,False,False,False,Summer,False,False,False,4,6,12,25,55,46
+2024-07-11,Chirurgie,Thursday,False,False,False,Summer,False,False,False,3,6,12,30,30,40
+2024-07-11,Obstétrique,Thursday,False,False,False,Summer,False,False,False,2,5,3,16,24,35
+2024-07-12,Urgences,Friday,False,False,False,Summer,False,False,False,21,1,17,50,0,42
+2024-07-12,Réanimation,Friday,False,False,False,Summer,False,False,False,9,0,12,27,3,33
+2024-07-12,Médecine Générale,Friday,False,False,False,Summer,False,False,False,2,6,9,24,56,54
+2024-07-12,Chirurgie,Friday,False,False,False,Summer,False,False,False,4,11,10,35,25,41
+2024-07-12,Obstétrique,Friday,False,False,False,Summer,False,False,False,1,5,5,17,23,30
+2024-07-13,Urgences,Saturday,True,False,False,Summer,False,False,False,19,0,17,50,0,40
+2024-07-13,Réanimation,Saturday,True,False,False,Summer,False,False,False,10,2,11,28,2,37
+2024-07-13,Médecine Générale,Saturday,True,False,False,Summer,False,False,False,4,4,6,26,54,46
+2024-07-13,Chirurgie,Saturday,True,False,False,Summer,False,False,False,2,9,11,35,25,46
+2024-07-13,Obstétrique,Saturday,True,False,False,Summer,False,False,False,4,2,8,15,25,30
+2024-07-14,Urgences,Sunday,True,False,False,Summer,False,True,False,25,1,22,50,0,42
+2024-07-14,Réanimation,Sunday,True,False,False,Summer,False,True,False,8,0,7,29,1,32
+2024-07-14,Médecine Générale,Sunday,True,False,False,Summer,False,True,False,10,1,10,27,53,53
+2024-07-14,Chirurgie,Sunday,True,False,False,Summer,False,True,False,2,1,12,26,34,48
+2024-07-14,Obstétrique,Sunday,True,False,False,Summer,False,True,False,2,0,5,12,28,27
+2024-07-15,Urgences,Monday,False,False,False,Summer,False,False,False,21,0,20,50,0,44
+2024-07-15,Réanimation,Monday,False,False,False,Summer,False,False,False,12,0,9,30,0,36
+2024-07-15,Médecine Générale,Monday,False,False,False,Summer,False,False,False,3,7,10,27,53,49
+2024-07-15,Chirurgie,Monday,False,False,False,Summer,False,False,False,2,8,11,25,35,47
+2024-07-15,Obstétrique,Monday,False,False,False,Summer,False,False,False,2,5,4,15,25,33
+2024-07-16,Urgences,Tuesday,False,False,False,Summer,False,False,False,19,1,21,49,1,43
+2024-07-16,Réanimation,Tuesday,False,False,False,Summer,False,False,False,6,0,9,27,3,34
+2024-07-16,Médecine Générale,Tuesday,False,False,False,Summer,False,False,False,6,5,12,26,54,55
+2024-07-16,Chirurgie,Tuesday,False,False,False,Summer,False,False,False,1,10,9,27,33,50
+2024-07-16,Obstétrique,Tuesday,False,False,False,Summer,False,False,False,0,3,5,13,27,33
+2024-07-17,Urgences,Wednesday,False,False,False,Summer,False,False,False,19,5,16,50,0,43
+2024-07-17,Réanimation,Wednesday,False,False,False,Summer,False,False,False,9,1,8,29,1,38
+2024-07-17,Médecine Générale,Wednesday,False,False,False,Summer,False,False,False,6,6,8,30,50,55
+2024-07-17,Chirurgie,Wednesday,False,False,False,Summer,False,False,False,1,8,7,29,31,44
+2024-07-17,Obstétrique,Wednesday,False,False,False,Summer,False,False,False,3,5,4,17,23,29
+2024-07-18,Urgences,Thursday,False,False,False,Summer,False,False,False,17,0,20,47,3,36
+2024-07-18,Réanimation,Thursday,False,False,False,Summer,False,False,False,7,0,8,28,2,33
+2024-07-18,Médecine Générale,Thursday,False,False,False,Summer,False,False,False,5,2,10,27,53,53
+2024-07-18,Chirurgie,Thursday,False,False,False,Summer,False,False,False,3,10,11,31,29,50
+2024-07-18,Obstétrique,Thursday,False,False,False,Summer,False,False,False,2,5,4,20,20,35
+2024-07-19,Urgences,Friday,False,False,False,Summer,False,False,False,17,0,18,46,4,38
+2024-07-19,Réanimation,Friday,False,False,False,Summer,False,False,False,10,0,10,28,2,33
+2024-07-19,Médecine Générale,Friday,False,False,False,Summer,False,False,False,2,5,8,26,54,54
+2024-07-19,Chirurgie,Friday,False,False,False,Summer,False,False,False,0,11,9,33,27,44
+2024-07-19,Obstétrique,Friday,False,False,False,Summer,False,False,False,6,2,5,23,17,27
+2024-07-20,Urgences,Saturday,True,False,False,Summer,False,False,False,19,2,16,50,0,41
+2024-07-20,Réanimation,Saturday,True,False,False,Summer,False,False,False,8,0,10,26,4,39
+2024-07-20,Médecine Générale,Saturday,True,False,False,Summer,False,False,False,9,4,11,28,52,47
+2024-07-20,Chirurgie,Saturday,True,False,False,Summer,False,False,False,2,3,10,28,32,40
+2024-07-20,Obstétrique,Saturday,True,False,False,Summer,False,False,False,3,0,4,22,18,32
+2024-07-21,Urgences,Sunday,True,False,False,Summer,False,False,False,15,0,20,45,5,40
+2024-07-21,Réanimation,Sunday,True,False,False,Summer,False,False,False,8,0,10,24,6,31
+2024-07-21,Médecine Générale,Sunday,True,False,False,Summer,False,False,False,3,4,8,27,53,53
+2024-07-21,Chirurgie,Sunday,True,False,False,Summer,False,False,False,1,7,8,28,32,50
+2024-07-21,Obstétrique,Sunday,True,False,False,Summer,False,False,False,0,0,4,18,22,34
+2024-07-22,Urgences,Monday,False,False,False,Summer,False,True,False,23,3,20,50,0,40
+2024-07-22,Réanimation,Monday,False,False,False,Summer,False,True,False,8,0,8,24,6,39
+2024-07-22,Médecine Générale,Monday,False,False,False,Summer,False,True,False,11,3,11,30,50,51
+2024-07-22,Chirurgie,Monday,False,False,False,Summer,False,True,False,0,9,11,26,34,44
+2024-07-22,Obstétrique,Monday,False,False,False,Summer,False,True,False,0,2,6,14,26,30
+2024-07-23,Urgences,Tuesday,False,False,False,Summer,False,True,False,28,4,19,50,0,45
+2024-07-23,Réanimation,Tuesday,False,False,False,Summer,False,True,False,11,0,11,24,6,32
+2024-07-23,Médecine Générale,Tuesday,False,False,False,Summer,False,True,False,6,5,10,31,49,45
+2024-07-23,Chirurgie,Tuesday,False,False,False,Summer,False,True,False,1,10,11,26,34,50
+2024-07-23,Obstétrique,Tuesday,False,False,False,Summer,False,True,False,0,0,3,11,29,31
+2024-07-24,Urgences,Wednesday,False,False,False,Summer,False,True,False,28,2,20,50,0,40
+2024-07-24,Réanimation,Wednesday,False,False,False,Summer,False,True,False,5,0,7,22,8,34
+2024-07-24,Médecine Générale,Wednesday,False,False,False,Summer,False,True,False,5,7,12,31,49,49
+2024-07-24,Chirurgie,Wednesday,False,False,False,Summer,False,True,False,1,11,7,31,29,46
+2024-07-24,Obstétrique,Wednesday,False,False,False,Summer,False,True,False,6,3,2,18,22,33
+2024-07-25,Urgences,Thursday,False,False,False,Summer,False,False,False,23,3,20,50,0,44
+2024-07-25,Réanimation,Thursday,False,False,False,Summer,False,False,False,10,2,8,26,4,38
+2024-07-25,Médecine Générale,Thursday,False,False,False,Summer,False,False,False,7,7,12,33,47,54
+2024-07-25,Chirurgie,Thursday,False,False,False,Summer,False,False,False,0,11,12,30,30,46
+2024-07-25,Obstétrique,Thursday,False,False,False,Summer,False,False,False,1,2,6,15,25,27
+2024-07-26,Urgences,Friday,False,False,False,Summer,False,False,False,19,4,19,50,0,43
+2024-07-26,Réanimation,Friday,False,False,False,Summer,False,False,False,11,0,9,28,2,40
+2024-07-26,Médecine Générale,Friday,False,False,False,Summer,False,False,False,2,5,8,32,48,45
+2024-07-26,Chirurgie,Friday,False,False,False,Summer,False,False,False,4,10,13,31,29,40
+2024-07-26,Obstétrique,Friday,False,False,False,Summer,False,False,False,4,2,5,16,24,33
+2024-07-27,Urgences,Saturday,True,False,False,Summer,False,False,False,20,0,18,50,0,45
+2024-07-27,Réanimation,Saturday,True,False,False,Summer,False,False,False,6,0,7,27,3,33
+2024-07-27,Médecine Générale,Saturday,True,False,False,Summer,False,False,False,3,0,7,28,52,47
+2024-07-27,Chirurgie,Saturday,True,False,False,Summer,False,False,False,0,6,10,27,33,48
+2024-07-27,Obstétrique,Saturday,True,False,False,Summer,False,False,False,3,1,6,14,26,35
+2024-07-28,Urgences,Sunday,True,False,False,Summer,False,False,False,18,3,18,50,0,40
+2024-07-28,Réanimation,Sunday,True,False,False,Summer,False,False,False,7,0,8,26,4,31
+2024-07-28,Médecine Générale,Sunday,True,False,False,Summer,False,False,False,3,3,9,25,55,50
+2024-07-28,Chirurgie,Sunday,True,False,False,Summer,False,False,False,3,8,10,28,32,49
+2024-07-28,Obstétrique,Sunday,True,False,False,Summer,False,False,False,3,2,4,15,25,31
+2024-07-29,Urgences,Monday,False,False,False,Summer,False,False,False,16,3,17,50,0,45
+2024-07-29,Réanimation,Monday,False,False,False,Summer,False,False,False,7,0,9,24,6,40
+2024-07-29,Médecine Générale,Monday,False,False,False,Summer,False,False,False,3,7,11,24,56,52
+2024-07-29,Chirurgie,Monday,False,False,False,Summer,False,False,False,3,12,11,32,28,41
+2024-07-29,Obstétrique,Monday,False,False,False,Summer,False,False,False,4,2,3,18,22,27
+2024-07-30,Urgences,Tuesday,False,False,False,Summer,False,False,False,21,0,21,50,0,35
+2024-07-30,Réanimation,Tuesday,False,False,False,Summer,False,False,False,5,1,6,24,6,39
+2024-07-30,Médecine Générale,Tuesday,False,False,False,Summer,False,False,False,4,10,11,27,53,53
+2024-07-30,Chirurgie,Tuesday,False,False,False,Summer,False,False,False,1,9,12,30,30,47
+2024-07-30,Obstétrique,Tuesday,False,False,False,Summer,False,False,False,5,1,6,18,22,28
+2024-07-31,Urgences,Wednesday,False,False,False,Summer,False,True,False,25,1,22,50,0,43
+2024-07-31,Réanimation,Wednesday,False,False,False,Summer,False,True,False,5,0,10,19,11,30
+2024-07-31,Médecine Générale,Wednesday,False,False,False,Summer,False,True,False,8,8,12,31,49,55
+2024-07-31,Chirurgie,Wednesday,False,False,False,Summer,False,True,False,4,14,11,37,23,42
+2024-07-31,Obstétrique,Wednesday,False,False,False,Summer,False,True,False,3,2,7,16,24,32
+2024-08-01,Urgences,Thursday,False,False,True,Summer,False,False,False,19,2,18,50,0,31
+2024-08-01,Réanimation,Thursday,False,False,True,Summer,False,False,False,9,0,7,21,9,30
+2024-08-01,Médecine Générale,Thursday,False,False,True,Summer,False,False,False,5,3,10,29,51,41
+2024-08-01,Chirurgie,Thursday,False,False,True,Summer,False,False,False,1,4,12,30,30,32
+2024-08-01,Obstétrique,Thursday,False,False,True,Summer,False,False,False,0,1,5,12,28,23
+2024-08-02,Urgences,Friday,False,False,True,Summer,False,False,False,16,0,16,50,0,32
+2024-08-02,Réanimation,Friday,False,False,True,Summer,False,False,False,7,5,7,26,4,30
+2024-08-02,Médecine Générale,Friday,False,False,True,Summer,False,False,False,1,6,9,27,53,42
+2024-08-02,Chirurgie,Friday,False,False,True,Summer,False,False,False,3,2,8,27,33,37
+2024-08-02,Obstétrique,Friday,False,False,True,Summer,False,False,False,4,1,3,14,26,26
+2024-08-03,Urgences,Saturday,True,False,True,Summer,False,True,False,27,2,19,50,0,36
+2024-08-03,Réanimation,Saturday,True,False,True,Summer,False,True,False,5,0,7,24,6,28
+2024-08-03,Médecine Générale,Saturday,True,False,True,Summer,False,True,False,8,0,10,25,55,40
+2024-08-03,Chirurgie,Saturday,True,False,True,Summer,False,True,False,0,4,7,24,36,40
+2024-08-03,Obstétrique,Saturday,True,False,True,Summer,False,True,False,3,0,2,15,25,28
+2024-08-04,Urgences,Sunday,True,False,True,Summer,False,True,False,29,3,19,50,0,35
+2024-08-04,Réanimation,Sunday,True,False,True,Summer,False,True,False,8,0,7,25,5,31
+2024-08-04,Médecine Générale,Sunday,True,False,True,Summer,False,True,False,9,1,11,24,56,42
+2024-08-04,Chirurgie,Sunday,True,False,True,Summer,False,True,False,5,4,8,25,35,40
+2024-08-04,Obstétrique,Sunday,True,False,True,Summer,False,True,False,3,3,6,15,25,20
+2024-08-05,Urgences,Monday,False,False,True,Summer,False,False,False,20,4,18,50,0,29
+2024-08-05,Réanimation,Monday,False,False,True,Summer,False,False,False,8,0,10,23,7,31
+2024-08-05,Médecine Générale,Monday,False,False,True,Summer,False,False,False,6,6,10,26,54,39
+2024-08-05,Chirurgie,Monday,False,False,True,Summer,False,False,False,0,6,9,22,38,39
+2024-08-05,Obstétrique,Monday,False,False,True,Summer,False,False,False,4,3,7,15,25,21
+2024-08-06,Urgences,Tuesday,False,False,True,Summer,False,False,False,19,1,21,49,1,29
+2024-08-06,Réanimation,Tuesday,False,False,True,Summer,False,False,False,11,0,10,24,6,31
+2024-08-06,Médecine Générale,Tuesday,False,False,True,Summer,False,False,False,7,5,11,27,53,36
+2024-08-06,Chirurgie,Tuesday,False,False,True,Summer,False,False,False,3,3,8,20,40,38
+2024-08-06,Obstétrique,Tuesday,False,False,True,Summer,False,False,False,0,4,6,13,27,26
+2024-08-07,Urgences,Wednesday,False,False,True,Summer,False,False,False,20,0,20,49,1,33
+2024-08-07,Réanimation,Wednesday,False,False,True,Summer,False,False,False,8,0,9,23,7,31
+2024-08-07,Médecine Générale,Wednesday,False,False,True,Summer,False,False,False,5,3,11,24,56,38
+2024-08-07,Chirurgie,Wednesday,False,False,True,Summer,False,False,False,0,7,5,22,38,38
+2024-08-07,Obstétrique,Wednesday,False,False,True,Summer,False,False,False,0,2,4,11,29,27
+2024-08-08,Urgences,Thursday,False,False,True,Summer,False,False,False,19,2,19,50,0,32
+2024-08-08,Réanimation,Thursday,False,False,True,Summer,False,False,False,6,0,9,20,10,32
+2024-08-08,Médecine Générale,Thursday,False,False,True,Summer,False,False,False,2,2,8,20,60,40
+2024-08-08,Chirurgie,Thursday,False,False,True,Summer,False,False,False,0,8,8,22,38,34
+2024-08-08,Obstétrique,Thursday,False,False,True,Summer,False,False,False,1,4,4,12,28,21
+2024-08-09,Urgences,Friday,False,False,True,Summer,False,False,False,18,4,18,50,0,35
+2024-08-09,Réanimation,Friday,False,False,True,Summer,False,False,False,9,0,6,23,7,32
+2024-08-09,Médecine Générale,Friday,False,False,True,Summer,False,False,False,5,5,8,22,58,36
+2024-08-09,Chirurgie,Friday,False,False,True,Summer,False,False,False,0,5,5,22,38,38
+2024-08-09,Obstétrique,Friday,False,False,True,Summer,False,False,False,0,4,1,15,25,21
+2024-08-10,Urgences,Saturday,True,False,True,Summer,False,False,False,21,0,17,50,0,33
+2024-08-10,Réanimation,Saturday,True,False,True,Summer,False,False,False,8,0,5,26,4,27
+2024-08-10,Médecine Générale,Saturday,True,False,True,Summer,False,False,False,6,1,9,20,60,40
+2024-08-10,Chirurgie,Saturday,True,False,True,Summer,False,False,False,1,1,5,19,41,35
+2024-08-10,Obstétrique,Saturday,True,False,True,Summer,False,False,False,2,1,6,12,28,28
+2024-08-11,Urgences,Sunday,True,False,True,Summer,False,False,False,20,0,18,50,0,28
+2024-08-11,Réanimation,Sunday,True,False,True,Summer,False,False,False,8,0,7,27,3,31
+2024-08-11,Médecine Générale,Sunday,True,False,True,Summer,False,False,False,6,2,7,21,59,44
+2024-08-11,Chirurgie,Sunday,True,False,True,Summer,False,False,False,0,5,8,16,44,36
+2024-08-11,Obstétrique,Sunday,True,False,True,Summer,False,False,False,0,0,1,11,29,22
+2024-08-12,Urgences,Monday,False,False,True,Summer,False,False,False,19,5,21,50,0,34
+2024-08-12,Réanimation,Monday,False,False,True,Summer,False,False,False,5,3,8,27,3,28
+2024-08-12,Médecine Générale,Monday,False,False,True,Summer,False,False,False,7,3,9,22,58,43
+2024-08-12,Chirurgie,Monday,False,False,True,Summer,False,False,False,3,7,8,18,42,39
+2024-08-12,Obstétrique,Monday,False,False,True,Summer,False,False,False,0,2,3,10,30,20
+2024-08-13,Urgences,Tuesday,False,False,True,Summer,False,False,False,23,0,21,50,0,34
+2024-08-13,Réanimation,Tuesday,False,False,True,Summer,False,False,False,6,0,11,22,8,27
+2024-08-13,Médecine Générale,Tuesday,False,False,True,Summer,False,False,False,5,0,8,19,61,41
+2024-08-13,Chirurgie,Tuesday,False,False,True,Summer,False,False,False,0,7,4,21,39,40
+2024-08-13,Obstétrique,Tuesday,False,False,True,Summer,False,False,False,3,3,3,13,27,25
+2024-08-14,Urgences,Wednesday,False,False,True,Summer,False,False,False,20,0,19,50,0,30
+2024-08-14,Réanimation,Wednesday,False,False,True,Summer,False,False,False,4,0,6,20,10,30
+2024-08-14,Médecine Générale,Wednesday,False,False,True,Summer,False,False,False,4,5,6,22,58,38
+2024-08-14,Chirurgie,Wednesday,False,False,True,Summer,False,False,False,0,6,7,20,40,32
+2024-08-14,Obstétrique,Wednesday,False,False,True,Summer,False,False,False,3,5,3,18,22,24
+2024-08-15,Urgences,Thursday,False,False,True,Summer,False,False,False,21,1,18,50,0,36
+2024-08-15,Réanimation,Thursday,False,False,True,Summer,False,False,False,7,0,6,21,9,26
+2024-08-15,Médecine Générale,Thursday,False,False,True,Summer,False,False,False,5,5,10,22,58,38
+2024-08-15,Chirurgie,Thursday,False,False,True,Summer,False,False,False,2,7,5,24,36,36
+2024-08-15,Obstétrique,Thursday,False,False,True,Summer,False,False,False,5,2,4,21,19,28
+2024-08-16,Urgences,Friday,False,False,True,Summer,False,False,False,23,0,19,50,0,34
+2024-08-16,Réanimation,Friday,False,False,True,Summer,False,False,False,6,3,9,21,9,31
+2024-08-16,Médecine Générale,Friday,False,False,True,Summer,False,False,False,0,4,8,18,62,39
+2024-08-16,Chirurgie,Friday,False,False,True,Summer,False,False,False,0,8,7,25,35,35
+2024-08-16,Obstétrique,Friday,False,False,True,Summer,False,False,False,0,2,8,15,25,20
+2024-08-17,Urgences,Saturday,True,False,True,Summer,False,True,False,25,2,19,50,0,32
+2024-08-17,Réanimation,Saturday,True,False,True,Summer,False,True,False,11,0,9,23,7,29
+2024-08-17,Médecine Générale,Saturday,True,False,True,Summer,False,True,False,6,1,5,20,60,40
+2024-08-17,Chirurgie,Saturday,True,False,True,Summer,False,True,False,0,3,9,19,41,36
+2024-08-17,Obstétrique,Saturday,True,False,True,Summer,False,True,False,3,2,5,15,25,23
+2024-08-18,Urgences,Sunday,True,False,True,Summer,False,False,False,19,2,20,50,0,35
+2024-08-18,Réanimation,Sunday,True,False,True,Summer,False,False,False,5,1,7,22,8,26
+2024-08-18,Médecine Générale,Sunday,True,False,True,Summer,False,False,False,4,3,6,21,59,40
+2024-08-18,Chirurgie,Sunday,True,False,True,Summer,False,False,False,0,0,5,14,46,39
+2024-08-18,Obstétrique,Sunday,True,False,True,Summer,False,False,False,0,0,3,12,28,22
+2024-08-19,Urgences,Monday,False,False,True,Summer,False,True,False,27,2,21,50,0,29
+2024-08-19,Réanimation,Monday,False,False,True,Summer,False,True,False,10,3,10,25,5,29
+2024-08-19,Médecine Générale,Monday,False,False,True,Summer,False,True,False,6,0,7,20,60,42
+2024-08-19,Chirurgie,Monday,False,False,True,Summer,False,True,False,0,6,6,14,46,35
+2024-08-19,Obstétrique,Monday,False,False,True,Summer,False,True,False,2,2,3,13,27,20
+2024-08-20,Urgences,Tuesday,False,False,True,Summer,False,False,False,22,3,20,50,0,36
+2024-08-20,Réanimation,Tuesday,False,False,True,Summer,False,False,False,6,1,8,24,6,28
+2024-08-20,Médecine Générale,Tuesday,False,False,True,Summer,False,False,False,6,4,10,20,60,40
+2024-08-20,Chirurgie,Tuesday,False,False,True,Summer,False,False,False,0,5,7,12,48,34
+2024-08-20,Obstétrique,Tuesday,False,False,True,Summer,False,False,False,4,2,4,15,25,21
+2024-08-21,Urgences,Wednesday,False,False,True,Summer,False,False,False,20,0,17,50,0,33
+2024-08-21,Réanimation,Wednesday,False,False,True,Summer,False,False,False,6,0,7,23,7,28
+2024-08-21,Médecine Générale,Wednesday,False,False,True,Summer,False,False,False,2,0,7,15,65,37
+2024-08-21,Chirurgie,Wednesday,False,False,True,Summer,False,False,False,0,5,2,15,45,40
+2024-08-21,Obstétrique,Wednesday,False,False,True,Summer,False,False,False,3,4,5,17,23,20
+2024-08-22,Urgences,Thursday,False,False,True,Summer,False,False,False,18,0,19,49,1,31
+2024-08-22,Réanimation,Thursday,False,False,True,Summer,False,False,False,7,0,8,22,8,28
+2024-08-22,Médecine Générale,Thursday,False,False,True,Summer,False,False,False,6,7,5,23,57,40
+2024-08-22,Chirurgie,Thursday,False,False,True,Summer,False,False,False,0,2,2,15,45,34
+2024-08-22,Obstétrique,Thursday,False,False,True,Summer,False,False,False,3,3,4,19,21,22
+2024-08-23,Urgences,Friday,False,False,True,Summer,False,False,False,19,1,19,50,0,33
+2024-08-23,Réanimation,Friday,False,False,True,Summer,False,False,False,8,0,7,23,7,30
+2024-08-23,Médecine Générale,Friday,False,False,True,Summer,False,False,False,6,6,9,26,54,43
+2024-08-23,Chirurgie,Friday,False,False,True,Summer,False,False,False,2,10,7,20,40,35
+2024-08-23,Obstétrique,Friday,False,False,True,Summer,False,False,False,4,4,5,22,18,28
+2024-08-24,Urgences,Saturday,True,False,True,Summer,False,True,False,25,4,21,50,0,36
+2024-08-24,Réanimation,Saturday,True,False,True,Summer,False,True,False,10,0,8,25,5,29
+2024-08-24,Médecine Générale,Saturday,True,False,True,Summer,False,True,False,2,3,10,21,59,42
+2024-08-24,Chirurgie,Saturday,True,False,True,Summer,False,True,False,0,2,8,14,46,33
+2024-08-24,Obstétrique,Saturday,True,False,True,Summer,False,True,False,0,0,6,16,24,24
+2024-08-25,Urgences,Sunday,True,False,True,Summer,False,False,False,16,0,19,47,3,33
+2024-08-25,Réanimation,Sunday,True,False,True,Summer,False,False,False,6,1,8,24,6,27
+2024-08-25,Médecine Générale,Sunday,True,False,True,Summer,False,False,False,8,2,7,24,56,36
+2024-08-25,Chirurgie,Sunday,True,False,True,Summer,False,False,False,1,6,6,15,45,36
+2024-08-25,Obstétrique,Sunday,True,False,True,Summer,False,False,False,1,4,5,16,24,25
+2024-08-26,Urgences,Monday,False,False,True,Summer,False,False,False,18,1,19,47,3,28
+2024-08-26,Réanimation,Monday,False,False,True,Summer,False,False,False,7,0,9,22,8,28
+2024-08-26,Médecine Générale,Monday,False,False,True,Summer,False,False,False,5,4,7,26,54,40
+2024-08-26,Chirurgie,Monday,False,False,True,Summer,False,False,False,2,2,4,15,45,38
+2024-08-26,Obstétrique,Monday,False,False,True,Summer,False,False,False,1,1,4,14,26,23
+2024-08-27,Urgences,Tuesday,False,False,True,Summer,False,False,False,20,3,19,50,0,28
+2024-08-27,Réanimation,Tuesday,False,False,True,Summer,False,False,False,5,0,8,19,11,31
+2024-08-27,Médecine Générale,Tuesday,False,False,True,Summer,False,False,False,4,5,10,25,55,38
+2024-08-27,Chirurgie,Tuesday,False,False,True,Summer,False,False,False,2,7,5,19,41,32
+2024-08-27,Obstétrique,Tuesday,False,False,True,Summer,False,False,False,2,0,3,13,27,21
+2024-08-28,Urgences,Wednesday,False,False,True,Summer,False,True,False,26,2,20,50,0,28
+2024-08-28,Réanimation,Wednesday,False,False,True,Summer,False,True,False,10,0,5,24,6,29
+2024-08-28,Médecine Générale,Wednesday,False,False,True,Summer,False,True,False,9,5,8,31,49,40
+2024-08-28,Chirurgie,Wednesday,False,False,True,Summer,False,True,False,1,8,8,20,40,32
+2024-08-28,Obstétrique,Wednesday,False,False,True,Summer,False,True,False,4,6,5,18,22,25
+2024-08-29,Urgences,Thursday,False,False,True,Summer,False,False,False,22,4,19,50,0,28
+2024-08-29,Réanimation,Thursday,False,False,True,Summer,False,False,False,8,0,6,26,4,28
+2024-08-29,Médecine Générale,Thursday,False,False,True,Summer,False,False,False,1,4,12,24,56,38
+2024-08-29,Chirurgie,Thursday,False,False,True,Summer,False,False,False,4,6,8,22,38,40
+2024-08-29,Obstétrique,Thursday,False,False,True,Summer,False,False,False,4,5,8,19,21,24
+2024-08-30,Urgences,Friday,False,False,True,Summer,False,False,False,18,2,19,50,0,31
+2024-08-30,Réanimation,Friday,False,False,True,Summer,False,False,False,8,0,6,28,2,24
+2024-08-30,Médecine Générale,Friday,False,False,True,Summer,False,False,False,3,2,7,22,58,38
+2024-08-30,Chirurgie,Friday,False,False,True,Summer,False,False,False,0,5,6,21,39,35
+2024-08-30,Obstétrique,Friday,False,False,True,Summer,False,False,False,5,2,7,19,21,20
+2024-08-31,Urgences,Saturday,True,False,True,Summer,False,False,False,19,1,18,50,0,29
+2024-08-31,Réanimation,Saturday,True,False,True,Summer,False,False,False,10,1,8,30,0,29
+2024-08-31,Médecine Générale,Saturday,True,False,True,Summer,False,False,False,4,2,9,19,61,36
+2024-08-31,Chirurgie,Saturday,True,False,True,Summer,False,False,False,3,5,9,20,40,32
+2024-08-31,Obstétrique,Saturday,True,False,True,Summer,False,False,False,3,0,6,16,24,28
+2024-09-01,Urgences,Sunday,True,False,False,Autumn,False,False,False,21,1,18,50,0,38
+2024-09-01,Réanimation,Sunday,True,False,False,Autumn,False,False,False,9,0,11,28,2,34
+2024-09-01,Médecine Générale,Sunday,True,False,False,Autumn,False,False,False,4,5,5,23,57,53
+2024-09-01,Chirurgie,Sunday,True,False,False,Autumn,False,False,False,2,7,8,21,39,49
+2024-09-01,Obstétrique,Sunday,True,False,False,Autumn,False,False,False,4,0,6,14,26,29
+2024-09-02,Urgences,Monday,False,False,False,Autumn,False,False,False,21,2,19,50,0,37
+2024-09-02,Réanimation,Monday,False,False,False,Autumn,False,False,False,5,0,11,22,8,34
+2024-09-02,Médecine Générale,Monday,False,False,False,Autumn,False,False,False,4,1,9,19,61,51
+2024-09-02,Chirurgie,Monday,False,False,False,Autumn,False,False,False,2,8,6,25,35,45
+2024-09-02,Obstétrique,Monday,False,False,False,Autumn,False,False,False,6,2,4,18,22,35
+2024-09-03,Urgences,Tuesday,False,False,False,Autumn,False,False,False,18,0,17,50,0,43
+2024-09-03,Réanimation,Tuesday,False,False,False,Autumn,False,False,False,7,2,7,24,6,39
+2024-09-03,Médecine Générale,Tuesday,False,False,False,Autumn,False,False,False,7,7,5,28,52,46
+2024-09-03,Chirurgie,Tuesday,False,False,False,Autumn,False,False,False,2,10,7,30,30,42
+2024-09-03,Obstétrique,Tuesday,False,False,False,Autumn,False,False,False,3,3,7,17,23,32
+2024-09-04,Urgences,Wednesday,False,False,False,Autumn,False,False,False,17,2,20,49,1,45
+2024-09-04,Réanimation,Wednesday,False,False,False,Autumn,False,False,False,9,0,6,27,3,34
+2024-09-04,Médecine Générale,Wednesday,False,False,False,Autumn,False,False,False,6,5,11,28,52,45
+2024-09-04,Chirurgie,Wednesday,False,False,False,Autumn,False,False,False,0,10,11,29,31,41
+2024-09-04,Obstétrique,Wednesday,False,False,False,Autumn,False,False,False,2,0,5,14,26,33
+2024-09-05,Urgences,Thursday,False,False,False,Autumn,False,False,False,20,0,16,50,0,35
+2024-09-05,Réanimation,Thursday,False,False,False,Autumn,False,False,False,8,0,8,27,3,31
+2024-09-05,Médecine Générale,Thursday,False,False,False,Autumn,False,False,False,7,7,12,30,50,53
+2024-09-05,Chirurgie,Thursday,False,False,False,Autumn,False,False,False,2,12,9,34,26,46
+2024-09-05,Obstétrique,Thursday,False,False,False,Autumn,False,False,False,2,2,6,12,28,34
+2024-09-06,Urgences,Friday,False,False,False,Autumn,False,False,False,19,0,20,49,1,41
+2024-09-06,Réanimation,Friday,False,False,False,Autumn,False,False,False,6,0,10,23,7,35
+2024-09-06,Médecine Générale,Friday,False,False,False,Autumn,False,False,False,5,7,12,30,50,46
+2024-09-06,Chirurgie,Friday,False,False,False,Autumn,False,False,False,1,11,14,32,28,48
+2024-09-06,Obstétrique,Friday,False,False,False,Autumn,False,False,False,6,1,6,13,27,32
+2024-09-07,Urgences,Saturday,True,False,False,Autumn,False,False,False,21,0,19,50,0,40
+2024-09-07,Réanimation,Saturday,True,False,False,Autumn,False,False,False,6,0,6,23,7,35
+2024-09-07,Médecine Générale,Saturday,True,False,False,Autumn,False,False,False,5,0,10,25,55,51
+2024-09-07,Chirurgie,Saturday,True,False,False,Autumn,False,False,False,4,5,11,30,30,45
+2024-09-07,Obstétrique,Saturday,True,False,False,Autumn,False,False,False,2,0,5,10,30,25
+2024-09-08,Urgences,Sunday,True,False,False,Autumn,False,False,False,13,0,17,46,4,35
+2024-09-08,Réanimation,Sunday,True,False,False,Autumn,False,False,False,7,1,7,24,6,30
+2024-09-08,Médecine Générale,Sunday,True,False,False,Autumn,False,False,False,5,0,8,22,58,45
+2024-09-08,Chirurgie,Sunday,True,False,False,Autumn,False,False,False,0,5,12,23,37,48
+2024-09-08,Obstétrique,Sunday,True,False,False,Autumn,False,False,False,4,2,3,13,27,27
+2024-09-09,Urgences,Monday,False,False,False,Autumn,False,False,False,19,6,17,50,0,37
+2024-09-09,Réanimation,Monday,False,False,False,Autumn,False,False,False,7,1,10,22,8,33
+2024-09-09,Médecine Générale,Monday,False,False,False,Autumn,False,False,False,3,5,5,25,55,51
+2024-09-09,Chirurgie,Monday,False,False,False,Autumn,False,False,False,2,8,10,23,37,45
+2024-09-09,Obstétrique,Monday,False,False,False,Autumn,False,False,False,1,2,5,11,29,26
+2024-09-10,Urgences,Tuesday,False,False,False,Autumn,False,False,False,20,2,19,50,0,41
+2024-09-10,Réanimation,Tuesday,False,False,False,Autumn,False,False,False,9,0,5,26,4,35
+2024-09-10,Médecine Générale,Tuesday,False,False,False,Autumn,False,False,False,4,2,6,25,55,48
+2024-09-10,Chirurgie,Tuesday,False,False,False,Autumn,False,False,False,2,8,8,25,35,50
+2024-09-10,Obstétrique,Tuesday,False,False,False,Autumn,False,False,False,5,3,3,16,24,33
+2024-09-11,Urgences,Wednesday,False,False,False,Autumn,False,False,False,18,1,16,50,0,40
+2024-09-11,Réanimation,Wednesday,False,False,False,Autumn,False,False,False,7,0,9,24,6,40
+2024-09-11,Médecine Générale,Wednesday,False,False,False,Autumn,False,False,False,4,5,9,25,55,54
+2024-09-11,Chirurgie,Wednesday,False,False,False,Autumn,False,False,False,2,8,9,26,34,44
+2024-09-11,Obstétrique,Wednesday,False,False,False,Autumn,False,False,False,0,3,6,13,27,26
+2024-09-12,Urgences,Thursday,False,False,False,Autumn,False,False,False,19,4,20,50,0,41
+2024-09-12,Réanimation,Thursday,False,False,False,Autumn,False,False,False,8,0,7,25,5,32
+2024-09-12,Médecine Générale,Thursday,False,False,False,Autumn,False,False,False,2,7,10,24,56,52
+2024-09-12,Chirurgie,Thursday,False,False,False,Autumn,False,False,False,4,9,8,31,29,49
+2024-09-12,Obstétrique,Thursday,False,False,False,Autumn,False,False,False,2,5,6,14,26,26
+2024-09-13,Urgences,Friday,False,False,False,Autumn,False,False,False,21,3,19,50,0,36
+2024-09-13,Réanimation,Friday,False,False,False,Autumn,False,False,False,8,1,6,28,2,35
+2024-09-13,Médecine Générale,Friday,False,False,False,Autumn,False,False,False,5,7,10,26,54,49
+2024-09-13,Chirurgie,Friday,False,False,False,Autumn,False,False,False,2,10,10,33,27,49
+2024-09-13,Obstétrique,Friday,False,False,False,Autumn,False,False,False,2,1,2,15,25,28
+2024-09-14,Urgences,Saturday,True,False,False,Autumn,False,False,False,19,0,20,49,1,36
+2024-09-14,Réanimation,Saturday,True,False,False,Autumn,False,False,False,10,0,8,30,0,32
+2024-09-14,Médecine Générale,Saturday,True,False,False,Autumn,False,False,False,4,2,9,23,57,50
+2024-09-14,Chirurgie,Saturday,True,False,False,Autumn,False,False,False,3,6,12,30,30,47
+2024-09-14,Obstétrique,Saturday,True,False,False,Autumn,False,False,False,3,3,5,16,24,28
+2024-09-15,Urgences,Sunday,True,False,False,Autumn,False,False,False,16,1,16,50,0,43
+2024-09-15,Réanimation,Sunday,True,False,False,Autumn,False,False,False,10,0,13,27,3,40
+2024-09-15,Médecine Générale,Sunday,True,False,False,Autumn,False,False,False,4,3,6,24,56,45
+2024-09-15,Chirurgie,Sunday,True,False,False,Autumn,False,False,False,1,8,8,31,29,49
+2024-09-15,Obstétrique,Sunday,True,False,False,Autumn,False,False,False,1,2,4,15,25,26
+2024-09-16,Urgences,Monday,False,False,False,Autumn,False,False,False,23,2,21,50,0,36
+2024-09-16,Réanimation,Monday,False,False,False,Autumn,False,False,False,10,0,8,29,1,33
+2024-09-16,Médecine Générale,Monday,False,False,False,Autumn,False,False,False,2,6,6,26,54,50
+2024-09-16,Chirurgie,Monday,False,False,False,Autumn,False,False,False,3,14,14,34,26,42
+2024-09-16,Obstétrique,Monday,False,False,False,Autumn,False,False,False,7,4,6,20,20,25
+2024-09-17,Urgences,Tuesday,False,False,False,Autumn,False,False,False,16,2,16,50,0,40
+2024-09-17,Réanimation,Tuesday,False,False,False,Autumn,False,False,False,7,0,9,27,3,35
+2024-09-17,Médecine Générale,Tuesday,False,False,False,Autumn,False,False,False,10,5,10,31,49,48
+2024-09-17,Chirurgie,Tuesday,False,False,False,Autumn,False,False,False,0,7,9,32,28,40
+2024-09-17,Obstétrique,Tuesday,False,False,False,Autumn,False,False,False,4,2,7,19,21,33
+2024-09-18,Urgences,Wednesday,False,False,False,Autumn,False,False,False,19,1,20,50,0,41
+2024-09-18,Réanimation,Wednesday,False,False,False,Autumn,False,False,False,10,0,9,28,2,38
+2024-09-18,Médecine Générale,Wednesday,False,False,False,Autumn,False,False,False,5,7,11,32,48,51
+2024-09-18,Chirurgie,Wednesday,False,False,False,Autumn,False,False,False,0,12,10,34,26,49
+2024-09-18,Obstétrique,Wednesday,False,False,False,Autumn,False,False,False,4,4,5,22,18,35
+2024-09-19,Urgences,Thursday,False,False,False,Autumn,False,False,False,18,4,21,50,0,37
+2024-09-19,Réanimation,Thursday,False,False,False,Autumn,False,False,False,4,1,8,25,5,32
+2024-09-19,Médecine Générale,Thursday,False,False,False,Autumn,False,False,False,9,4,11,34,46,55
+2024-09-19,Chirurgie,Thursday,False,False,False,Autumn,False,False,False,0,8,9,33,27,41
+2024-09-19,Obstétrique,Thursday,False,False,False,Autumn,False,False,False,1,6,5,24,16,27
+2024-09-20,Urgences,Friday,False,False,False,Autumn,False,False,False,21,0,20,50,0,40
+2024-09-20,Réanimation,Friday,False,False,False,Autumn,False,False,False,3,1,7,22,8,34
+2024-09-20,Médecine Générale,Friday,False,False,False,Autumn,False,False,False,5,5,11,33,47,47
+2024-09-20,Chirurgie,Friday,False,False,False,Autumn,False,False,False,2,7,10,32,28,40
+2024-09-20,Obstétrique,Friday,False,False,False,Autumn,False,False,False,1,2,6,21,19,34
+2024-09-21,Urgences,Saturday,True,False,False,Autumn,False,False,False,19,0,19,50,0,38
+2024-09-21,Réanimation,Saturday,True,False,False,Autumn,False,False,False,5,0,7,20,10,32
+2024-09-21,Médecine Générale,Saturday,True,False,False,Autumn,False,False,False,6,1,9,31,49,47
+2024-09-21,Chirurgie,Saturday,True,False,False,Autumn,False,False,False,2,6,8,32,28,42
+2024-09-21,Obstétrique,Saturday,True,False,False,Autumn,False,False,False,4,0,5,20,20,29
+2024-09-22,Urgences,Sunday,True,False,False,Autumn,False,False,False,24,2,21,50,0,38
+2024-09-22,Réanimation,Sunday,True,False,False,Autumn,False,False,False,6,0,8,18,12,39
+2024-09-22,Médecine Générale,Sunday,True,False,False,Autumn,False,False,False,1,4,12,24,56,48
+2024-09-22,Chirurgie,Sunday,True,False,False,Autumn,False,False,False,1,4,12,25,35,46
+2024-09-22,Obstétrique,Sunday,True,False,False,Autumn,False,False,False,0,0,4,16,24,34
+2024-09-23,Urgences,Monday,False,False,False,Autumn,False,False,False,21,3,17,50,0,43
+2024-09-23,Réanimation,Monday,False,False,False,Autumn,False,False,False,6,0,4,20,10,33
+2024-09-23,Médecine Générale,Monday,False,False,False,Autumn,False,False,False,2,8,7,27,53,53
+2024-09-23,Chirurgie,Monday,False,False,False,Autumn,False,False,False,1,11,9,28,32,43
+2024-09-23,Obstétrique,Monday,False,False,False,Autumn,False,False,False,0,3,6,13,27,29
+2024-09-24,Urgences,Tuesday,False,False,False,Autumn,False,False,False,18,0,19,49,1,35
+2024-09-24,Réanimation,Tuesday,False,False,False,Autumn,False,False,False,4,0,4,20,10,40
+2024-09-24,Médecine Générale,Tuesday,False,False,False,Autumn,False,False,False,5,1,11,22,58,47
+2024-09-24,Chirurgie,Tuesday,False,False,False,Autumn,False,False,False,0,11,8,31,29,42
+2024-09-24,Obstétrique,Tuesday,False,False,False,Autumn,False,False,False,0,4,2,15,25,27
+2024-09-25,Urgences,Wednesday,False,False,False,Autumn,False,False,False,21,2,17,50,0,42
+2024-09-25,Réanimation,Wednesday,False,False,False,Autumn,False,False,False,10,1,8,23,7,31
+2024-09-25,Médecine Générale,Wednesday,False,False,False,Autumn,False,False,False,3,5,9,21,59,46
+2024-09-25,Chirurgie,Wednesday,False,False,False,Autumn,False,False,False,3,9,12,31,29,49
+2024-09-25,Obstétrique,Wednesday,False,False,False,Autumn,False,False,False,3,0,6,12,28,25
+2024-09-26,Urgences,Thursday,False,False,False,Autumn,False,False,False,20,1,18,50,0,45
+2024-09-26,Réanimation,Thursday,False,False,False,Autumn,False,False,False,8,0,7,24,6,32
+2024-09-26,Médecine Générale,Thursday,False,False,False,Autumn,False,False,False,4,0,6,19,61,49
+2024-09-26,Chirurgie,Thursday,False,False,False,Autumn,False,False,False,3,13,11,36,24,50
+2024-09-26,Obstétrique,Thursday,False,False,False,Autumn,False,False,False,1,1,4,10,30,25
+2024-09-27,Urgences,Friday,False,False,False,Autumn,False,False,False,21,0,17,50,0,42
+2024-09-27,Réanimation,Friday,False,False,False,Autumn,False,False,False,9,0,10,23,7,39
+2024-09-27,Médecine Générale,Friday,False,False,False,Autumn,False,False,False,2,6,4,23,57,55
+2024-09-27,Chirurgie,Friday,False,False,False,Autumn,False,False,False,0,9,13,32,28,49
+2024-09-27,Obstétrique,Friday,False,False,False,Autumn,False,False,False,1,1,2,10,30,29
+2024-09-28,Urgences,Saturday,True,False,False,Autumn,False,False,False,20,1,19,50,0,35
+2024-09-28,Réanimation,Saturday,True,False,False,Autumn,False,False,False,8,0,9,22,8,30
+2024-09-28,Médecine Générale,Saturday,True,False,False,Autumn,False,False,False,3,7,6,27,53,54
+2024-09-28,Chirurgie,Saturday,True,False,False,Autumn,False,False,False,0,6,10,28,32,41
+2024-09-28,Obstétrique,Saturday,True,False,False,Autumn,False,False,False,1,0,5,6,34,34
+2024-09-29,Urgences,Sunday,True,False,False,Autumn,False,False,False,20,2,21,50,0,43
+2024-09-29,Réanimation,Sunday,True,False,False,Autumn,False,False,False,8,0,7,23,7,35
+2024-09-29,Médecine Générale,Sunday,True,False,False,Autumn,False,False,False,3,4,7,27,53,50
+2024-09-29,Chirurgie,Sunday,True,False,False,Autumn,False,False,False,2,5,10,25,35,46
+2024-09-29,Obstétrique,Sunday,True,False,False,Autumn,False,False,False,5,3,2,12,28,27
+2024-09-30,Urgences,Monday,False,False,False,Autumn,False,False,False,18,2,18,50,0,43
+2024-09-30,Réanimation,Monday,False,False,False,Autumn,False,False,False,10,0,10,23,7,39
+2024-09-30,Médecine Générale,Monday,False,False,False,Autumn,False,False,False,1,6,9,25,55,46
+2024-09-30,Chirurgie,Monday,False,False,False,Autumn,False,False,False,0,8,10,23,37,46
+2024-09-30,Obstétrique,Monday,False,False,False,Autumn,False,False,False,4,2,3,15,25,34
+2024-10-01,Urgences,Tuesday,False,False,False,Autumn,False,False,False,17,1,19,49,1,44
+2024-10-01,Réanimation,Tuesday,False,False,False,Autumn,False,False,False,9,0,6,26,4,37
+2024-10-01,Médecine Générale,Tuesday,False,False,False,Autumn,False,False,False,5,5,7,28,52,49
+2024-10-01,Chirurgie,Tuesday,False,False,False,Autumn,False,False,False,1,9,7,26,34,47
+2024-10-01,Obstétrique,Tuesday,False,False,False,Autumn,False,False,False,5,2,5,17,23,34
+2024-10-02,Urgences,Wednesday,False,False,False,Autumn,False,False,False,17,0,15,50,0,40
+2024-10-02,Réanimation,Wednesday,False,False,False,Autumn,False,False,False,8,1,6,29,1,40
+2024-10-02,Médecine Générale,Wednesday,False,False,False,Autumn,False,False,False,4,8,8,32,48,49
+2024-10-02,Chirurgie,Wednesday,False,False,False,Autumn,False,False,False,1,8,10,25,35,41
+2024-10-02,Obstétrique,Wednesday,False,False,False,Autumn,False,False,False,6,2,5,20,20,34
+2024-10-03,Urgences,Thursday,False,False,False,Autumn,False,False,False,22,0,20,50,0,40
+2024-10-03,Réanimation,Thursday,False,False,False,Autumn,False,False,False,8,0,10,27,3,37
+2024-10-03,Médecine Générale,Thursday,False,False,False,Autumn,False,False,False,2,2,11,25,55,47
+2024-10-03,Chirurgie,Thursday,False,False,False,Autumn,False,False,False,0,10,7,28,32,45
+2024-10-03,Obstétrique,Thursday,False,False,False,Autumn,False,False,False,2,6,7,21,19,33
+2024-10-04,Urgences,Friday,False,False,False,Autumn,False,False,False,18,1,18,50,0,43
+2024-10-04,Réanimation,Friday,False,False,False,Autumn,False,False,False,9,0,7,29,1,35
+2024-10-04,Médecine Générale,Friday,False,False,False,Autumn,False,False,False,7,5,8,29,51,50
+2024-10-04,Chirurgie,Friday,False,False,False,Autumn,False,False,False,0,9,7,30,30,49
+2024-10-04,Obstétrique,Friday,False,False,False,Autumn,False,False,False,2,1,4,20,20,29
+2024-10-05,Urgences,Saturday,True,False,False,Autumn,False,False,False,17,2,17,50,0,39
+2024-10-05,Réanimation,Saturday,True,False,False,Autumn,False,False,False,3,1,7,26,4,35
+2024-10-05,Médecine Générale,Saturday,True,False,False,Autumn,False,False,False,4,3,7,29,51,53
+2024-10-05,Chirurgie,Saturday,True,False,False,Autumn,False,False,False,3,4,8,29,31,43
+2024-10-05,Obstétrique,Saturday,True,False,False,Autumn,False,False,False,3,0,6,17,23,32
+2024-10-06,Urgences,Sunday,True,False,False,Autumn,False,False,False,19,0,18,50,0,42
+2024-10-06,Réanimation,Sunday,True,False,False,Autumn,False,False,False,8,0,10,24,6,32
+2024-10-06,Médecine Générale,Sunday,True,False,False,Autumn,False,False,False,6,2,7,30,50,55
+2024-10-06,Chirurgie,Sunday,True,False,False,Autumn,False,False,False,0,8,7,30,30,47
+2024-10-06,Obstétrique,Sunday,True,False,False,Autumn,False,False,False,2,1,7,13,27,25
+2024-10-07,Urgences,Monday,False,False,False,Autumn,False,False,False,17,5,17,50,0,36
+2024-10-07,Réanimation,Monday,False,False,False,Autumn,False,False,False,8,0,6,26,4,38
+2024-10-07,Médecine Générale,Monday,False,False,False,Autumn,False,False,False,5,3,9,29,51,54
+2024-10-07,Chirurgie,Monday,False,False,False,Autumn,False,False,False,2,11,13,30,30,45
+2024-10-07,Obstétrique,Monday,False,False,False,Autumn,False,False,False,3,0,3,13,27,30
+2024-10-08,Urgences,Tuesday,False,False,False,Autumn,False,False,False,20,2,21,50,0,37
+2024-10-08,Réanimation,Tuesday,False,False,False,Autumn,False,False,False,6,0,8,24,6,38
+2024-10-08,Médecine Générale,Tuesday,False,False,False,Autumn,False,False,False,4,7,10,30,50,53
+2024-10-08,Chirurgie,Tuesday,False,False,False,Autumn,False,False,False,2,10,13,29,31,49
+2024-10-08,Obstétrique,Tuesday,False,False,False,Autumn,False,False,False,2,2,1,16,24,30
+2024-10-09,Urgences,Wednesday,False,False,False,Autumn,False,False,False,20,1,20,50,0,42
+2024-10-09,Réanimation,Wednesday,False,False,False,Autumn,False,False,False,9,1,11,23,7,30
+2024-10-09,Médecine Générale,Wednesday,False,False,False,Autumn,False,False,False,2,3,11,24,56,54
+2024-10-09,Chirurgie,Wednesday,False,False,False,Autumn,False,False,False,0,11,9,31,29,49
+2024-10-09,Obstétrique,Wednesday,False,False,False,Autumn,False,False,False,3,2,6,15,25,35
+2024-10-10,Urgences,Thursday,False,False,False,Autumn,False,False,False,22,4,21,50,0,44
+2024-10-10,Réanimation,Thursday,False,False,False,Autumn,False,False,False,5,0,8,20,10,31
+2024-10-10,Médecine Générale,Thursday,False,False,False,Autumn,False,False,False,5,7,11,25,55,52
+2024-10-10,Chirurgie,Thursday,False,False,False,Autumn,False,False,False,3,8,11,31,29,44
+2024-10-10,Obstétrique,Thursday,False,False,False,Autumn,False,False,False,2,3,6,14,26,30
+2024-10-11,Urgences,Friday,False,False,False,Autumn,False,False,False,18,3,18,50,0,36
+2024-10-11,Réanimation,Friday,False,False,False,Autumn,False,False,False,8,0,6,22,8,34
+2024-10-11,Médecine Générale,Friday,False,False,False,Autumn,False,False,False,7,8,8,32,48,53
+2024-10-11,Chirurgie,Friday,False,False,False,Autumn,False,False,False,1,9,11,30,30,45
+2024-10-11,Obstétrique,Friday,False,False,False,Autumn,False,False,False,0,3,3,14,26,33
+2024-10-12,Urgences,Saturday,True,False,False,Autumn,False,False,False,20,2,20,50,0,44
+2024-10-12,Réanimation,Saturday,True,False,False,Autumn,False,False,False,9,0,9,22,8,36
+2024-10-12,Médecine Générale,Saturday,True,False,False,Autumn,False,False,False,5,0,10,27,53,51
+2024-10-12,Chirurgie,Saturday,True,False,False,Autumn,False,False,False,1,4,8,27,33,48
+2024-10-12,Obstétrique,Saturday,True,False,False,Autumn,False,False,False,3,0,6,11,29,34
+2024-10-13,Urgences,Sunday,True,False,False,Autumn,False,False,False,19,1,20,50,0,42
+2024-10-13,Réanimation,Sunday,True,False,False,Autumn,False,False,False,7,1,9,21,9,32
+2024-10-13,Médecine Générale,Sunday,True,False,False,Autumn,False,False,False,3,0,9,21,59,46
+2024-10-13,Chirurgie,Sunday,True,False,False,Autumn,False,False,False,0,6,7,26,34,45
+2024-10-13,Obstétrique,Sunday,True,False,False,Autumn,False,False,False,4,0,1,14,26,28
+2024-10-14,Urgences,Monday,False,False,False,Autumn,False,False,False,18,0,18,50,0,37
+2024-10-14,Réanimation,Monday,False,False,False,Autumn,False,False,False,6,0,6,21,9,36
+2024-10-14,Médecine Générale,Monday,False,False,False,Autumn,False,False,False,6,4,8,23,57,55
+2024-10-14,Chirurgie,Monday,False,False,False,Autumn,False,False,False,1,5,6,26,34,46
+2024-10-14,Obstétrique,Monday,False,False,False,Autumn,False,False,False,8,3,7,18,22,34
+2024-10-15,Urgences,Tuesday,False,False,False,Autumn,False,False,False,20,1,21,50,0,37
+2024-10-15,Réanimation,Tuesday,False,False,False,Autumn,False,False,False,10,0,8,23,7,30
+2024-10-15,Médecine Générale,Tuesday,False,False,False,Autumn,False,False,False,7,2,6,26,54,46
+2024-10-15,Chirurgie,Tuesday,False,False,False,Autumn,False,False,False,1,8,8,27,33,46
+2024-10-15,Obstétrique,Tuesday,False,False,False,Autumn,False,False,False,1,4,5,18,22,31
+2024-10-16,Urgences,Wednesday,False,False,False,Autumn,False,False,False,20,2,21,50,0,45
+2024-10-16,Réanimation,Wednesday,False,False,False,Autumn,False,False,False,9,0,8,24,6,36
+2024-10-16,Médecine Générale,Wednesday,False,False,False,Autumn,False,False,False,4,9,8,31,49,47
+2024-10-16,Chirurgie,Wednesday,False,False,False,Autumn,False,False,False,4,10,9,32,28,42
+2024-10-16,Obstétrique,Wednesday,False,False,False,Autumn,False,False,False,0,0,4,14,26,32
+2024-10-17,Urgences,Thursday,False,False,False,Autumn,False,False,False,22,4,21,50,0,36
+2024-10-17,Réanimation,Thursday,False,False,False,Autumn,False,False,False,10,0,10,24,6,39
+2024-10-17,Médecine Générale,Thursday,False,False,False,Autumn,False,False,False,1,7,11,28,52,53
+2024-10-17,Chirurgie,Thursday,False,False,False,Autumn,False,False,False,2,12,9,37,23,45
+2024-10-17,Obstétrique,Thursday,False,False,False,Autumn,False,False,False,0,3,6,11,29,34
+2024-10-18,Urgences,Friday,False,False,False,Autumn,False,False,False,17,3,19,50,0,39
+2024-10-18,Réanimation,Friday,False,False,False,Autumn,False,False,False,10,0,9,25,5,30
+2024-10-18,Médecine Générale,Friday,False,False,False,Autumn,False,False,False,0,3,6,25,55,46
+2024-10-18,Chirurgie,Friday,False,False,False,Autumn,False,False,False,1,7,12,33,27,42
+2024-10-18,Obstétrique,Friday,False,False,False,Autumn,False,False,False,0,2,5,8,32,32
+2024-10-19,Urgences,Saturday,True,False,False,Autumn,False,False,False,20,3,17,50,0,36
+2024-10-19,Réanimation,Saturday,True,False,False,Autumn,False,False,False,5,0,8,22,8,40
+2024-10-19,Médecine Générale,Saturday,True,False,False,Autumn,False,False,False,6,3,6,28,52,54
+2024-10-19,Chirurgie,Saturday,True,False,False,Autumn,False,False,False,0,7,12,28,32,47
+2024-10-19,Obstétrique,Saturday,True,False,False,Autumn,False,False,False,0,3,2,9,31,30
+2024-10-20,Urgences,Sunday,True,False,False,Autumn,False,False,False,21,3,21,50,0,39
+2024-10-20,Réanimation,Sunday,True,False,False,Autumn,False,False,False,7,0,5,24,6,34
+2024-10-20,Médecine Générale,Sunday,True,False,False,Autumn,False,False,False,3,3,7,27,53,55
+2024-10-20,Chirurgie,Sunday,True,False,False,Autumn,False,False,False,5,5,12,26,34,50
+2024-10-20,Obstétrique,Sunday,True,False,False,Autumn,False,False,False,2,1,4,8,32,25
+2024-10-21,Urgences,Monday,False,False,False,Autumn,False,False,False,20,0,18,50,0,36
+2024-10-21,Réanimation,Monday,False,False,False,Autumn,False,False,False,7,3,7,27,3,39
+2024-10-21,Médecine Générale,Monday,False,False,False,Autumn,False,False,False,1,3,7,24,56,46
+2024-10-21,Chirurgie,Monday,False,False,False,Autumn,False,False,False,0,11,9,28,32,50
+2024-10-21,Obstétrique,Monday,False,False,False,Autumn,False,False,False,0,3,0,11,29,28
+2024-10-22,Urgences,Tuesday,False,False,False,Autumn,False,False,False,25,1,22,50,0,40
+2024-10-22,Réanimation,Tuesday,False,False,False,Autumn,False,False,False,9,0,10,26,4,32
+2024-10-22,Médecine Générale,Tuesday,False,False,False,Autumn,False,False,False,5,8,8,29,51,51
+2024-10-22,Chirurgie,Tuesday,False,False,False,Autumn,False,False,False,0,8,7,29,31,43
+2024-10-22,Obstétrique,Tuesday,False,False,False,Autumn,False,False,False,2,6,2,17,23,35
+2024-10-23,Urgences,Wednesday,False,False,False,Autumn,False,False,False,17,2,19,50,0,37
+2024-10-23,Réanimation,Wednesday,False,False,False,Autumn,False,False,False,8,3,10,27,3,38
+2024-10-23,Médecine Générale,Wednesday,False,False,False,Autumn,False,False,False,4,8,11,30,50,52
+2024-10-23,Chirurgie,Wednesday,False,False,False,Autumn,False,False,False,1,13,11,32,28,40
+2024-10-23,Obstétrique,Wednesday,False,False,False,Autumn,False,False,False,2,5,4,20,20,35
+2024-10-24,Urgences,Thursday,False,False,False,Autumn,False,False,False,22,0,20,50,0,36
+2024-10-24,Réanimation,Thursday,False,False,False,Autumn,False,False,False,11,0,10,28,2,39
+2024-10-24,Médecine Générale,Thursday,False,False,False,Autumn,False,False,False,4,6,13,27,53,49
+2024-10-24,Chirurgie,Thursday,False,False,False,Autumn,False,False,False,0,10,10,32,28,46
+2024-10-24,Obstétrique,Thursday,False,False,False,Autumn,False,False,False,1,2,6,17,23,35
+2024-10-25,Urgences,Friday,False,False,False,Autumn,False,False,False,19,0,20,49,1,45
+2024-10-25,Réanimation,Friday,False,False,False,Autumn,False,False,False,6,0,7,27,3,30
+2024-10-25,Médecine Générale,Friday,False,False,False,Autumn,False,False,False,5,6,11,27,53,51
+2024-10-25,Chirurgie,Friday,False,False,False,Autumn,False,False,False,2,11,10,35,25,45
+2024-10-25,Obstétrique,Friday,False,False,False,Autumn,False,False,False,3,3,8,15,25,25
+2024-10-26,Urgences,Saturday,True,False,False,Autumn,False,False,False,21,0,20,50,0,45
+2024-10-26,Réanimation,Saturday,True,False,False,Autumn,False,False,False,11,3,8,30,0,40
+2024-10-26,Médecine Générale,Saturday,True,False,False,Autumn,False,False,False,7,5,12,27,53,54
+2024-10-26,Chirurgie,Saturday,True,False,False,Autumn,False,False,False,4,4,11,32,28,42
+2024-10-26,Obstétrique,Saturday,True,False,False,Autumn,False,False,False,0,1,5,11,29,29
+2024-10-27,Urgences,Sunday,True,False,False,Autumn,False,False,False,20,0,19,50,0,39
+2024-10-27,Réanimation,Sunday,True,False,False,Autumn,False,False,False,8,0,8,30,0,34
+2024-10-27,Médecine Générale,Sunday,True,False,False,Autumn,False,False,False,0,7,9,25,55,51
+2024-10-27,Chirurgie,Sunday,True,False,False,Autumn,False,False,False,2,6,9,31,29,44
+2024-10-27,Obstétrique,Sunday,True,False,False,Autumn,False,False,False,0,2,1,12,28,34
+2024-10-28,Urgences,Monday,False,False,False,Autumn,False,False,False,17,1,20,48,2,37
+2024-10-28,Réanimation,Monday,False,False,False,Autumn,False,False,False,9,1,11,29,1,40
+2024-10-28,Médecine Générale,Monday,False,False,False,Autumn,False,False,False,5,6,9,27,53,46
+2024-10-28,Chirurgie,Monday,False,False,False,Autumn,False,False,False,4,10,9,36,24,47
+2024-10-28,Obstétrique,Monday,False,False,False,Autumn,False,False,False,2,1,3,12,28,25
+2024-10-29,Urgences,Tuesday,False,False,False,Autumn,False,False,False,17,0,18,47,3,41
+2024-10-29,Réanimation,Tuesday,False,False,False,Autumn,False,False,False,4,1,7,27,3,37
+2024-10-29,Médecine Générale,Tuesday,False,False,False,Autumn,False,False,False,5,7,11,28,52,53
+2024-10-29,Chirurgie,Tuesday,False,False,False,Autumn,False,False,False,0,8,11,33,27,41
+2024-10-29,Obstétrique,Tuesday,False,False,False,Autumn,False,False,False,2,1,1,14,26,30
+2024-10-30,Urgences,Wednesday,False,False,False,Autumn,False,False,False,15,0,15,47,3,40
+2024-10-30,Réanimation,Wednesday,False,False,False,Autumn,False,False,False,8,0,8,27,3,37
+2024-10-30,Médecine Générale,Wednesday,False,False,False,Autumn,False,False,False,0,4,7,25,55,47
+2024-10-30,Chirurgie,Wednesday,False,False,False,Autumn,False,False,False,0,5,10,28,32,44
+2024-10-30,Obstétrique,Wednesday,False,False,False,Autumn,False,False,False,5,4,4,19,21,32
+2024-10-31,Urgences,Thursday,False,False,False,Autumn,False,False,False,20,2,20,49,1,37
+2024-10-31,Réanimation,Thursday,False,False,False,Autumn,False,False,False,7,0,11,23,7,33
+2024-10-31,Médecine Générale,Thursday,False,False,False,Autumn,False,False,False,4,8,10,27,53,55
+2024-10-31,Chirurgie,Thursday,False,False,False,Autumn,False,False,False,2,10,8,32,28,40
+2024-10-31,Obstétrique,Thursday,False,False,False,Autumn,False,False,False,5,5,9,20,20,31
+2024-11-01,Urgences,Friday,False,False,False,Autumn,False,False,False,23,0,20,50,0,42
+2024-11-01,Réanimation,Friday,False,False,False,Autumn,False,False,False,7,0,5,25,5,32
+2024-11-01,Médecine Générale,Friday,False,False,False,Autumn,False,False,False,4,3,7,27,53,45
+2024-11-01,Chirurgie,Friday,False,False,False,Autumn,False,False,False,4,8,10,34,26,47
+2024-11-01,Obstétrique,Friday,False,False,False,Autumn,False,False,False,3,3,5,21,19,35
+2024-11-02,Urgences,Saturday,True,False,False,Autumn,False,False,False,20,0,21,49,1,39
+2024-11-02,Réanimation,Saturday,True,False,False,Autumn,False,False,False,8,0,6,27,3,32
+2024-11-02,Médecine Générale,Saturday,True,False,False,Autumn,False,False,False,1,3,7,24,56,46
+2024-11-02,Chirurgie,Saturday,True,False,False,Autumn,False,False,False,2,4,12,28,32,41
+2024-11-02,Obstétrique,Saturday,True,False,False,Autumn,False,False,False,5,3,9,20,20,30
+2024-11-03,Urgences,Sunday,True,False,False,Autumn,False,False,False,17,5,17,50,0,37
+2024-11-03,Réanimation,Sunday,True,False,False,Autumn,False,False,False,6,0,7,26,4,30
+2024-11-03,Médecine Générale,Sunday,True,False,False,Autumn,False,False,False,6,4,9,25,55,49
+2024-11-03,Chirurgie,Sunday,True,False,False,Autumn,False,False,False,2,7,11,26,34,48
+2024-11-03,Obstétrique,Sunday,True,False,False,Autumn,False,False,False,5,3,9,19,21,25
+2024-11-04,Urgences,Monday,False,False,False,Autumn,False,False,False,20,1,20,50,0,41
+2024-11-04,Réanimation,Monday,False,False,False,Autumn,False,False,False,9,0,6,29,1,31
+2024-11-04,Médecine Générale,Monday,False,False,False,Autumn,False,False,False,3,5,9,24,56,55
+2024-11-04,Chirurgie,Monday,False,False,False,Autumn,False,False,False,2,12,11,29,31,42
+2024-11-04,Obstétrique,Monday,False,False,False,Autumn,False,False,False,0,5,8,16,24,32
+2024-11-05,Urgences,Tuesday,False,False,False,Autumn,False,False,False,17,0,20,47,3,35
+2024-11-05,Réanimation,Tuesday,False,False,False,Autumn,False,False,False,5,0,9,25,5,31
+2024-11-05,Médecine Générale,Tuesday,False,False,False,Autumn,False,False,False,6,6,7,29,51,51
+2024-11-05,Chirurgie,Tuesday,False,False,False,Autumn,False,False,False,4,9,12,30,30,48
+2024-11-05,Obstétrique,Tuesday,False,False,False,Autumn,False,False,False,3,6,4,21,19,33
+2024-11-06,Urgences,Wednesday,False,False,False,Autumn,False,False,False,20,2,17,50,0,39
+2024-11-06,Réanimation,Wednesday,False,False,False,Autumn,False,False,False,10,0,10,25,5,40
+2024-11-06,Médecine Générale,Wednesday,False,False,False,Autumn,False,False,False,7,9,9,36,44,47
+2024-11-06,Chirurgie,Wednesday,False,False,False,Autumn,False,False,False,1,11,11,31,29,50
+2024-11-06,Obstétrique,Wednesday,False,False,False,Autumn,False,False,False,0,0,7,14,26,30
+2024-11-07,Urgences,Thursday,False,False,False,Autumn,False,False,False,20,2,21,50,0,35
+2024-11-07,Réanimation,Thursday,False,False,False,Autumn,False,False,False,8,0,10,23,7,32
+2024-11-07,Médecine Générale,Thursday,False,False,False,Autumn,False,False,False,6,6,13,35,45,46
+2024-11-07,Chirurgie,Thursday,False,False,False,Autumn,False,False,False,0,8,10,29,31,49
+2024-11-07,Obstétrique,Thursday,False,False,False,Autumn,False,False,False,3,1,2,16,24,28
+2024-11-08,Urgences,Friday,False,False,False,Autumn,False,False,False,19,0,19,50,0,38
+2024-11-08,Réanimation,Friday,False,False,False,Autumn,False,False,False,10,1,6,28,2,33
+2024-11-08,Médecine Générale,Friday,False,False,False,Autumn,False,False,False,7,9,14,37,43,51
+2024-11-08,Chirurgie,Friday,False,False,False,Autumn,False,False,False,1,10,9,31,29,42
+2024-11-08,Obstétrique,Friday,False,False,False,Autumn,False,False,False,2,4,5,17,23,35
+2024-11-09,Urgences,Saturday,True,False,False,Autumn,False,False,False,22,1,19,50,0,37
+2024-11-09,Réanimation,Saturday,True,False,False,Autumn,False,False,False,9,1,11,27,3,32
+2024-11-09,Médecine Générale,Saturday,True,False,False,Autumn,False,False,False,5,1,12,31,49,47
+2024-11-09,Chirurgie,Saturday,True,False,False,Autumn,False,False,False,3,8,13,29,31,49
+2024-11-09,Obstétrique,Saturday,True,False,False,Autumn,False,False,False,0,0,4,13,27,27
+2024-11-10,Urgences,Sunday,True,False,False,Autumn,False,False,False,17,2,17,50,0,36
+2024-11-10,Réanimation,Sunday,True,False,False,Autumn,False,False,False,5,0,7,25,5,39
+2024-11-10,Médecine Générale,Sunday,True,False,False,Autumn,False,False,False,4,1,10,26,54,51
+2024-11-10,Chirurgie,Sunday,True,False,False,Autumn,False,False,False,0,3,10,22,38,46
+2024-11-10,Obstétrique,Sunday,True,False,False,Autumn,False,False,False,6,0,5,14,26,27
+2024-11-11,Urgences,Monday,False,False,False,Autumn,False,False,False,22,2,21,50,0,35
+2024-11-11,Réanimation,Monday,False,False,False,Autumn,False,False,False,6,0,6,25,5,30
+2024-11-11,Médecine Générale,Monday,False,False,False,Autumn,False,False,False,4,6,7,29,51,52
+2024-11-11,Chirurgie,Monday,False,False,False,Autumn,False,False,False,3,9,8,26,34,46
+2024-11-11,Obstétrique,Monday,False,False,False,Autumn,False,False,False,2,2,5,13,27,28
+2024-11-12,Urgences,Tuesday,False,False,False,Autumn,False,False,False,18,4,21,50,0,45
+2024-11-12,Réanimation,Tuesday,False,False,False,Autumn,False,False,False,10,0,8,27,3,39
+2024-11-12,Médecine Générale,Tuesday,False,False,False,Autumn,False,False,False,6,9,12,32,48,51
+2024-11-12,Chirurgie,Tuesday,False,False,False,Autumn,False,False,False,4,10,10,30,30,50
+2024-11-12,Obstétrique,Tuesday,False,False,False,Autumn,False,False,False,1,2,3,13,27,30
+2024-11-13,Urgences,Wednesday,False,False,False,Autumn,False,False,False,16,1,16,50,0,44
+2024-11-13,Réanimation,Wednesday,False,False,False,Autumn,False,False,False,10,0,8,29,1,39
+2024-11-13,Médecine Générale,Wednesday,False,False,False,Autumn,False,False,False,7,4,9,34,46,53
+2024-11-13,Chirurgie,Wednesday,False,False,False,Autumn,False,False,False,0,11,9,32,28,41
+2024-11-13,Obstétrique,Wednesday,False,False,False,Autumn,False,False,False,1,5,2,17,23,30
+2024-11-14,Urgences,Thursday,False,False,False,Autumn,False,False,False,19,0,18,50,0,43
+2024-11-14,Réanimation,Thursday,False,False,False,Autumn,False,False,False,5,0,11,23,7,33
+2024-11-14,Médecine Générale,Thursday,False,False,False,Autumn,False,False,False,5,2,11,30,50,48
+2024-11-14,Chirurgie,Thursday,False,False,False,Autumn,False,False,False,3,8,12,31,29,45
+2024-11-14,Obstétrique,Thursday,False,False,False,Autumn,False,False,False,4,3,7,17,23,29
+2024-11-15,Urgences,Friday,False,False,False,Autumn,False,False,False,16,1,19,48,2,42
+2024-11-15,Réanimation,Friday,False,False,False,Autumn,False,False,False,6,0,7,22,8,38
+2024-11-15,Médecine Générale,Friday,False,False,False,Autumn,False,False,False,2,3,8,27,53,52
+2024-11-15,Chirurgie,Friday,False,False,False,Autumn,False,False,False,3,8,9,33,27,43
+2024-11-15,Obstétrique,Friday,False,False,False,Autumn,False,False,False,4,2,4,19,21,31
+2024-11-16,Urgences,Saturday,True,False,False,Autumn,False,False,False,20,1,17,50,0,36
+2024-11-16,Réanimation,Saturday,True,False,False,Autumn,False,False,False,8,1,5,26,4,37
+2024-11-16,Médecine Générale,Saturday,True,False,False,Autumn,False,False,False,2,4,8,25,55,49
+2024-11-16,Chirurgie,Saturday,True,False,False,Autumn,False,False,False,0,7,8,32,28,47
+2024-11-16,Obstétrique,Saturday,True,False,False,Autumn,False,False,False,3,1,4,19,21,29
+2024-11-17,Urgences,Sunday,True,False,False,Autumn,False,False,False,18,0,18,50,0,43
+2024-11-17,Réanimation,Sunday,True,False,False,Autumn,False,False,False,6,0,10,22,8,40
+2024-11-17,Médecine Générale,Sunday,True,False,False,Autumn,False,False,False,3,0,8,20,60,55
+2024-11-17,Chirurgie,Sunday,True,False,False,Autumn,False,False,False,1,7,10,30,30,47
+2024-11-17,Obstétrique,Sunday,True,False,False,Autumn,False,False,False,3,0,5,17,23,27
+2024-11-18,Urgences,Monday,False,False,False,Autumn,False,False,False,20,1,19,50,0,39
+2024-11-18,Réanimation,Monday,False,False,False,Autumn,False,False,False,6,0,6,22,8,34
+2024-11-18,Médecine Générale,Monday,False,False,False,Autumn,False,False,False,3,11,7,27,53,53
+2024-11-18,Chirurgie,Monday,False,False,False,Autumn,False,False,False,2,10,11,31,29,42
+2024-11-18,Obstétrique,Monday,False,False,False,Autumn,False,False,False,4,4,5,20,20,34
+2024-11-19,Urgences,Tuesday,False,False,False,Autumn,False,False,False,19,1,19,50,0,38
+2024-11-19,Réanimation,Tuesday,False,False,False,Autumn,False,False,False,9,1,7,25,5,35
+2024-11-19,Médecine Générale,Tuesday,False,False,False,Autumn,False,False,False,3,10,11,29,51,53
+2024-11-19,Chirurgie,Tuesday,False,False,False,Autumn,False,False,False,2,5,10,28,32,47
+2024-11-19,Obstétrique,Tuesday,False,False,False,Autumn,False,False,False,6,3,9,20,20,27
+2024-11-20,Urgences,Wednesday,False,False,False,Autumn,False,False,False,18,0,18,50,0,40
+2024-11-20,Réanimation,Wednesday,False,False,False,Autumn,False,False,False,6,0,9,22,8,39
+2024-11-20,Médecine Générale,Wednesday,False,False,False,Autumn,False,False,False,3,2,7,27,53,50
+2024-11-20,Chirurgie,Wednesday,False,False,False,Autumn,False,False,False,1,9,8,30,30,42
+2024-11-20,Obstétrique,Wednesday,False,False,False,Autumn,False,False,False,1,2,6,17,23,31
+2024-11-21,Urgences,Thursday,False,False,False,Autumn,False,False,False,18,4,18,50,0,36
+2024-11-21,Réanimation,Thursday,False,False,False,Autumn,False,False,False,4,0,6,20,10,39
+2024-11-21,Médecine Générale,Thursday,False,False,False,Autumn,False,False,False,7,6,11,29,51,48
+2024-11-21,Chirurgie,Thursday,False,False,False,Autumn,False,False,False,1,9,13,27,33,50
+2024-11-21,Obstétrique,Thursday,False,False,False,Autumn,False,False,False,3,4,8,16,24,31
+2024-11-22,Urgences,Friday,False,False,False,Autumn,False,False,False,24,0,19,50,0,43
+2024-11-22,Réanimation,Friday,False,False,False,Autumn,False,False,False,10,3,8,25,5,36
+2024-11-22,Médecine Générale,Friday,False,False,False,Autumn,False,False,False,3,7,10,29,51,51
+2024-11-22,Chirurgie,Friday,False,False,False,Autumn,False,False,False,6,9,9,33,27,44
+2024-11-22,Obstétrique,Friday,False,False,False,Autumn,False,False,False,2,0,5,13,27,28
+2024-11-23,Urgences,Saturday,True,True,False,Autumn,False,False,False,19,4,20,50,0,42
+2024-11-23,Réanimation,Saturday,True,True,False,Autumn,False,False,False,9,2,7,29,1,36
+2024-11-23,Médecine Générale,Saturday,True,True,False,Autumn,False,False,False,5,5,12,27,53,47
+2024-11-23,Chirurgie,Saturday,True,True,False,Autumn,False,False,False,6,8,12,35,25,45
+2024-11-23,Obstétrique,Saturday,True,True,False,Autumn,False,False,False,5,1,4,15,25,26
+2024-11-24,Urgences,Sunday,True,False,False,Autumn,False,False,False,21,2,21,50,0,41
+2024-11-24,Réanimation,Sunday,True,False,False,Autumn,False,False,False,9,3,10,30,0,32
+2024-11-24,Médecine Générale,Sunday,True,False,False,Autumn,False,False,False,1,3,8,23,57,53
+2024-11-24,Chirurgie,Sunday,True,False,False,Autumn,False,False,False,1,8,12,32,28,49
+2024-11-24,Obstétrique,Sunday,True,False,False,Autumn,False,False,False,3,1,4,15,25,28
+2024-11-25,Urgences,Monday,False,False,False,Autumn,False,False,False,23,0,20,50,0,39
+2024-11-25,Réanimation,Monday,False,False,False,Autumn,False,False,False,5,0,11,24,6,31
+2024-11-25,Médecine Générale,Monday,False,False,False,Autumn,False,False,False,1,6,6,24,56,47
+2024-11-25,Chirurgie,Monday,False,False,False,Autumn,False,False,False,3,11,9,37,23,40
+2024-11-25,Obstétrique,Monday,False,False,False,Autumn,False,False,False,2,0,6,11,29,34
+2024-11-26,Urgences,Tuesday,False,False,False,Autumn,False,False,False,21,0,20,50,0,41
+2024-11-26,Réanimation,Tuesday,False,False,False,Autumn,False,False,False,5,2,6,25,5,31
+2024-11-26,Médecine Générale,Tuesday,False,False,False,Autumn,False,False,False,5,6,9,26,54,49
+2024-11-26,Chirurgie,Tuesday,False,False,False,Autumn,False,False,False,2,9,12,36,24,47
+2024-11-26,Obstétrique,Tuesday,False,False,False,Autumn,False,False,False,2,5,4,14,26,25
+2024-11-27,Urgences,Wednesday,False,False,False,Autumn,False,False,False,19,4,17,50,0,35
+2024-11-27,Réanimation,Wednesday,False,False,False,Autumn,False,False,False,8,2,7,28,2,38
+2024-11-27,Médecine Générale,Wednesday,False,False,False,Autumn,False,False,False,5,3,8,26,54,54
+2024-11-27,Chirurgie,Wednesday,False,False,False,Autumn,False,False,False,2,8,12,34,26,50
+2024-11-27,Obstétrique,Wednesday,False,False,False,Autumn,False,False,False,1,2,3,14,26,26
+2024-11-28,Urgences,Thursday,False,False,False,Autumn,False,False,False,21,3,20,50,0,35
+2024-11-28,Réanimation,Thursday,False,False,False,Autumn,False,False,False,5,3,7,29,1,36
+2024-11-28,Médecine Générale,Thursday,False,False,False,Autumn,False,False,False,5,7,8,30,50,48
+2024-11-28,Chirurgie,Thursday,False,False,False,Autumn,False,False,False,0,7,13,28,32,48
+2024-11-28,Obstétrique,Thursday,False,False,False,Autumn,False,False,False,2,0,2,14,26,33
+2024-11-29,Urgences,Friday,False,False,False,Autumn,False,False,False,19,2,18,50,0,41
+2024-11-29,Réanimation,Friday,False,False,False,Autumn,False,False,False,6,0,9,26,4,30
+2024-11-29,Médecine Générale,Friday,False,False,False,Autumn,False,False,False,6,2,12,26,54,47
+2024-11-29,Chirurgie,Friday,False,False,False,Autumn,False,False,False,2,8,10,28,32,48
+2024-11-29,Obstétrique,Friday,False,False,False,Autumn,False,False,False,2,1,3,14,26,25
+2024-11-30,Urgences,Saturday,True,False,False,Autumn,False,False,False,19,0,17,50,0,37
+2024-11-30,Réanimation,Saturday,True,False,False,Autumn,False,False,False,10,0,7,29,1,32
+2024-11-30,Médecine Générale,Saturday,True,False,False,Autumn,False,False,False,7,3,10,26,54,46
+2024-11-30,Chirurgie,Saturday,True,False,False,Autumn,False,False,False,2,6,11,25,35,40
+2024-11-30,Obstétrique,Saturday,True,False,False,Autumn,False,False,False,3,1,4,14,26,34
+2024-12-01,Urgences,Sunday,True,False,False,Winter,True,False,False,24,0,17,50,0,39
+2024-12-01,Réanimation,Sunday,True,False,False,Winter,True,False,False,11,4,10,30,0,39
+2024-12-01,Médecine Générale,Sunday,True,False,False,Winter,True,False,False,5,3,8,26,54,55
+2024-12-01,Chirurgie,Sunday,True,False,False,Winter,True,False,False,1,6,10,22,38,49
+2024-12-01,Obstétrique,Sunday,True,False,False,Winter,True,False,False,3,3,3,17,23,34
+2024-12-02,Urgences,Monday,False,False,False,Winter,False,False,False,16,1,18,49,1,35
+2024-12-02,Réanimation,Monday,False,False,False,Winter,False,False,False,10,0,9,30,0,32
+2024-12-02,Médecine Générale,Monday,False,False,False,Winter,False,False,False,8,4,10,28,52,48
+2024-12-02,Chirurgie,Monday,False,False,False,Winter,False,False,False,1,8,5,26,34,45
+2024-12-02,Obstétrique,Monday,False,False,False,Winter,False,False,False,5,0,7,15,25,27
+2024-12-03,Urgences,Tuesday,False,False,False,Winter,True,False,False,23,3,19,50,0,38
+2024-12-03,Réanimation,Tuesday,False,False,False,Winter,True,False,False,7,0,11,26,4,31
+2024-12-03,Médecine Générale,Tuesday,False,False,False,Winter,True,False,False,5,3,7,29,51,50
+2024-12-03,Chirurgie,Tuesday,False,False,False,Winter,True,False,False,1,10,9,28,32,41
+2024-12-03,Obstétrique,Tuesday,False,False,False,Winter,True,False,False,1,1,5,12,28,32
+2024-12-04,Urgences,Wednesday,False,False,False,Winter,True,False,False,25,5,20,50,0,41
+2024-12-04,Réanimation,Wednesday,False,False,False,Winter,True,False,False,12,0,9,29,1,31
+2024-12-04,Médecine Générale,Wednesday,False,False,False,Winter,True,False,False,8,6,8,35,45,47
+2024-12-04,Chirurgie,Wednesday,False,False,False,Winter,True,False,False,0,11,8,31,29,46
+2024-12-04,Obstétrique,Wednesday,False,False,False,Winter,True,False,False,4,4,6,14,26,26
+2024-12-05,Urgences,Thursday,False,False,False,Winter,False,False,False,24,4,20,50,0,37
+2024-12-05,Réanimation,Thursday,False,False,False,Winter,False,False,False,2,0,6,25,5,33
+2024-12-05,Médecine Générale,Thursday,False,False,False,Winter,False,False,False,6,3,11,33,47,48
+2024-12-05,Chirurgie,Thursday,False,False,False,Winter,False,False,False,0,8,11,28,32,49
+2024-12-05,Obstétrique,Thursday,False,False,False,Winter,False,False,False,0,3,5,12,28,30
+2024-12-06,Urgences,Friday,False,False,False,Winter,False,False,False,19,5,17,50,0,43
+2024-12-06,Réanimation,Friday,False,False,False,Winter,False,False,False,7,2,7,27,3,31
+2024-12-06,Médecine Générale,Friday,False,False,False,Winter,False,False,False,5,6,9,35,45,45
+2024-12-06,Chirurgie,Friday,False,False,False,Winter,False,False,False,0,5,10,23,37,47
+2024-12-06,Obstétrique,Friday,False,False,False,Winter,False,False,False,2,1,5,10,30,34
+2024-12-07,Urgences,Saturday,True,False,False,Winter,False,False,False,18,0,19,49,1,36
+2024-12-07,Réanimation,Saturday,True,False,False,Winter,False,False,False,8,2,11,26,4,37
+2024-12-07,Médecine Générale,Saturday,True,False,False,Winter,False,False,False,4,4,13,30,50,53
+2024-12-07,Chirurgie,Saturday,True,False,False,Winter,False,False,False,5,6,9,25,35,48
+2024-12-07,Obstétrique,Saturday,True,False,False,Winter,False,False,False,1,2,4,9,31,26
+2024-12-08,Urgences,Sunday,True,False,False,Winter,False,False,False,22,1,18,50,0,35
+2024-12-08,Réanimation,Sunday,True,False,False,Winter,False,False,False,6,0,9,23,7,32
+2024-12-08,Médecine Générale,Sunday,True,False,False,Winter,False,False,False,5,0,11,24,56,52
+2024-12-08,Chirurgie,Sunday,True,False,False,Winter,False,False,False,0,5,9,21,39,50
+2024-12-08,Obstétrique,Sunday,True,False,False,Winter,False,False,False,1,0,0,10,30,32
+2024-12-09,Urgences,Monday,False,False,False,Winter,False,False,False,18,0,18,50,0,42
+2024-12-09,Réanimation,Monday,False,False,False,Winter,False,False,False,7,0,5,25,5,34
+2024-12-09,Médecine Générale,Monday,False,False,False,Winter,False,False,False,5,4,10,23,57,47
+2024-12-09,Chirurgie,Monday,False,False,False,Winter,False,False,False,2,7,8,22,38,40
+2024-12-09,Obstétrique,Monday,False,False,False,Winter,False,False,False,0,5,5,10,30,26
+2024-12-10,Urgences,Tuesday,False,False,False,Winter,False,False,False,20,3,19,50,0,45
+2024-12-10,Réanimation,Tuesday,False,False,False,Winter,False,False,False,10,1,9,27,3,39
+2024-12-10,Médecine Générale,Tuesday,False,False,False,Winter,False,False,False,4,6,8,25,55,46
+2024-12-10,Chirurgie,Tuesday,False,False,False,Winter,False,False,False,0,10,10,22,38,40
+2024-12-10,Obstétrique,Tuesday,False,False,False,Winter,False,False,False,4,2,5,11,29,33
+2024-12-11,Urgences,Wednesday,False,False,False,Winter,False,False,False,18,3,21,50,0,40
+2024-12-11,Réanimation,Wednesday,False,False,False,Winter,False,False,False,8,0,8,27,3,31
+2024-12-11,Médecine Générale,Wednesday,False,False,False,Winter,False,False,False,1,6,8,24,56,50
+2024-12-11,Chirurgie,Wednesday,False,False,False,Winter,False,False,False,0,8,8,22,38,42
+2024-12-11,Obstétrique,Wednesday,False,False,False,Winter,False,False,False,0,3,1,13,27,28
+2024-12-12,Urgences,Thursday,False,False,False,Winter,False,False,False,20,3,19,50,0,43
+2024-12-12,Réanimation,Thursday,False,False,False,Winter,False,False,False,6,0,7,26,4,39
+2024-12-12,Médecine Générale,Thursday,False,False,False,Winter,False,False,False,6,7,7,30,50,54
+2024-12-12,Chirurgie,Thursday,False,False,False,Winter,False,False,False,2,7,6,25,35,49
+2024-12-12,Obstétrique,Thursday,False,False,False,Winter,False,False,False,3,0,3,13,27,30
+2024-12-13,Urgences,Friday,False,False,False,Winter,False,False,False,17,3,18,50,0,39
+2024-12-13,Réanimation,Friday,False,False,False,Winter,False,False,False,5,1,9,23,7,36
+2024-12-13,Médecine Générale,Friday,False,False,False,Winter,False,False,False,5,4,8,31,49,55
+2024-12-13,Chirurgie,Friday,False,False,False,Winter,False,False,False,0,6,10,21,39,50
+2024-12-13,Obstétrique,Friday,False,False,False,Winter,False,False,False,4,7,6,18,22,32
+2024-12-14,Urgences,Saturday,True,False,False,Winter,True,False,False,23,0,20,50,0,45
+2024-12-14,Réanimation,Saturday,True,False,False,Winter,True,False,False,9,0,6,26,4,39
+2024-12-14,Médecine Générale,Saturday,True,False,False,Winter,True,False,False,4,3,10,28,52,50
+2024-12-14,Chirurgie,Saturday,True,False,False,Winter,True,False,False,0,8,5,24,36,46
+2024-12-14,Obstétrique,Saturday,True,False,False,Winter,True,False,False,3,2,6,17,23,35
+2024-12-15,Urgences,Sunday,True,False,False,Winter,False,False,False,19,0,17,50,0,39
+2024-12-15,Réanimation,Sunday,True,False,False,Winter,False,False,False,8,0,8,26,4,31
+2024-12-15,Médecine Générale,Sunday,True,False,False,Winter,False,False,False,0,3,9,22,58,52
+2024-12-15,Chirurgie,Sunday,True,False,False,Winter,False,False,False,3,5,8,24,36,50
+2024-12-15,Obstétrique,Sunday,True,False,False,Winter,False,False,False,6,1,6,18,22,27
+2024-12-16,Urgences,Monday,False,False,False,Winter,False,False,False,19,1,20,50,0,37
+2024-12-16,Réanimation,Monday,False,False,False,Winter,False,False,False,12,1,9,30,0,30
+2024-12-16,Médecine Générale,Monday,False,False,False,Winter,False,False,False,4,6,9,23,57,54
+2024-12-16,Chirurgie,Monday,False,False,False,Winter,False,False,False,0,6,9,21,39,45
+2024-12-16,Obstétrique,Monday,False,False,False,Winter,False,False,False,3,5,8,18,22,27
+2024-12-17,Urgences,Tuesday,False,False,False,Winter,False,False,False,18,0,20,48,2,43
+2024-12-17,Réanimation,Tuesday,False,False,False,Winter,False,False,False,7,0,12,25,5,34
+2024-12-17,Médecine Générale,Tuesday,False,False,False,Winter,False,False,False,5,4,9,23,57,46
+2024-12-17,Chirurgie,Tuesday,False,False,False,Winter,False,False,False,3,6,8,22,38,46
+2024-12-17,Obstétrique,Tuesday,False,False,False,Winter,False,False,False,3,3,6,18,22,28
+2024-12-18,Urgences,Wednesday,False,False,False,Winter,False,False,False,20,1,20,49,1,39
+2024-12-18,Réanimation,Wednesday,False,False,False,Winter,False,False,False,7,0,10,22,8,35
+2024-12-18,Médecine Générale,Wednesday,False,False,False,Winter,False,False,False,3,6,7,25,55,51
+2024-12-18,Chirurgie,Wednesday,False,False,False,Winter,False,False,False,0,12,8,26,34,42
+2024-12-18,Obstétrique,Wednesday,False,False,False,Winter,False,False,False,0,0,3,15,25,25
+2024-12-19,Urgences,Thursday,False,False,False,Winter,False,False,False,20,1,17,50,0,45
+2024-12-19,Réanimation,Thursday,False,False,False,Winter,False,False,False,6,0,7,21,9,34
+2024-12-19,Médecine Générale,Thursday,False,False,False,Winter,False,False,False,7,8,11,29,51,55
+2024-12-19,Chirurgie,Thursday,False,False,False,Winter,False,False,False,7,10,10,33,27,46
+2024-12-19,Obstétrique,Thursday,False,False,False,Winter,False,False,False,6,4,5,20,20,29
+2024-12-20,Urgences,Friday,False,False,False,Winter,True,False,False,28,0,21,50,0,37
+2024-12-20,Réanimation,Friday,False,False,False,Winter,True,False,False,9,0,8,22,8,30
+2024-12-20,Médecine Générale,Friday,False,False,False,Winter,True,False,False,5,1,9,26,54,52
+2024-12-20,Chirurgie,Friday,False,False,False,Winter,True,False,False,4,7,10,34,26,46
+2024-12-20,Obstétrique,Friday,False,False,False,Winter,True,False,False,1,2,8,15,25,29
+2024-12-21,Urgences,Saturday,True,False,False,Winter,False,False,False,19,0,16,50,0,43
+2024-12-21,Réanimation,Saturday,True,False,False,Winter,False,False,False,7,0,8,21,9,30
+2024-12-21,Médecine Générale,Saturday,True,False,False,Winter,False,False,False,6,4,9,27,53,55
+2024-12-21,Chirurgie,Saturday,True,False,False,Winter,False,False,False,1,5,10,30,30,45
+2024-12-21,Obstétrique,Saturday,True,False,False,Winter,False,False,False,2,0,3,14,26,33
+2024-12-22,Urgences,Sunday,True,False,False,Winter,False,False,False,15,3,19,49,1,45
+2024-12-22,Réanimation,Sunday,True,False,False,Winter,False,False,False,8,0,6,23,7,37
+2024-12-22,Médecine Générale,Sunday,True,False,False,Winter,False,False,False,3,2,9,23,57,55
+2024-12-22,Chirurgie,Sunday,True,False,False,Winter,False,False,False,3,6,11,28,32,43
+2024-12-22,Obstétrique,Sunday,True,False,False,Winter,False,False,False,6,0,4,16,24,31
+2024-12-23,Urgences,Monday,False,False,False,Winter,True,False,False,28,0,18,50,0,35
+2024-12-23,Réanimation,Monday,False,False,False,Winter,True,False,False,11,0,7,27,3,31
+2024-12-23,Médecine Générale,Monday,False,False,False,Winter,True,False,False,4,7,8,26,54,45
+2024-12-23,Chirurgie,Monday,False,False,False,Winter,True,False,False,3,11,12,30,30,42
+2024-12-23,Obstétrique,Monday,False,False,False,Winter,True,False,False,5,3,6,18,22,26
+2024-12-24,Urgences,Tuesday,False,False,False,Winter,False,False,False,22,4,19,50,0,42
+2024-12-24,Réanimation,Tuesday,False,False,False,Winter,False,False,False,7,2,8,28,2,34
+2024-12-24,Médecine Générale,Tuesday,False,False,False,Winter,False,False,False,6,3,8,27,53,51
+2024-12-24,Chirurgie,Tuesday,False,False,False,Winter,False,False,False,2,11,10,33,27,50
+2024-12-24,Obstétrique,Tuesday,False,False,False,Winter,False,False,False,2,4,8,16,24,25
+2024-12-25,Urgences,Wednesday,False,False,False,Winter,False,False,False,17,4,20,50,0,38
+2024-12-25,Réanimation,Wednesday,False,False,False,Winter,False,False,False,9,0,9,28,2,31
+2024-12-25,Médecine Générale,Wednesday,False,False,False,Winter,False,False,False,3,3,10,23,57,51
+2024-12-25,Chirurgie,Wednesday,False,False,False,Winter,False,False,False,1,10,9,35,25,49
+2024-12-25,Obstétrique,Wednesday,False,False,False,Winter,False,False,False,2,4,5,17,23,25
+2024-12-26,Urgences,Thursday,False,False,False,Winter,False,False,False,22,1,17,50,0,45
+2024-12-26,Réanimation,Thursday,False,False,False,Winter,False,False,False,7,2,9,28,2,30
+2024-12-26,Médecine Générale,Thursday,False,False,False,Winter,False,False,False,4,5,9,23,57,51
+2024-12-26,Chirurgie,Thursday,False,False,False,Winter,False,False,False,0,9,13,31,29,40
+2024-12-26,Obstétrique,Thursday,False,False,False,Winter,False,False,False,6,1,5,19,21,32
+2024-12-27,Urgences,Friday,False,False,False,Winter,True,False,False,24,2,20,50,0,43
+2024-12-27,Réanimation,Friday,False,False,False,Winter,True,False,False,12,0,10,30,0,30
+2024-12-27,Médecine Générale,Friday,False,False,False,Winter,True,False,False,7,5,8,27,53,50
+2024-12-27,Chirurgie,Friday,False,False,False,Winter,True,False,False,4,5,12,28,32,49
+2024-12-27,Obstétrique,Friday,False,False,False,Winter,True,False,False,1,3,6,17,23,30
+2024-12-28,Urgences,Saturday,True,False,False,Winter,False,False,False,15,0,19,46,4,37
+2024-12-28,Réanimation,Saturday,True,False,False,Winter,False,False,False,8,0,9,29,1,30
+2024-12-28,Médecine Générale,Saturday,True,False,False,Winter,False,False,False,3,3,10,23,57,45
+2024-12-28,Chirurgie,Saturday,True,False,False,Winter,False,False,False,5,8,11,30,30,46
+2024-12-28,Obstétrique,Saturday,True,False,False,Winter,False,False,False,0,3,7,13,27,25
+2024-12-29,Urgences,Sunday,True,False,False,Winter,False,False,False,22,3,17,50,0,42
+2024-12-29,Réanimation,Sunday,True,False,False,Winter,False,False,False,7,1,9,28,2,31
+2024-12-29,Médecine Générale,Sunday,True,False,False,Winter,False,False,False,6,0,7,22,58,47
+2024-12-29,Chirurgie,Sunday,True,False,False,Winter,False,False,False,4,4,12,26,34,49
+2024-12-29,Obstétrique,Sunday,True,False,False,Winter,False,False,False,0,0,4,9,31,25
+2024-12-30,Urgences,Monday,False,False,False,Winter,False,False,False,20,0,19,50,0,38
+2024-12-30,Réanimation,Monday,False,False,False,Winter,False,False,False,6,5,8,30,0,30
+2024-12-30,Médecine Générale,Monday,False,False,False,Winter,False,False,False,1,9,6,26,54,51
+2024-12-30,Chirurgie,Monday,False,False,False,Winter,False,False,False,2,10,10,28,32,45
+2024-12-30,Obstétrique,Monday,False,False,False,Winter,False,False,False,1,1,0,11,29,32
+2024-12-31,Urgences,Tuesday,False,False,False,Winter,False,False,False,17,0,18,49,1,35
+2024-12-31,Réanimation,Tuesday,False,False,False,Winter,False,False,False,10,2,11,30,0,39
+2024-12-31,Médecine Générale,Tuesday,False,False,False,Winter,False,False,False,5,2,10,23,57,50
+2024-12-31,Chirurgie,Tuesday,False,False,False,Winter,False,False,False,0,11,9,30,30,49
+2024-12-31,Obstétrique,Tuesday,False,False,False,Winter,False,False,False,6,2,2,17,23,28
