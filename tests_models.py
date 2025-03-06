@@ -1,6 +1,8 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 from main import import_dataset
 from statsmodels.tsa.stattools import adfuller, acf, pacf
+from statsmodels.tsa.seasonal import seasonal_decompose
 
 df = import_dataset()
 
@@ -17,7 +19,15 @@ def stationary_test(df, value):
         'P-Value': f"{result[1]:.4f}",
         'Critical Values': {key: f"{val:.4f}" for key, val in result[4].items()}
     }
-    stats['conclusion'] = "La série est stationnaire." if result[1]<0.05 else "La série n'est pas stationnaire."
+    stats['conclusion'] = "La série est stationnaire." if result[1] < 0.05 else "La série n'est pas stationnaire."
     return (stats)
 
 
+def seasonality_test(df, period=7):
+    df_daily = df
+    df_daily.set_index("date", inplace=True)
+    df_daily = df.groupby("date")["admissions_urgent"].sum()
+    decomposition = seasonal_decompose(df_daily, model="additive", period=period)
+    plt.figure(figsize=(12, 8))
+    decomposition.plot()
+    plt.show()
