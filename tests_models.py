@@ -25,6 +25,7 @@ def stationary_test(df, value):
 
 def seasonality_test(df, period=7):
     df_daily = df.copy()
+    df_daily['date'] = pd.to_datetime(df['date'])
     df_daily.set_index("date", inplace=True)
     df_daily = df.groupby("date")["admissions_urgent"].sum()
     decomposition = seasonal_decompose(df_daily, model="additive", period=period)

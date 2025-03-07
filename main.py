@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 
 def import_dataset():
     df = pd.read_csv("./dataset/hospital_data.csv")
-    df['date'] = pd.to_datetime(df['date'])
     return (df)
 
 
