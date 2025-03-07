@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 from main import import_dataset
 from statsmodels.tsa.stattools import adfuller, acf, pacf
 from statsmodels.tsa.seasonal import seasonal_decompose
+from statsmodels.tsa.statespace.sarimax import SARIMAX
 
 df = import_dataset()
 
@@ -32,4 +33,34 @@ def seasonality_test(df, period=7):
     plt.figure(figsize=(12, 8))
     decomposition.plot()
     plt.show()
-seasonality_test(df)
+
+
+def sarima_model(df):
+    df_copy = df.copy()
+    df_copy['date'] = pd.to_datetime(df_copy['date'])
+    df_copy.set_index("date", inplace=True)
+
+    df_daily = df_copy.groupby("date")["admissions_urgent"].sum()
+    df_daily.fillna(method="ffill", inplace=True)
+    p, d, q = (2, 1, 2)
+    P, D, Q, s = (1, 1, 1, 7)
+    model = SARIMAX(df_daily, order=(p, d, q), seasonal_order=(P, D, Q, s))
+    result = model.fit()
+    future = result.get_forecast(steps=30)
+    future_conf = future.conf_int()
+    df_futur = pd.DataFrame({
+        "Date": future_conf.index,
+        "Prévision": future.predicted_mean,
+        "Borne inférieure": future_conf.iloc[:, 0],
+        "Borne supérieure": future_conf.iloc[:, 1]
+    })
+    print(df_futur)
+
+    plt.figure(figsize=(12, 6))
+    plt.plot(df_daily, label="Données réelles")
+    plt.plot(future.predicted_mean, label="Prévisions (SARIMA)", linestyle="dashed")
+    plt.fill_between(future_conf.index, future_conf.iloc[:, 0], future_conf.iloc[:, 1], color='pink', alpha=0.3)
+    plt.legend()
+    plt.show()
+    return df_futur
+sarima_model(import_dataset())
