@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, Response
+from flask import Flask, jsonify, request, Response
 import json
 from main import get_resources
 
@@ -13,7 +13,8 @@ def ping():
 
 @app.route('/api/get-daily_data')
 def get_daily_data():
-    df = get_resources('2024-02-01')
+    date = request.args.get('date')
+    df = get_resources(date)
     response = Response(json.dumps(df, ensure_ascii=False), content_type="application/json; charset=utf-8")
     return response
 
