@@ -11,10 +11,16 @@ def import_dataset():
 def get_resources(date):
     df = import_dataset()
     df_filtered = df[df["date"] == date]
-    resource_column = [
+    resource_columns = [
         "service", "beds_occupied", "beds_available", "staff_present"
     ]
-    return (df_filtered[["date"] + resource_column].to_dict(orient="records"))
+    total_row = df_filtered[resource_columns].sum().to_dict()
+    total_row['service'] = 'Total'
+    total_row['date'] = date
+    resources_list = df_filtered[["date", "service"] + resource_columns].to_dict(orient="records")
+    resources_list.append(total_row)
+    return resources_list
+
 
 
 def get_aggregated_data(aggregate_column, value_order=None, value_columns=None):
