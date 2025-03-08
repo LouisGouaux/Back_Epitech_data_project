@@ -21,6 +21,17 @@ def get_resources(date):
     return resources_list
 
 
+def get_flags_by_year(year):
+    df = import_dataset()
+    df_filtered = df.copy()
+    df_filtered['date'] = pd.to_datetime(df_filtered['date'])
+    df_filtered = df_filtered[df_filtered["date"].dt.year == int(year)]
+    flag_columns = ["day_of_week", "is_weekend", "is_holiday",
+                    "vacation_flag", "season", "epidemic_flag", "canicule_flag", "plan_blanc_flag"]
+    df_grouped = df_filtered.groupby("date")[flag_columns].max().reset_index()
+    df_grouped["date"] = df_grouped["date"].astype(str)
+    return df_grouped.to_dict(orient="records")
+
 
 def get_aggregated_data(aggregate_column, value_order=None, value_columns=None):
     df = import_dataset()

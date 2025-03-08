@@ -63,4 +63,4 @@ def sarima_model(df):
     plt.legend()
     plt.show()
     return df_futur
-sarima_model(import_dataset())
+seasonality_test(df)
