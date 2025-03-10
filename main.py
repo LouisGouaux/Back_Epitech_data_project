@@ -11,7 +11,7 @@ def get_resources(date):
     df = import_dataset()
     df_filtered = df[df["date"] == date]
     resource_columns = [
-        "service", "beds_occupied", "beds_available", "staff_present"
+        "service", "beds_occupied", "beds_available"
     ]
     total_row = df_filtered[resource_columns].sum().to_dict()
     total_row['service'] = 'Total'
