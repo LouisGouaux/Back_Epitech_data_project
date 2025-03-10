@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request, Response
 import json
-from main import get_resources, get_flags_by_year
+from main import get_resources, get_flags_by_year, get_flags_by_month
 
 app = Flask(__name__)
 
@@ -11,6 +11,7 @@ def ping():
         'message': 'PONG'
     })
 
+
 @app.route('/api/get-daily_data')
 def get_daily_data():
     date = request.args.get('date')
@@ -18,10 +19,15 @@ def get_daily_data():
     response = Response(json.dumps(df, ensure_ascii=False), content_type="application/json; charset=utf-8")
     return response
 
+
 @app.route('/api/calendar')
 def get_calendar():
     year = request.args.get('year')
-    df = get_flags_by_year(year)
+    if (request.args.get('filter-by') == 'month'):
+        month = request.args.get('month')
+        df = get_flags_by_month(year, month)
+    else:
+        df = get_flags_by_year(year)
     response = Response(json.dumps(df, ensure_ascii=False), content_type="application/json; charset=utf-8")
     return response
 

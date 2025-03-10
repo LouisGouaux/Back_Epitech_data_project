@@ -33,6 +33,17 @@ def get_flags_by_year(year):
     return df_grouped.to_dict(orient="records")
 
 
+def get_flags_by_month(year, month):
+    df = import_dataset()
+    df["date"] = pd.to_datetime(df["date"])
+    df_filtered = df[(df["date"].dt.year == int(year)) & (df["date"].dt.month == int(month))].copy()
+    flag_columns = ["day_of_week", "is_weekend", "is_holiday", "vacation_flag",
+                    "season", "epidemic_flag", "canicule_flag", "plan_blanc_flag"]
+    df_grouped = df_filtered.groupby("date")[flag_columns].max().reset_index()
+    df_grouped["date"] = df_grouped["date"].astype(str)
+    return df_grouped.to_dict(orient="records")
+
+
 def get_aggregated_data(aggregate_column, value_order=None, value_columns=None):
     df = import_dataset()
     if value_columns is None:
