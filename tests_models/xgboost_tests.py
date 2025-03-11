@@ -1,10 +1,13 @@
 import pandas as pd
+import os
 import numpy as np
 import xgboost as xgb
 from sklearn.model_selection import train_test_split
 from sklearn.multioutput import MultiOutputRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 import matplotlib.pyplot as plt
+
+os.makedirs("models", exist_ok=True)
 
 df = pd.read_csv("./dataset/hospital_data.csv")
 df["season"] = df["season"].astype("category").cat.codes
@@ -31,6 +34,8 @@ for service in services:
 
     multi_model = MultiOutputRegressor(xgb_model)
     multi_model.fit(X_train, Y_train)
+    multi_model.estimators_[0].save_model(f"models/xgboost_model_{service}.json")
+
     Y_pred = multi_model.predict(X_test)
     Y_pred_df = pd.DataFrame(Y_pred, columns=Y.columns, index=Y_test.index)
     for col in Y.columns:

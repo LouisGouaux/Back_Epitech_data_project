@@ -2,3 +2,4 @@
 .IDEA/*
 __pycache__/*
 */__pycache__/*
+Models/*
