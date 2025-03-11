@@ -6,6 +6,7 @@ Flask==3.1.0
 fonttools==4.56.0
 itsdangerous==2.2.0
 Jinja2==3.1.6
+jours_feries_france==0.7.0
 kiwisolver==1.4.8
 MarkupSafe==3.0.2
 matplotlib==3.10.1
@@ -18,4 +19,5 @@ python-dateutil==2.9.0.post0
 pytz==2025.1
 six==1.17.0
 tzdata==2025.1
+vacances-scolaires-france==0.10.0
 Werkzeug==3.1.3
