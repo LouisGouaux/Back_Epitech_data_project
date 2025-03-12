@@ -3,6 +3,7 @@ from jours_feries_france import JoursFeries
 from vacances_scolaires_france import SchoolHolidayDates
 from main import import_dataset
 import pandas as pd
+from calendar import monthrange
 
 res = JoursFeries.for_year(2026)
 
@@ -32,3 +33,39 @@ def create_futur_data(date):
     futur_resources_list.append(total_row)
 
     return futur_resources_list
+
+
+def create_futur_monthly_calendar(year, month):
+        start_date = f"{year}-{month}-01"
+        last_day = monthrange(int(year), int(month))[1]
+        end_date = f"{year}-{month}-{last_day}"
+        date_range = pd.date_range(start=start_date, end=end_date, freq="D")
+
+        def get_season(date):
+            month = date.month
+            if month in [12, 1, 2]:
+                return "Winter"
+            elif month in [3, 4, 5]:
+                return "Spring"
+            elif month in [6, 7, 8]:
+                return "Summer"
+            else:
+                return "Autumn"
+
+        future_calendar_list = []
+        for date in date_range:
+            day_data = {
+                "date": date.strftime("%Y-%m-%d"),
+                "day_of_week": date.strftime("%A"),
+                "is_weekend": date.weekday() >= 5,
+                "season": get_season(date),
+                "is_holiday": 0,
+                "vacation_flag": 0,
+                "epidemic_flag": 0,
+                "canicule_flag": 0,
+                "plan_blanc_flag": 0
+            }
+            future_calendar_list.append(day_data)
+
+        return future_calendar_list
+
