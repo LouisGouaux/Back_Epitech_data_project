@@ -13,6 +13,8 @@ def get_resources(date):
     resource_columns = [
         "service", "beds_occupied", "beds_available", "staff_medecin", "staff_chirurgien", "staff_infirmier",
         "staff_aide_soignant", "staff_sage_femme", "staff_psychologue", "staff_admin", "staff_astreinte",
+        "medicaments_service", "epi_service", "materiel_chirurgical_service", "equipements_biomedicaux_service",
+        "produits_hygiene_service", "produits_pharmaceutiques_service", "vaccins_service"
     ]
     total_row = df_filtered[resource_columns].sum().to_dict()
     total_row['service'] = 'Total'
