@@ -8,7 +8,7 @@ from predict import create_futur_data, create_futur_monthly_calendar
 app = Flask(__name__)
 
 
-@appp.route('/api/ping', methods=['GET'])
+@app.route('/api/ping', methods=['GET'])
 def ping():
     return jsonify({
         'message': 'PONG'
@@ -51,3 +51,5 @@ def get_calendar():
     return response
 
 
+if __name__ == '__main__':
+    app.run(debug=True)
