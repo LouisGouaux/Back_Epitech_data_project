@@ -4,9 +4,9 @@ from vacances_scolaires_france import SchoolHolidayDates
 from main import import_dataset
 import pandas as pd
 from calendar import monthrange
+import numpy as np
 
-res = JoursFeries.for_year(2026)
-
+res = JoursFeries.for_year(2025)
 d = SchoolHolidayDates()
 holidays = d.holidays_for_year(2018)
 
@@ -53,13 +53,15 @@ def create_futur_monthly_calendar(year, month):
                 return "Autumn"
 
         future_calendar_list = []
+        res = JoursFeries.for_year(int(year))
+        res = pd.to_datetime(list(res.values())).to_numpy()
         for date in date_range:
             day_data = {
                 "date": date.strftime("%Y-%m-%d"),
                 "day_of_week": date.strftime("%A"),
                 "is_weekend": date.weekday() >= 5,
                 "season": get_season(date),
-                "is_holiday": 0,
+                "is_holiday": 1 if np.datetime64(date) in res else 0,
                 "vacation_flag": 0,
                 "epidemic_flag": 0,
                 "canicule_flag": 0,
