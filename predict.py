@@ -32,23 +32,23 @@ def create_futur_data(date):
     return futur_resources_list
 
 
+def get_season(date):
+    month = date.month
+    if month in [12, 1, 2]:
+        return "Winter"
+    elif month in [3, 4, 5]:
+        return "Spring"
+    elif month in [6, 7, 8]:
+        return "Summer"
+    else:
+        return "Autumn"
+
+
 def create_futur_monthly_calendar(year, month):
         start_date = f"{year}-{month}-01"
         last_day = monthrange(int(year), int(month))[1]
         end_date = f"{year}-{month}-{last_day}"
         date_range = pd.date_range(start=start_date, end=end_date, freq="D")
-
-        def get_season(date):
-            month = date.month
-            if month in [12, 1, 2]:
-                return "Winter"
-            elif month in [3, 4, 5]:
-                return "Spring"
-            elif month in [6, 7, 8]:
-                return "Summer"
-            else:
-                return "Autumn"
-
         future_calendar_list = []
         res = JoursFeries.for_year(int(year))
         res = pd.to_datetime(list(res.values())).to_numpy()
