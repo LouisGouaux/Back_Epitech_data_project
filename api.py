@@ -5,17 +5,17 @@ from main import import_dataset, get_resources, get_flags_by_year, get_flags_by_
 from predict import create_futur_data, create_futur_monthly_calendar
 
 
-app = Flask(__name__)
+application = Flask(__name__)
 
 
-@app.route('/api/ping', methods=['GET'])
+@application.route('/api/ping', methods=['GET'])
 def ping():
     return jsonify({
         'message': 'PONG'
     })
 
 
-@app.route('/api/get-daily_data')
+@application.route('/api/get-daily_data')
 def get_daily_data():
     request_date = request.args.get('date')
     df = import_dataset()
@@ -31,7 +31,7 @@ def get_daily_data():
     return response
 
 
-@app.route('/api/calendar')
+@application.route('/api/calendar')
 def get_calendar():
     year = request.args.get('year')
     if (request.args.get('filter-by') == 'month'):
@@ -52,4 +52,4 @@ def get_calendar():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    application.run(debug=True, host="0.0.0.0", port=8000)
