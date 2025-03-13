@@ -1,3 +1,3 @@
-from api import app
+from web_service import app
 
 application = app
