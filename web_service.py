@@ -2,7 +2,7 @@ import pandas as pd
 from flask import Flask, jsonify, request, Response
 import json
 from main import import_dataset, get_resources, get_flags_by_year, get_flags_by_month
-from predict import create_futur_data, create_futur_monthly_calendar
+from predict import create_futur_data, create_futur_monthly_calendar, create_futur_anual_calendar
 
 
 app = Flask(__name__)
@@ -34,19 +34,24 @@ def get_daily_data():
 @app.route('/api/calendar')
 def get_calendar():
     year = request.args.get('year')
+    df = import_dataset()
+    df["date"] = pd.to_datetime(df["date"])
+    df_last_date = df["date"].max()
     if (request.args.get('filter-by') == 'month'):
         month = request.args.get('month')
         request_date = f"{year}-{month}-01"
-        df = import_dataset()
-        df["date"] = pd.to_datetime(df["date"])
-        df_last_date = df["date"].max()
         converted_date = pd.to_datetime(request_date)
         if (converted_date < df_last_date):
             df = get_flags_by_month(year, month)
         else:
             df = create_futur_monthly_calendar(year, month)
     else:
-        df = get_flags_by_year(year)
+        request_date = f"{year}-12-31"
+        converted_date = pd.to_datetime(request_date)
+        if (converted_date < df_last_date):
+            df = get_flags_by_year(year)
+        else:
+            df = create_futur_anual_calendar(year)
     response = Response(json.dumps(df, ensure_ascii=False), content_type="application/json; charset=utf-8")
     return response
 

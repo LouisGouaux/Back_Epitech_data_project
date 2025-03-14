@@ -7,7 +7,6 @@ from calendar import monthrange
 import numpy as np
 
 
-
 def create_futur_data(date):
     df = import_dataset()
     services = df['service'].unique()
@@ -44,31 +43,58 @@ def get_season(date):
         return "Autumn"
 
 
+def create_futur_anual_calendar(year):
+    start_date = f"{year}-01-01"
+    end_date = f"{year}-12-31"
+    date_range = pd.date_range(start=start_date, end=end_date, freq="D")
+    future_calendar_list = []
+    res = JoursFeries.for_year(int(year))
+    res = pd.to_datetime(list(res.values())).to_numpy()
+    d = SchoolHolidayDates()
+    holidays = d.holidays_for_year_and_zone(int(year), 'C')
+    holidays = pd.to_datetime(list(holidays)).to_numpy()
+
+    for date in date_range:
+        day_data = {
+            "date": date.strftime("%Y-%m-%d"),
+            "day_of_week": date.strftime("%A"),
+            "is_weekend": date.weekday() >= 5,
+            "season": get_season(date),
+            "is_holiday": 1 if (np.datetime64(date) in res or np.datetime64(date) in holidays) else 0,
+            "vacation_flag": 0,
+            "epidemic_flag": 0,
+            "canicule_flag": 0,
+            "plan_blanc_flag": 0
+        }
+        future_calendar_list.append(day_data)
+
+    return future_calendar_list
+
+
 def create_futur_monthly_calendar(year, month):
-        start_date = f"{year}-{month}-01"
-        last_day = monthrange(int(year), int(month))[1]
-        end_date = f"{year}-{month}-{last_day}"
-        date_range = pd.date_range(start=start_date, end=end_date, freq="D")
-        future_calendar_list = []
-        res = JoursFeries.for_year(int(year))
-        res = pd.to_datetime(list(res.values())).to_numpy()
-        d = SchoolHolidayDates()
-        holidays = d.holidays_for_year_and_zone(int(year), 'C')
-        holidays = pd.to_datetime(list(holidays)).to_numpy()
+    start_date = f"{year}-{month}-01"
+    last_day = monthrange(int(year), int(month))[1]
+    end_date = f"{year}-{month}-{last_day}"
+    date_range = pd.date_range(start=start_date, end=end_date, freq="D")
+    future_calendar_list = []
+    res = JoursFeries.for_year(int(year))
+    res = pd.to_datetime(list(res.values())).to_numpy()
+    d = SchoolHolidayDates()
+    holidays = d.holidays_for_year_and_zone(int(year), 'C')
+    holidays = pd.to_datetime(list(holidays)).to_numpy()
 
-        for date in date_range:
-            day_data = {
-                "date": date.strftime("%Y-%m-%d"),
-                "day_of_week": date.strftime("%A"),
-                "is_weekend": date.weekday() >= 5,
-                "season": get_season(date),
-                "is_holiday": 1 if (np.datetime64(date) in res or np.datetime64(date)  in holidays) else 0,
-                "vacation_flag": 0,
-                "epidemic_flag": 0,
-                "canicule_flag": 0,
-                "plan_blanc_flag": 0
-            }
-            future_calendar_list.append(day_data)
+    for date in date_range:
+        day_data = {
+            "date": date.strftime("%Y-%m-%d"),
+            "day_of_week": date.strftime("%A"),
+            "is_weekend": date.weekday() >= 5,
+            "season": get_season(date),
+            "is_holiday": 1 if (np.datetime64(date) in res or np.datetime64(date) in holidays) else 0,
+            "vacation_flag": 0,
+            "epidemic_flag": 0,
+            "canicule_flag": 0,
+            "plan_blanc_flag": 0
+        }
+        future_calendar_list.append(day_data)
 
-        return future_calendar_list
-
+    return future_calendar_list
