@@ -16,6 +16,7 @@ df['date'] = pd.to_datetime(df['date'])
 services = df["service"].unique()
 errors = {}
 for service in services:
+
     print (f"Entraînement pour le service {service}… \n")
     df_service = df[df["service"] == service].copy()
 
@@ -31,11 +32,19 @@ for service in services:
 
 
     X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, shuffle=False, random_state=42)
+    print("Features utilisées pour l'entraînement (X_train) :", X_train.columns.tolist())
+    print("🎯 Cibles utilisées pour l'entraînement (Y_train) :", Y_train.columns.tolist())
+
     xgb_model = xgb.XGBRegressor(objective="reg:squarederror", n_estimators=100, learning_rate=0.1, max_depth=5)
 
     multi_model = MultiOutputRegressor(xgb_model)
     multi_model.fit(X_train, Y_train)
-    multi_model.estimators_[0].save_model(f"models/xgboost_model_{service}.json")
+    for i, estimator in enumerate(multi_model.estimators_):
+        print(f"Modèle {i} entraîne la colonne :", Y_train.columns[i])
+
+    for i, estimator in enumerate(multi_model.estimators_):
+        estimator.save_model(
+            f"models/xgboost_model_{service}_{Y_train.columns[i]}.json")
 
     Y_pred = multi_model.predict(X_test)
     Y_pred_df = pd.DataFrame(Y_pred, columns=Y.columns, index=Y_test.index)
