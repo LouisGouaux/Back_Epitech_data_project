@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 os.makedirs("models", exist_ok=True)
 
 df = pd.read_csv("./dataset/hospital_data.csv")
+df["is_weekend"] = df["is_weekend"].astype(bool)
 df["season"] = df["season"].astype("category").cat.codes
 df['date'] = pd.to_datetime(df['date'])
 services = df["service"].unique()
