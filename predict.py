@@ -16,7 +16,7 @@ def create_futur_data(date):
         "medicaments_service", "epi_service", "materiel_chirurgical_service", "equipements_biomedicaux_service",
         "produits_hygiene_service", "produits_pharmaceutiques_service", "vaccins_service"
     ]
-    df_mean = df.groupby("service")[resource_columns].mean()
+    df_mean = df.groupby("service")[resource_columns].mean().round(0)
     futur_resources_list = []
     for service in services:
         row = df_mean.loc[service].to_dict()

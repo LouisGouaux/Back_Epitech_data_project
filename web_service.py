@@ -3,10 +3,11 @@ from flask import Flask, jsonify, request, Response
 import json
 from main import import_dataset, get_resources, get_flags_by_year, get_flags_by_month
 from predict import create_futur_data, create_futur_monthly_calendar, create_futur_anual_calendar
+from flask_cors import CORS
 
 
 app = Flask(__name__)
-
+CORS(app)
 
 @app.route('/api/ping', methods=['GET'])
 def ping():
